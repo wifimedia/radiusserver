@@ -1,0 +1,2381 @@
+2019-03-28 22:11:53 Debug: Got a new report submission
+2019-03-28 22:11:53 Debug: Checking for network_info in log
+2019-03-28 22:11:53 Debug: MESH: Checking for vpn_info in log
+2019-03-28 22:11:53 Debug: Checking for system_info in log
+2019-03-28 22:11:53 Debug: Checking for vis info in log
+2019-03-28 22:15:07 Debug: Got a new report submission
+2019-03-28 22:15:07 Debug: Checking for network_info in log
+2019-03-28 22:15:07 Debug: MESH: Checking for vpn_info in log
+2019-03-28 22:15:07 Debug: Checking for system_info in log
+2019-03-28 22:15:07 Debug: Checking for vis info in log
+2019-03-28 22:15:09 Debug: Got a new report submission
+2019-03-28 22:15:09 Debug: Checking for network_info in log
+2019-03-28 22:15:09 Debug: MESH: Checking for vpn_info in log
+2019-03-28 22:15:09 Debug: Checking for system_info in log
+2019-03-28 22:15:09 Debug: Checking for vis info in log
+2019-03-28 22:15:09 Debug: Got a new report submission
+2019-03-28 22:15:09 Debug: AP: Checking for network_info in log
+2019-03-28 22:15:09 Debug: AP: Checking for vpn_info in log
+2019-03-28 22:15:09 Debug: AP: Checking for system_info in log
+2019-03-28 22:15:10 Debug: Got a new report submission
+2019-03-28 22:15:10 Debug: AP: Checking for network_info in log
+2019-03-28 22:15:10 Debug: AP: Checking for vpn_info in log
+2019-03-28 22:15:10 Debug: AP: Checking for system_info in log
+2019-03-28 22:20:32 Debug: Got a new report submission
+2019-03-28 22:20:32 Debug: Checking for network_info in log
+2019-03-28 22:20:32 Debug: MESH: Checking for vpn_info in log
+2019-03-28 22:20:32 Debug: Checking for system_info in log
+2019-03-28 22:20:32 Debug: Checking for vis info in log
+2019-03-28 22:20:33 Debug: Got a new report submission
+2019-03-28 22:20:33 Debug: AP: Checking for network_info in log
+2019-03-28 22:20:33 Debug: AP: Checking for vpn_info in log
+2019-03-28 22:20:33 Debug: AP: Checking for system_info in log
+2019-03-28 22:20:58 Debug: Got a new report submission
+2019-03-28 22:20:58 Debug: Checking for network_info in log
+2019-03-28 22:20:58 Debug: MESH: Checking for vpn_info in log
+2019-03-28 22:20:58 Debug: Checking for system_info in log
+2019-03-28 22:20:58 Debug: Checking for vis info in log
+2019-03-28 22:21:01 Debug: Got a new report submission
+2019-03-28 22:21:01 Debug: AP: Checking for network_info in log
+2019-03-28 22:21:01 Debug: AP: Checking for vpn_info in log
+2019-03-28 22:21:01 Debug: AP: Checking for system_info in log
+2019-03-29 02:27:32 Debug: Got a new report submission
+2019-03-29 02:27:32 Debug: Checking for network_info in log
+2019-03-29 02:27:32 Debug: MESH: Checking for vpn_info in log
+2019-03-29 02:27:32 Debug: Checking for system_info in log
+2019-03-29 02:27:32 Debug: Checking for vis info in log
+2019-03-29 18:49:18 Debug: Got a new report submission
+2019-03-29 18:49:18 Debug: AP: Checking for network_info in log
+2019-03-29 18:49:18 Debug: AP: Found network_info
+2019-03-29 18:49:18 Debug: AP: Checking for vpn_info in log
+2019-03-29 18:49:18 Debug: AP: Found vpn_info
+2019-03-29 18:49:18 Debug: AP: Checking for system_info in log
+2019-03-29 18:49:18 Debug: AP: Found system_info
+2019-03-29 18:49:18 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 18:49:18 Debug: AP: Node with MAC  was not found
+2019-03-29 18:53:23 Debug: Got a new report submission
+2019-03-29 18:53:23 Debug: AP: Checking for network_info in log
+2019-03-29 18:53:23 Debug: AP: Found network_info
+2019-03-29 18:53:23 Debug: AP: Checking for vpn_info in log
+2019-03-29 18:53:23 Debug: AP: Found vpn_info
+2019-03-29 18:53:23 Debug: AP: Checking for system_info in log
+2019-03-29 18:53:23 Debug: AP: Found system_info
+2019-03-29 18:53:23 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 18:53:23 Debug: AP: Node with MAC  was not found
+2019-03-29 18:57:20 Debug: Got a new report submission
+2019-03-29 18:57:20 Debug: Checking for network_info in log
+2019-03-29 18:57:20 Debug: Found network_info
+2019-03-29 18:57:20 Debug: MESH: Checking for vpn_info in log
+2019-03-29 18:57:20 Debug: MESH: Found vpn_info
+2019-03-29 18:57:20 Debug: Checking for system_info in log
+2019-03-29 18:57:20 Debug: Found system_info
+2019-03-29 18:57:20 Debug: Checking for vis info in log
+2019-03-29 18:57:20 Debug: Found vis
+2019-03-29 18:57:20 Debug: Looking for commands waiting for this mesh
+2019-03-29 18:57:20 Debug: Node with MAC  was not found
+2019-03-29 18:58:21 Debug: Got a new report submission
+2019-03-29 18:58:21 Debug: Checking for network_info in log
+2019-03-29 18:58:21 Debug: Found network_info
+2019-03-29 18:58:21 Debug: MESH: Checking for vpn_info in log
+2019-03-29 18:58:21 Debug: MESH: Found vpn_info
+2019-03-29 18:58:21 Debug: Checking for system_info in log
+2019-03-29 18:58:21 Debug: Found system_info
+2019-03-29 18:58:21 Debug: Checking for vis info in log
+2019-03-29 18:58:21 Debug: Found vis
+2019-03-29 18:58:21 Debug: Looking for commands waiting for this mesh
+2019-03-29 18:58:21 Debug: Node with MAC  was not found
+2019-03-29 18:59:21 Debug: Got a new report submission
+2019-03-29 18:59:21 Debug: Checking for network_info in log
+2019-03-29 18:59:21 Debug: Found network_info
+2019-03-29 18:59:21 Debug: MESH: Checking for vpn_info in log
+2019-03-29 18:59:21 Debug: MESH: Found vpn_info
+2019-03-29 18:59:21 Debug: Checking for system_info in log
+2019-03-29 18:59:21 Debug: Found system_info
+2019-03-29 18:59:21 Debug: Checking for vis info in log
+2019-03-29 18:59:21 Debug: Found vis
+2019-03-29 18:59:21 Debug: Looking for commands waiting for this mesh
+2019-03-29 18:59:21 Debug: Node with MAC  was not found
+2019-03-29 19:00:22 Debug: Got a new report submission
+2019-03-29 19:00:22 Debug: Checking for network_info in log
+2019-03-29 19:00:22 Debug: Found network_info
+2019-03-29 19:00:22 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:00:22 Debug: MESH: Found vpn_info
+2019-03-29 19:00:22 Debug: Checking for system_info in log
+2019-03-29 19:00:22 Debug: Found system_info
+2019-03-29 19:00:22 Debug: Checking for vis info in log
+2019-03-29 19:00:22 Debug: Found vis
+2019-03-29 19:00:22 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:00:22 Debug: Node with MAC  was not found
+2019-03-29 19:01:23 Debug: Got a new report submission
+2019-03-29 19:01:23 Debug: Checking for network_info in log
+2019-03-29 19:01:23 Debug: Found network_info
+2019-03-29 19:01:23 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:01:23 Debug: MESH: Found vpn_info
+2019-03-29 19:01:23 Debug: Checking for system_info in log
+2019-03-29 19:01:23 Debug: Found system_info
+2019-03-29 19:01:23 Debug: Checking for vis info in log
+2019-03-29 19:01:23 Debug: Found vis
+2019-03-29 19:01:23 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:01:23 Debug: Node with MAC  was not found
+2019-03-29 19:02:24 Debug: Got a new report submission
+2019-03-29 19:02:24 Debug: Checking for network_info in log
+2019-03-29 19:02:24 Debug: Found network_info
+2019-03-29 19:02:24 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:02:24 Debug: MESH: Found vpn_info
+2019-03-29 19:02:24 Debug: Checking for system_info in log
+2019-03-29 19:02:24 Debug: Found system_info
+2019-03-29 19:02:24 Debug: Checking for vis info in log
+2019-03-29 19:02:24 Debug: Found vis
+2019-03-29 19:02:24 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:02:24 Debug: Node with MAC  was not found
+2019-03-29 19:03:25 Debug: Got a new report submission
+2019-03-29 19:03:25 Debug: Checking for network_info in log
+2019-03-29 19:03:25 Debug: Found network_info
+2019-03-29 19:03:25 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:03:25 Debug: MESH: Found vpn_info
+2019-03-29 19:03:25 Debug: Checking for system_info in log
+2019-03-29 19:03:25 Debug: Found system_info
+2019-03-29 19:03:25 Debug: Checking for vis info in log
+2019-03-29 19:03:25 Debug: Found vis
+2019-03-29 19:03:25 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:03:25 Debug: Node with MAC  was not found
+2019-03-29 19:04:26 Debug: Got a new report submission
+2019-03-29 19:04:26 Debug: Checking for network_info in log
+2019-03-29 19:04:26 Debug: Found network_info
+2019-03-29 19:04:26 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:04:26 Debug: MESH: Found vpn_info
+2019-03-29 19:04:26 Debug: Checking for system_info in log
+2019-03-29 19:04:26 Debug: Found system_info
+2019-03-29 19:04:26 Debug: Checking for vis info in log
+2019-03-29 19:04:26 Debug: Found vis
+2019-03-29 19:04:26 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:04:26 Debug: Node with MAC  was not found
+2019-03-29 19:05:26 Debug: Got a new report submission
+2019-03-29 19:05:26 Debug: Checking for network_info in log
+2019-03-29 19:05:26 Debug: Found network_info
+2019-03-29 19:05:26 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:05:26 Debug: MESH: Found vpn_info
+2019-03-29 19:05:26 Debug: Checking for system_info in log
+2019-03-29 19:05:26 Debug: Found system_info
+2019-03-29 19:05:26 Debug: Checking for vis info in log
+2019-03-29 19:05:26 Debug: Found vis
+2019-03-29 19:05:26 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:05:26 Debug: Node with MAC  was not found
+2019-03-29 19:06:27 Debug: Got a new report submission
+2019-03-29 19:06:27 Debug: Checking for network_info in log
+2019-03-29 19:06:27 Debug: Found network_info
+2019-03-29 19:06:27 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:06:27 Debug: MESH: Found vpn_info
+2019-03-29 19:06:27 Debug: Checking for system_info in log
+2019-03-29 19:06:27 Debug: Found system_info
+2019-03-29 19:06:27 Debug: Checking for vis info in log
+2019-03-29 19:06:27 Debug: Found vis
+2019-03-29 19:06:27 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:06:27 Debug: Node with MAC  was not found
+2019-03-29 19:07:27 Debug: Got a new report submission
+2019-03-29 19:07:27 Debug: Checking for network_info in log
+2019-03-29 19:07:27 Debug: Found network_info
+2019-03-29 19:07:27 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:07:27 Debug: MESH: Found vpn_info
+2019-03-29 19:07:27 Debug: Checking for system_info in log
+2019-03-29 19:07:27 Debug: Found system_info
+2019-03-29 19:07:27 Debug: Checking for vis info in log
+2019-03-29 19:07:27 Debug: Found vis
+2019-03-29 19:07:27 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:07:27 Debug: Node with MAC  was not found
+2019-03-29 19:08:28 Debug: Got a new report submission
+2019-03-29 19:08:28 Debug: Checking for network_info in log
+2019-03-29 19:08:28 Debug: Found network_info
+2019-03-29 19:08:28 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:08:28 Debug: MESH: Found vpn_info
+2019-03-29 19:08:28 Debug: Checking for system_info in log
+2019-03-29 19:08:28 Debug: Found system_info
+2019-03-29 19:08:28 Debug: Checking for vis info in log
+2019-03-29 19:08:28 Debug: Found vis
+2019-03-29 19:08:28 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:08:28 Debug: Node with MAC  was not found
+2019-03-29 19:09:28 Debug: Got a new report submission
+2019-03-29 19:09:28 Debug: Checking for network_info in log
+2019-03-29 19:09:28 Debug: Found network_info
+2019-03-29 19:09:28 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:09:28 Debug: MESH: Found vpn_info
+2019-03-29 19:09:28 Debug: Checking for system_info in log
+2019-03-29 19:09:28 Debug: Found system_info
+2019-03-29 19:09:28 Debug: Checking for vis info in log
+2019-03-29 19:09:28 Debug: Found vis
+2019-03-29 19:09:28 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:09:28 Debug: Node with MAC  was not found
+2019-03-29 19:10:29 Debug: Got a new report submission
+2019-03-29 19:10:29 Debug: Checking for network_info in log
+2019-03-29 19:10:29 Debug: Found network_info
+2019-03-29 19:10:29 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:10:29 Debug: MESH: Found vpn_info
+2019-03-29 19:10:29 Debug: Checking for system_info in log
+2019-03-29 19:10:29 Debug: Found system_info
+2019-03-29 19:10:29 Debug: Checking for vis info in log
+2019-03-29 19:10:29 Debug: Found vis
+2019-03-29 19:10:29 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:10:29 Debug: Node with MAC  was not found
+2019-03-29 19:11:29 Debug: Got a new report submission
+2019-03-29 19:11:29 Debug: Checking for network_info in log
+2019-03-29 19:11:29 Debug: Found network_info
+2019-03-29 19:11:29 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:11:29 Debug: MESH: Found vpn_info
+2019-03-29 19:11:29 Debug: Checking for system_info in log
+2019-03-29 19:11:29 Debug: Found system_info
+2019-03-29 19:11:29 Debug: Checking for vis info in log
+2019-03-29 19:11:29 Debug: Found vis
+2019-03-29 19:11:29 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:11:29 Debug: Node with MAC  was not found
+2019-03-29 19:15:36 Debug: Got a new report submission
+2019-03-29 19:15:36 Debug: Checking for network_info in log
+2019-03-29 19:15:36 Debug: Found network_info
+2019-03-29 19:15:36 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:15:36 Debug: MESH: Found vpn_info
+2019-03-29 19:15:36 Debug: Checking for system_info in log
+2019-03-29 19:15:36 Debug: Found system_info
+2019-03-29 19:15:36 Debug: Checking for vis info in log
+2019-03-29 19:15:36 Debug: Found vis
+2019-03-29 19:15:36 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:15:36 Debug: Node with MAC  was not found
+2019-03-29 19:16:36 Debug: Got a new report submission
+2019-03-29 19:16:36 Debug: Checking for network_info in log
+2019-03-29 19:16:36 Debug: Found network_info
+2019-03-29 19:16:36 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:16:36 Debug: MESH: Found vpn_info
+2019-03-29 19:16:36 Debug: Checking for system_info in log
+2019-03-29 19:16:36 Debug: Found system_info
+2019-03-29 19:16:36 Debug: Checking for vis info in log
+2019-03-29 19:16:36 Debug: Found vis
+2019-03-29 19:16:36 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:16:36 Debug: Node with MAC  was not found
+2019-03-29 19:17:37 Debug: Got a new report submission
+2019-03-29 19:17:37 Debug: Checking for network_info in log
+2019-03-29 19:17:37 Debug: Found network_info
+2019-03-29 19:17:37 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:17:37 Debug: MESH: Found vpn_info
+2019-03-29 19:17:37 Debug: Checking for system_info in log
+2019-03-29 19:17:37 Debug: Found system_info
+2019-03-29 19:17:37 Debug: Checking for vis info in log
+2019-03-29 19:17:37 Debug: Found vis
+2019-03-29 19:17:37 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:17:37 Debug: Node with MAC  was not found
+2019-03-29 19:18:37 Debug: Got a new report submission
+2019-03-29 19:18:37 Debug: Checking for network_info in log
+2019-03-29 19:18:37 Debug: Found network_info
+2019-03-29 19:18:37 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:18:37 Debug: MESH: Found vpn_info
+2019-03-29 19:18:37 Debug: Checking for system_info in log
+2019-03-29 19:18:37 Debug: Found system_info
+2019-03-29 19:18:37 Debug: Checking for vis info in log
+2019-03-29 19:18:37 Debug: Found vis
+2019-03-29 19:18:37 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:18:37 Debug: Node with MAC  was not found
+2019-03-29 19:19:38 Debug: Got a new report submission
+2019-03-29 19:19:38 Debug: Checking for network_info in log
+2019-03-29 19:19:38 Debug: Found network_info
+2019-03-29 19:19:38 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:19:38 Debug: MESH: Found vpn_info
+2019-03-29 19:19:38 Debug: Checking for system_info in log
+2019-03-29 19:19:38 Debug: Found system_info
+2019-03-29 19:19:38 Debug: Checking for vis info in log
+2019-03-29 19:19:38 Debug: Found vis
+2019-03-29 19:19:38 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:19:38 Debug: Node with MAC  was not found
+2019-03-29 19:20:38 Debug: Got a new report submission
+2019-03-29 19:20:38 Debug: Checking for network_info in log
+2019-03-29 19:20:38 Debug: Found network_info
+2019-03-29 19:20:38 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:20:38 Debug: MESH: Found vpn_info
+2019-03-29 19:20:38 Debug: Checking for system_info in log
+2019-03-29 19:20:38 Debug: Found system_info
+2019-03-29 19:20:38 Debug: Checking for vis info in log
+2019-03-29 19:20:38 Debug: Found vis
+2019-03-29 19:20:38 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:20:38 Debug: Node with MAC  was not found
+2019-03-29 19:21:39 Debug: Got a new report submission
+2019-03-29 19:21:39 Debug: Checking for network_info in log
+2019-03-29 19:21:39 Debug: Found network_info
+2019-03-29 19:21:39 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:21:39 Debug: MESH: Found vpn_info
+2019-03-29 19:21:39 Debug: Checking for system_info in log
+2019-03-29 19:21:39 Debug: Found system_info
+2019-03-29 19:21:39 Debug: Checking for vis info in log
+2019-03-29 19:21:39 Debug: Found vis
+2019-03-29 19:21:39 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:21:39 Debug: Node with MAC  was not found
+2019-03-29 19:22:40 Debug: Got a new report submission
+2019-03-29 19:22:40 Debug: Checking for network_info in log
+2019-03-29 19:22:40 Debug: Found network_info
+2019-03-29 19:22:40 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:22:40 Debug: MESH: Found vpn_info
+2019-03-29 19:22:40 Debug: Checking for system_info in log
+2019-03-29 19:22:40 Debug: Found system_info
+2019-03-29 19:22:40 Debug: Checking for vis info in log
+2019-03-29 19:22:40 Debug: Found vis
+2019-03-29 19:22:40 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:22:40 Debug: Node with MAC  was not found
+2019-03-29 19:23:40 Debug: Got a new report submission
+2019-03-29 19:23:40 Debug: Checking for network_info in log
+2019-03-29 19:23:40 Debug: Found network_info
+2019-03-29 19:23:40 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:23:40 Debug: MESH: Found vpn_info
+2019-03-29 19:23:40 Debug: Checking for system_info in log
+2019-03-29 19:23:40 Debug: Found system_info
+2019-03-29 19:23:40 Debug: Checking for vis info in log
+2019-03-29 19:23:40 Debug: Found vis
+2019-03-29 19:23:40 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:23:40 Debug: Node with MAC  was not found
+2019-03-29 19:24:40 Debug: Got a new report submission
+2019-03-29 19:24:40 Debug: Checking for network_info in log
+2019-03-29 19:24:40 Debug: Found network_info
+2019-03-29 19:24:40 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:24:40 Debug: MESH: Found vpn_info
+2019-03-29 19:24:40 Debug: Checking for system_info in log
+2019-03-29 19:24:40 Debug: Found system_info
+2019-03-29 19:24:40 Debug: Checking for vis info in log
+2019-03-29 19:24:40 Debug: Found vis
+2019-03-29 19:24:40 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:24:40 Debug: Node with MAC  was not found
+2019-03-29 19:25:41 Debug: Got a new report submission
+2019-03-29 19:25:41 Debug: Checking for network_info in log
+2019-03-29 19:25:41 Debug: Found network_info
+2019-03-29 19:25:41 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:25:41 Debug: MESH: Found vpn_info
+2019-03-29 19:25:41 Debug: Checking for system_info in log
+2019-03-29 19:25:41 Debug: Found system_info
+2019-03-29 19:25:41 Debug: Checking for vis info in log
+2019-03-29 19:25:41 Debug: Found vis
+2019-03-29 19:25:41 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:25:41 Debug: Node with MAC  was not found
+2019-03-29 19:26:41 Debug: Got a new report submission
+2019-03-29 19:26:41 Debug: Checking for network_info in log
+2019-03-29 19:26:41 Debug: Found network_info
+2019-03-29 19:26:41 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:26:41 Debug: MESH: Found vpn_info
+2019-03-29 19:26:41 Debug: Checking for system_info in log
+2019-03-29 19:26:41 Debug: Found system_info
+2019-03-29 19:26:41 Debug: Checking for vis info in log
+2019-03-29 19:26:41 Debug: Found vis
+2019-03-29 19:26:41 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:26:41 Debug: Node with MAC  was not found
+2019-03-29 19:27:42 Debug: Got a new report submission
+2019-03-29 19:27:42 Debug: Checking for network_info in log
+2019-03-29 19:27:42 Debug: Found network_info
+2019-03-29 19:27:42 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:27:42 Debug: MESH: Found vpn_info
+2019-03-29 19:27:42 Debug: Checking for system_info in log
+2019-03-29 19:27:42 Debug: Found system_info
+2019-03-29 19:27:42 Debug: Checking for vis info in log
+2019-03-29 19:27:42 Debug: Found vis
+2019-03-29 19:27:42 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:27:42 Debug: Node with MAC  was not found
+2019-03-29 19:28:42 Debug: Got a new report submission
+2019-03-29 19:28:42 Debug: Checking for network_info in log
+2019-03-29 19:28:42 Debug: Found network_info
+2019-03-29 19:28:42 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:28:42 Debug: MESH: Found vpn_info
+2019-03-29 19:28:42 Debug: Checking for system_info in log
+2019-03-29 19:28:42 Debug: Found system_info
+2019-03-29 19:28:42 Debug: Checking for vis info in log
+2019-03-29 19:28:42 Debug: Found vis
+2019-03-29 19:28:42 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:28:42 Debug: Node with MAC  was not found
+2019-03-29 19:29:43 Debug: Got a new report submission
+2019-03-29 19:29:43 Debug: Checking for network_info in log
+2019-03-29 19:29:43 Debug: Found network_info
+2019-03-29 19:29:43 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:29:43 Debug: MESH: Found vpn_info
+2019-03-29 19:29:43 Debug: Checking for system_info in log
+2019-03-29 19:29:43 Debug: Found system_info
+2019-03-29 19:29:43 Debug: Checking for vis info in log
+2019-03-29 19:29:43 Debug: Found vis
+2019-03-29 19:29:43 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:29:43 Debug: Node with MAC  was not found
+2019-03-29 19:30:43 Debug: Got a new report submission
+2019-03-29 19:30:43 Debug: Checking for network_info in log
+2019-03-29 19:30:43 Debug: Found network_info
+2019-03-29 19:30:43 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:30:43 Debug: MESH: Found vpn_info
+2019-03-29 19:30:43 Debug: Checking for system_info in log
+2019-03-29 19:30:43 Debug: Found system_info
+2019-03-29 19:30:43 Debug: Checking for vis info in log
+2019-03-29 19:30:43 Debug: Found vis
+2019-03-29 19:30:43 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:30:43 Debug: Node with MAC  was not found
+2019-03-29 19:31:44 Debug: Got a new report submission
+2019-03-29 19:31:44 Debug: Checking for network_info in log
+2019-03-29 19:31:44 Debug: Found network_info
+2019-03-29 19:31:44 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:31:44 Debug: MESH: Found vpn_info
+2019-03-29 19:31:44 Debug: Checking for system_info in log
+2019-03-29 19:31:44 Debug: Found system_info
+2019-03-29 19:31:44 Debug: Checking for vis info in log
+2019-03-29 19:31:44 Debug: Found vis
+2019-03-29 19:31:44 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:31:44 Debug: Node with MAC  was not found
+2019-03-29 19:32:44 Debug: Got a new report submission
+2019-03-29 19:32:44 Debug: Checking for network_info in log
+2019-03-29 19:32:44 Debug: Found network_info
+2019-03-29 19:32:44 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:32:44 Debug: MESH: Found vpn_info
+2019-03-29 19:32:44 Debug: Checking for system_info in log
+2019-03-29 19:32:44 Debug: Found system_info
+2019-03-29 19:32:44 Debug: Checking for vis info in log
+2019-03-29 19:32:44 Debug: Found vis
+2019-03-29 19:32:44 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:32:44 Debug: Node with MAC  was not found
+2019-03-29 19:33:45 Debug: Got a new report submission
+2019-03-29 19:33:45 Debug: Checking for network_info in log
+2019-03-29 19:33:45 Debug: Found network_info
+2019-03-29 19:33:45 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:33:45 Debug: MESH: Found vpn_info
+2019-03-29 19:33:45 Debug: Checking for system_info in log
+2019-03-29 19:33:45 Debug: Found system_info
+2019-03-29 19:33:45 Debug: Checking for vis info in log
+2019-03-29 19:33:45 Debug: Found vis
+2019-03-29 19:33:45 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:33:45 Debug: Node with MAC  was not found
+2019-03-29 19:34:45 Debug: Got a new report submission
+2019-03-29 19:34:45 Debug: Checking for network_info in log
+2019-03-29 19:34:45 Debug: Found network_info
+2019-03-29 19:34:45 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:34:45 Debug: MESH: Found vpn_info
+2019-03-29 19:34:45 Debug: Checking for system_info in log
+2019-03-29 19:34:45 Debug: Found system_info
+2019-03-29 19:34:45 Debug: Checking for vis info in log
+2019-03-29 19:34:45 Debug: Found vis
+2019-03-29 19:34:45 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:34:45 Debug: Node with MAC  was not found
+2019-03-29 19:35:46 Debug: Got a new report submission
+2019-03-29 19:35:46 Debug: Checking for network_info in log
+2019-03-29 19:35:46 Debug: Found network_info
+2019-03-29 19:35:46 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:35:46 Debug: MESH: Found vpn_info
+2019-03-29 19:35:46 Debug: Checking for system_info in log
+2019-03-29 19:35:46 Debug: Found system_info
+2019-03-29 19:35:46 Debug: Checking for vis info in log
+2019-03-29 19:35:46 Debug: Found vis
+2019-03-29 19:35:46 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:35:46 Debug: Node with MAC  was not found
+2019-03-29 19:36:46 Debug: Got a new report submission
+2019-03-29 19:36:46 Debug: Checking for network_info in log
+2019-03-29 19:36:46 Debug: Found network_info
+2019-03-29 19:36:46 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:36:46 Debug: MESH: Found vpn_info
+2019-03-29 19:36:46 Debug: Checking for system_info in log
+2019-03-29 19:36:46 Debug: Found system_info
+2019-03-29 19:36:46 Debug: Checking for vis info in log
+2019-03-29 19:36:46 Debug: Found vis
+2019-03-29 19:36:46 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:36:46 Debug: Node with MAC  was not found
+2019-03-29 19:37:47 Debug: Got a new report submission
+2019-03-29 19:37:47 Debug: Checking for network_info in log
+2019-03-29 19:37:47 Debug: Found network_info
+2019-03-29 19:37:47 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:37:47 Debug: MESH: Found vpn_info
+2019-03-29 19:37:47 Debug: Checking for system_info in log
+2019-03-29 19:37:47 Debug: Found system_info
+2019-03-29 19:37:47 Debug: Checking for vis info in log
+2019-03-29 19:37:47 Debug: Found vis
+2019-03-29 19:37:47 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:37:47 Debug: Node with MAC  was not found
+2019-03-29 19:38:47 Debug: Got a new report submission
+2019-03-29 19:38:47 Debug: Checking for network_info in log
+2019-03-29 19:38:47 Debug: Found network_info
+2019-03-29 19:38:47 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:38:47 Debug: MESH: Found vpn_info
+2019-03-29 19:38:47 Debug: Checking for system_info in log
+2019-03-29 19:38:47 Debug: Found system_info
+2019-03-29 19:38:47 Debug: Checking for vis info in log
+2019-03-29 19:38:47 Debug: Found vis
+2019-03-29 19:38:47 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:38:47 Debug: Node with MAC  was not found
+2019-03-29 19:39:48 Debug: Got a new report submission
+2019-03-29 19:39:48 Debug: Checking for network_info in log
+2019-03-29 19:39:48 Debug: Found network_info
+2019-03-29 19:39:48 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:39:48 Debug: MESH: Found vpn_info
+2019-03-29 19:39:48 Debug: Checking for system_info in log
+2019-03-29 19:39:48 Debug: Found system_info
+2019-03-29 19:39:48 Debug: Checking for vis info in log
+2019-03-29 19:39:48 Debug: Found vis
+2019-03-29 19:39:48 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:39:48 Debug: Node with MAC  was not found
+2019-03-29 19:40:48 Debug: Got a new report submission
+2019-03-29 19:40:48 Debug: Checking for network_info in log
+2019-03-29 19:40:48 Debug: Found network_info
+2019-03-29 19:40:48 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:40:48 Debug: MESH: Found vpn_info
+2019-03-29 19:40:48 Debug: Checking for system_info in log
+2019-03-29 19:40:48 Debug: Found system_info
+2019-03-29 19:40:48 Debug: Checking for vis info in log
+2019-03-29 19:40:48 Debug: Found vis
+2019-03-29 19:40:48 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:40:48 Debug: Node with MAC  was not found
+2019-03-29 19:41:49 Debug: Got a new report submission
+2019-03-29 19:41:49 Debug: Checking for network_info in log
+2019-03-29 19:41:49 Debug: Found network_info
+2019-03-29 19:41:49 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:41:49 Debug: MESH: Found vpn_info
+2019-03-29 19:41:49 Debug: Checking for system_info in log
+2019-03-29 19:41:49 Debug: Found system_info
+2019-03-29 19:41:49 Debug: Checking for vis info in log
+2019-03-29 19:41:49 Debug: Found vis
+2019-03-29 19:41:49 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:41:49 Debug: Node with MAC  was not found
+2019-03-29 19:42:49 Debug: Got a new report submission
+2019-03-29 19:42:49 Debug: Checking for network_info in log
+2019-03-29 19:42:49 Debug: Found network_info
+2019-03-29 19:42:49 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:42:49 Debug: MESH: Found vpn_info
+2019-03-29 19:42:49 Debug: Checking for system_info in log
+2019-03-29 19:42:49 Debug: Found system_info
+2019-03-29 19:42:49 Debug: Checking for vis info in log
+2019-03-29 19:42:49 Debug: Found vis
+2019-03-29 19:42:49 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:42:49 Debug: Node with MAC  was not found
+2019-03-29 19:43:49 Debug: Got a new report submission
+2019-03-29 19:43:49 Debug: Checking for network_info in log
+2019-03-29 19:43:49 Debug: Found network_info
+2019-03-29 19:43:49 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:43:49 Debug: MESH: Found vpn_info
+2019-03-29 19:43:49 Debug: Checking for system_info in log
+2019-03-29 19:43:49 Debug: Found system_info
+2019-03-29 19:43:49 Debug: Checking for vis info in log
+2019-03-29 19:43:49 Debug: Found vis
+2019-03-29 19:43:49 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:43:49 Debug: Node with MAC  was not found
+2019-03-29 19:44:50 Debug: Got a new report submission
+2019-03-29 19:44:50 Debug: Checking for network_info in log
+2019-03-29 19:44:50 Debug: Found network_info
+2019-03-29 19:44:50 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:44:50 Debug: MESH: Found vpn_info
+2019-03-29 19:44:50 Debug: Checking for system_info in log
+2019-03-29 19:44:50 Debug: Found system_info
+2019-03-29 19:44:50 Debug: Checking for vis info in log
+2019-03-29 19:44:50 Debug: Found vis
+2019-03-29 19:44:50 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:44:50 Debug: Node with MAC  was not found
+2019-03-29 19:45:50 Debug: Got a new report submission
+2019-03-29 19:45:50 Debug: Checking for network_info in log
+2019-03-29 19:45:50 Debug: Found network_info
+2019-03-29 19:45:50 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:45:50 Debug: MESH: Found vpn_info
+2019-03-29 19:45:50 Debug: Checking for system_info in log
+2019-03-29 19:45:50 Debug: Found system_info
+2019-03-29 19:45:50 Debug: Checking for vis info in log
+2019-03-29 19:45:50 Debug: Found vis
+2019-03-29 19:45:50 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:45:50 Debug: Node with MAC  was not found
+2019-03-29 19:46:51 Debug: Got a new report submission
+2019-03-29 19:46:51 Debug: Checking for network_info in log
+2019-03-29 19:46:51 Debug: Found network_info
+2019-03-29 19:46:51 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:46:51 Debug: MESH: Found vpn_info
+2019-03-29 19:46:51 Debug: Checking for system_info in log
+2019-03-29 19:46:51 Debug: Found system_info
+2019-03-29 19:46:51 Debug: Checking for vis info in log
+2019-03-29 19:46:51 Debug: Found vis
+2019-03-29 19:46:51 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:46:51 Debug: Node with MAC  was not found
+2019-03-29 19:47:51 Debug: Got a new report submission
+2019-03-29 19:47:51 Debug: Checking for network_info in log
+2019-03-29 19:47:51 Debug: Found network_info
+2019-03-29 19:47:51 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:47:51 Debug: MESH: Found vpn_info
+2019-03-29 19:47:51 Debug: Checking for system_info in log
+2019-03-29 19:47:51 Debug: Found system_info
+2019-03-29 19:47:51 Debug: Checking for vis info in log
+2019-03-29 19:47:51 Debug: Found vis
+2019-03-29 19:47:51 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:47:51 Debug: Node with MAC  was not found
+2019-03-29 19:48:52 Debug: Got a new report submission
+2019-03-29 19:48:52 Debug: Checking for network_info in log
+2019-03-29 19:48:52 Debug: Found network_info
+2019-03-29 19:48:52 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:48:52 Debug: MESH: Found vpn_info
+2019-03-29 19:48:52 Debug: Checking for system_info in log
+2019-03-29 19:48:52 Debug: Found system_info
+2019-03-29 19:48:52 Debug: Checking for vis info in log
+2019-03-29 19:48:52 Debug: Found vis
+2019-03-29 19:48:52 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:48:52 Debug: Node with MAC  was not found
+2019-03-29 19:49:52 Debug: Got a new report submission
+2019-03-29 19:49:52 Debug: Checking for network_info in log
+2019-03-29 19:49:52 Debug: Found network_info
+2019-03-29 19:49:52 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:49:52 Debug: MESH: Found vpn_info
+2019-03-29 19:49:52 Debug: Checking for system_info in log
+2019-03-29 19:49:52 Debug: Found system_info
+2019-03-29 19:49:52 Debug: Checking for vis info in log
+2019-03-29 19:49:52 Debug: Found vis
+2019-03-29 19:49:52 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:49:52 Debug: Node with MAC  was not found
+2019-03-29 19:50:53 Debug: Got a new report submission
+2019-03-29 19:50:53 Debug: Checking for network_info in log
+2019-03-29 19:50:53 Debug: Found network_info
+2019-03-29 19:50:53 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:50:53 Debug: MESH: Found vpn_info
+2019-03-29 19:50:53 Debug: Checking for system_info in log
+2019-03-29 19:50:53 Debug: Found system_info
+2019-03-29 19:50:53 Debug: Checking for vis info in log
+2019-03-29 19:50:53 Debug: Found vis
+2019-03-29 19:50:53 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:50:53 Debug: Node with MAC  was not found
+2019-03-29 19:51:53 Debug: Got a new report submission
+2019-03-29 19:51:53 Debug: Checking for network_info in log
+2019-03-29 19:51:53 Debug: Found network_info
+2019-03-29 19:51:53 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:51:53 Debug: MESH: Found vpn_info
+2019-03-29 19:51:53 Debug: Checking for system_info in log
+2019-03-29 19:51:53 Debug: Found system_info
+2019-03-29 19:51:53 Debug: Checking for vis info in log
+2019-03-29 19:51:53 Debug: Found vis
+2019-03-29 19:51:53 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:51:53 Debug: Node with MAC  was not found
+2019-03-29 19:52:54 Debug: Got a new report submission
+2019-03-29 19:52:54 Debug: Checking for network_info in log
+2019-03-29 19:52:54 Debug: Found network_info
+2019-03-29 19:52:54 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:52:54 Debug: MESH: Found vpn_info
+2019-03-29 19:52:54 Debug: Checking for system_info in log
+2019-03-29 19:52:54 Debug: Found system_info
+2019-03-29 19:52:54 Debug: Checking for vis info in log
+2019-03-29 19:52:54 Debug: Found vis
+2019-03-29 19:52:54 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:52:54 Debug: Node with MAC  was not found
+2019-03-29 19:53:54 Debug: Got a new report submission
+2019-03-29 19:53:54 Debug: Checking for network_info in log
+2019-03-29 19:53:54 Debug: Found network_info
+2019-03-29 19:53:54 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:53:54 Debug: MESH: Found vpn_info
+2019-03-29 19:53:54 Debug: Checking for system_info in log
+2019-03-29 19:53:54 Debug: Found system_info
+2019-03-29 19:53:54 Debug: Checking for vis info in log
+2019-03-29 19:53:54 Debug: Found vis
+2019-03-29 19:53:54 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:53:54 Debug: Node with MAC  was not found
+2019-03-29 19:54:55 Debug: Got a new report submission
+2019-03-29 19:54:55 Debug: Checking for network_info in log
+2019-03-29 19:54:55 Debug: Found network_info
+2019-03-29 19:54:55 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:54:55 Debug: MESH: Found vpn_info
+2019-03-29 19:54:55 Debug: Checking for system_info in log
+2019-03-29 19:54:55 Debug: Found system_info
+2019-03-29 19:54:55 Debug: Checking for vis info in log
+2019-03-29 19:54:55 Debug: Found vis
+2019-03-29 19:54:55 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:54:55 Debug: Node with MAC  was not found
+2019-03-29 19:55:55 Debug: Got a new report submission
+2019-03-29 19:55:55 Debug: Checking for network_info in log
+2019-03-29 19:55:55 Debug: Found network_info
+2019-03-29 19:55:55 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:55:55 Debug: MESH: Found vpn_info
+2019-03-29 19:55:55 Debug: Checking for system_info in log
+2019-03-29 19:55:55 Debug: Found system_info
+2019-03-29 19:55:55 Debug: Checking for vis info in log
+2019-03-29 19:55:55 Debug: Found vis
+2019-03-29 19:55:55 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:55:55 Debug: Node with MAC  was not found
+2019-03-29 19:56:56 Debug: Got a new report submission
+2019-03-29 19:56:56 Debug: Checking for network_info in log
+2019-03-29 19:56:56 Debug: Found network_info
+2019-03-29 19:56:56 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:56:56 Debug: MESH: Found vpn_info
+2019-03-29 19:56:56 Debug: Checking for system_info in log
+2019-03-29 19:56:56 Debug: Found system_info
+2019-03-29 19:56:56 Debug: Checking for vis info in log
+2019-03-29 19:56:56 Debug: Found vis
+2019-03-29 19:56:56 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:56:56 Debug: Node with MAC  was not found
+2019-03-29 19:57:56 Debug: Got a new report submission
+2019-03-29 19:57:56 Debug: Checking for network_info in log
+2019-03-29 19:57:56 Debug: Found network_info
+2019-03-29 19:57:56 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:57:56 Debug: MESH: Found vpn_info
+2019-03-29 19:57:56 Debug: Checking for system_info in log
+2019-03-29 19:57:56 Debug: Found system_info
+2019-03-29 19:57:56 Debug: Checking for vis info in log
+2019-03-29 19:57:56 Debug: Found vis
+2019-03-29 19:57:56 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:57:56 Debug: Node with MAC  was not found
+2019-03-29 19:58:57 Debug: Got a new report submission
+2019-03-29 19:58:57 Debug: Checking for network_info in log
+2019-03-29 19:58:57 Debug: Found network_info
+2019-03-29 19:58:57 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:58:57 Debug: MESH: Found vpn_info
+2019-03-29 19:58:57 Debug: Checking for system_info in log
+2019-03-29 19:58:57 Debug: Found system_info
+2019-03-29 19:58:57 Debug: Checking for vis info in log
+2019-03-29 19:58:57 Debug: Found vis
+2019-03-29 19:58:57 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:58:57 Debug: Node with MAC  was not found
+2019-03-29 19:59:57 Debug: Got a new report submission
+2019-03-29 19:59:57 Debug: Checking for network_info in log
+2019-03-29 19:59:57 Debug: Found network_info
+2019-03-29 19:59:57 Debug: MESH: Checking for vpn_info in log
+2019-03-29 19:59:57 Debug: MESH: Found vpn_info
+2019-03-29 19:59:57 Debug: Checking for system_info in log
+2019-03-29 19:59:57 Debug: Found system_info
+2019-03-29 19:59:57 Debug: Checking for vis info in log
+2019-03-29 19:59:57 Debug: Found vis
+2019-03-29 19:59:57 Debug: Looking for commands waiting for this mesh
+2019-03-29 19:59:57 Debug: Node with MAC  was not found
+2019-03-29 20:00:58 Debug: Got a new report submission
+2019-03-29 20:00:58 Debug: Checking for network_info in log
+2019-03-29 20:00:58 Debug: Found network_info
+2019-03-29 20:00:58 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:00:58 Debug: MESH: Found vpn_info
+2019-03-29 20:00:58 Debug: Checking for system_info in log
+2019-03-29 20:00:58 Debug: Found system_info
+2019-03-29 20:00:58 Debug: Checking for vis info in log
+2019-03-29 20:00:58 Debug: Found vis
+2019-03-29 20:00:58 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:00:58 Debug: Node with MAC  was not found
+2019-03-29 20:01:58 Debug: Got a new report submission
+2019-03-29 20:01:58 Debug: Checking for network_info in log
+2019-03-29 20:01:58 Debug: Found network_info
+2019-03-29 20:01:58 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:01:58 Debug: MESH: Found vpn_info
+2019-03-29 20:01:58 Debug: Checking for system_info in log
+2019-03-29 20:01:58 Debug: Found system_info
+2019-03-29 20:01:58 Debug: Checking for vis info in log
+2019-03-29 20:01:58 Debug: Found vis
+2019-03-29 20:01:58 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:01:58 Debug: Node with MAC  was not found
+2019-03-29 20:02:59 Debug: Got a new report submission
+2019-03-29 20:02:59 Debug: Checking for network_info in log
+2019-03-29 20:02:59 Debug: Found network_info
+2019-03-29 20:02:59 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:02:59 Debug: MESH: Found vpn_info
+2019-03-29 20:02:59 Debug: Checking for system_info in log
+2019-03-29 20:02:59 Debug: Found system_info
+2019-03-29 20:02:59 Debug: Checking for vis info in log
+2019-03-29 20:02:59 Debug: Found vis
+2019-03-29 20:02:59 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:02:59 Debug: Node with MAC  was not found
+2019-03-29 20:03:59 Debug: Got a new report submission
+2019-03-29 20:03:59 Debug: Checking for network_info in log
+2019-03-29 20:03:59 Debug: Found network_info
+2019-03-29 20:03:59 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:03:59 Debug: MESH: Found vpn_info
+2019-03-29 20:03:59 Debug: Checking for system_info in log
+2019-03-29 20:03:59 Debug: Found system_info
+2019-03-29 20:03:59 Debug: Checking for vis info in log
+2019-03-29 20:03:59 Debug: Found vis
+2019-03-29 20:03:59 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:03:59 Debug: Node with MAC  was not found
+2019-03-29 20:05:00 Debug: Got a new report submission
+2019-03-29 20:05:00 Debug: Checking for network_info in log
+2019-03-29 20:05:00 Debug: Found network_info
+2019-03-29 20:05:00 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:05:00 Debug: MESH: Found vpn_info
+2019-03-29 20:05:00 Debug: Checking for system_info in log
+2019-03-29 20:05:00 Debug: Found system_info
+2019-03-29 20:05:00 Debug: Checking for vis info in log
+2019-03-29 20:05:00 Debug: Found vis
+2019-03-29 20:05:00 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:05:00 Debug: Node with MAC  was not found
+2019-03-29 20:06:01 Debug: Got a new report submission
+2019-03-29 20:06:01 Debug: Checking for network_info in log
+2019-03-29 20:06:01 Debug: Found network_info
+2019-03-29 20:06:01 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:06:01 Debug: MESH: Found vpn_info
+2019-03-29 20:06:01 Debug: Checking for system_info in log
+2019-03-29 20:06:01 Debug: Found system_info
+2019-03-29 20:06:01 Debug: Checking for vis info in log
+2019-03-29 20:06:01 Debug: Found vis
+2019-03-29 20:06:01 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:06:01 Debug: Node with MAC  was not found
+2019-03-29 20:07:01 Debug: Got a new report submission
+2019-03-29 20:07:01 Debug: Checking for network_info in log
+2019-03-29 20:07:01 Debug: Found network_info
+2019-03-29 20:07:01 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:07:01 Debug: MESH: Found vpn_info
+2019-03-29 20:07:01 Debug: Checking for system_info in log
+2019-03-29 20:07:01 Debug: Found system_info
+2019-03-29 20:07:01 Debug: Checking for vis info in log
+2019-03-29 20:07:01 Debug: Found vis
+2019-03-29 20:07:01 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:07:01 Debug: Node with MAC  was not found
+2019-03-29 20:08:02 Debug: Got a new report submission
+2019-03-29 20:08:02 Debug: Checking for network_info in log
+2019-03-29 20:08:02 Debug: Found network_info
+2019-03-29 20:08:02 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:08:02 Debug: MESH: Found vpn_info
+2019-03-29 20:08:02 Debug: Checking for system_info in log
+2019-03-29 20:08:02 Debug: Found system_info
+2019-03-29 20:08:02 Debug: Checking for vis info in log
+2019-03-29 20:08:02 Debug: Found vis
+2019-03-29 20:08:02 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:08:02 Debug: Node with MAC  was not found
+2019-03-29 20:09:02 Debug: Got a new report submission
+2019-03-29 20:09:02 Debug: Checking for network_info in log
+2019-03-29 20:09:02 Debug: Found network_info
+2019-03-29 20:09:02 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:09:02 Debug: MESH: Found vpn_info
+2019-03-29 20:09:02 Debug: Checking for system_info in log
+2019-03-29 20:09:02 Debug: Found system_info
+2019-03-29 20:09:02 Debug: Checking for vis info in log
+2019-03-29 20:09:02 Debug: Found vis
+2019-03-29 20:09:02 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:09:02 Debug: Node with MAC  was not found
+2019-03-29 20:10:03 Debug: Got a new report submission
+2019-03-29 20:10:03 Debug: Checking for network_info in log
+2019-03-29 20:10:03 Debug: Found network_info
+2019-03-29 20:10:03 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:10:03 Debug: MESH: Found vpn_info
+2019-03-29 20:10:03 Debug: Checking for system_info in log
+2019-03-29 20:10:03 Debug: Found system_info
+2019-03-29 20:10:03 Debug: Checking for vis info in log
+2019-03-29 20:10:03 Debug: Found vis
+2019-03-29 20:10:03 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:10:03 Debug: Node with MAC  was not found
+2019-03-29 20:11:03 Debug: Got a new report submission
+2019-03-29 20:11:03 Debug: Checking for network_info in log
+2019-03-29 20:11:03 Debug: Found network_info
+2019-03-29 20:11:03 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:11:03 Debug: MESH: Found vpn_info
+2019-03-29 20:11:03 Debug: Checking for system_info in log
+2019-03-29 20:11:03 Debug: Found system_info
+2019-03-29 20:11:03 Debug: Checking for vis info in log
+2019-03-29 20:11:03 Debug: Found vis
+2019-03-29 20:11:03 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:11:03 Debug: Node with MAC  was not found
+2019-03-29 20:12:04 Debug: Got a new report submission
+2019-03-29 20:12:04 Debug: Checking for network_info in log
+2019-03-29 20:12:04 Debug: Found network_info
+2019-03-29 20:12:04 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:12:04 Debug: MESH: Found vpn_info
+2019-03-29 20:12:04 Debug: Checking for system_info in log
+2019-03-29 20:12:04 Debug: Found system_info
+2019-03-29 20:12:04 Debug: Checking for vis info in log
+2019-03-29 20:12:04 Debug: Found vis
+2019-03-29 20:12:04 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:12:04 Debug: Node with MAC  was not found
+2019-03-29 20:13:04 Debug: Got a new report submission
+2019-03-29 20:13:04 Debug: Checking for network_info in log
+2019-03-29 20:13:04 Debug: Found network_info
+2019-03-29 20:13:04 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:13:04 Debug: MESH: Found vpn_info
+2019-03-29 20:13:04 Debug: Checking for system_info in log
+2019-03-29 20:13:04 Debug: Found system_info
+2019-03-29 20:13:04 Debug: Checking for vis info in log
+2019-03-29 20:13:04 Debug: Found vis
+2019-03-29 20:13:04 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:13:04 Debug: Node with MAC  was not found
+2019-03-29 20:14:05 Debug: Got a new report submission
+2019-03-29 20:14:05 Debug: Checking for network_info in log
+2019-03-29 20:14:05 Debug: Found network_info
+2019-03-29 20:14:05 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:14:05 Debug: MESH: Found vpn_info
+2019-03-29 20:14:05 Debug: Checking for system_info in log
+2019-03-29 20:14:05 Debug: Found system_info
+2019-03-29 20:14:05 Debug: Checking for vis info in log
+2019-03-29 20:14:05 Debug: Found vis
+2019-03-29 20:14:05 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:14:05 Debug: Node with MAC  was not found
+2019-03-29 20:15:05 Debug: Got a new report submission
+2019-03-29 20:15:05 Debug: Checking for network_info in log
+2019-03-29 20:15:05 Debug: Found network_info
+2019-03-29 20:15:05 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:15:05 Debug: MESH: Found vpn_info
+2019-03-29 20:15:05 Debug: Checking for system_info in log
+2019-03-29 20:15:05 Debug: Found system_info
+2019-03-29 20:15:05 Debug: Checking for vis info in log
+2019-03-29 20:15:05 Debug: Found vis
+2019-03-29 20:15:05 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:15:05 Debug: Node with MAC  was not found
+2019-03-29 20:16:06 Debug: Got a new report submission
+2019-03-29 20:16:06 Debug: Checking for network_info in log
+2019-03-29 20:16:06 Debug: Found network_info
+2019-03-29 20:16:06 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:16:06 Debug: MESH: Found vpn_info
+2019-03-29 20:16:06 Debug: Checking for system_info in log
+2019-03-29 20:16:06 Debug: Found system_info
+2019-03-29 20:16:06 Debug: Checking for vis info in log
+2019-03-29 20:16:06 Debug: Found vis
+2019-03-29 20:16:06 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:16:06 Debug: Node with MAC  was not found
+2019-03-29 20:17:06 Debug: Got a new report submission
+2019-03-29 20:17:06 Debug: Checking for network_info in log
+2019-03-29 20:17:06 Debug: Found network_info
+2019-03-29 20:17:06 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:17:06 Debug: MESH: Found vpn_info
+2019-03-29 20:17:06 Debug: Checking for system_info in log
+2019-03-29 20:17:06 Debug: Found system_info
+2019-03-29 20:17:06 Debug: Checking for vis info in log
+2019-03-29 20:17:06 Debug: Found vis
+2019-03-29 20:17:06 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:17:06 Debug: Node with MAC  was not found
+2019-03-29 20:18:07 Debug: Got a new report submission
+2019-03-29 20:18:07 Debug: Checking for network_info in log
+2019-03-29 20:18:07 Debug: Found network_info
+2019-03-29 20:18:07 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:18:07 Debug: MESH: Found vpn_info
+2019-03-29 20:18:07 Debug: Checking for system_info in log
+2019-03-29 20:18:07 Debug: Found system_info
+2019-03-29 20:18:07 Debug: Checking for vis info in log
+2019-03-29 20:18:07 Debug: Found vis
+2019-03-29 20:18:07 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:18:07 Debug: Node with MAC  was not found
+2019-03-29 20:19:07 Debug: Got a new report submission
+2019-03-29 20:19:07 Debug: Checking for network_info in log
+2019-03-29 20:19:07 Debug: Found network_info
+2019-03-29 20:19:07 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:19:07 Debug: MESH: Found vpn_info
+2019-03-29 20:19:07 Debug: Checking for system_info in log
+2019-03-29 20:19:07 Debug: Found system_info
+2019-03-29 20:19:07 Debug: Checking for vis info in log
+2019-03-29 20:19:07 Debug: Found vis
+2019-03-29 20:19:07 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:19:07 Debug: Node with MAC  was not found
+2019-03-29 20:20:08 Debug: Got a new report submission
+2019-03-29 20:20:08 Debug: Checking for network_info in log
+2019-03-29 20:20:08 Debug: Found network_info
+2019-03-29 20:20:08 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:20:08 Debug: MESH: Found vpn_info
+2019-03-29 20:20:08 Debug: Checking for system_info in log
+2019-03-29 20:20:08 Debug: Found system_info
+2019-03-29 20:20:08 Debug: Checking for vis info in log
+2019-03-29 20:20:08 Debug: Found vis
+2019-03-29 20:20:08 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:20:08 Debug: Node with MAC  was not found
+2019-03-29 20:21:09 Debug: Got a new report submission
+2019-03-29 20:21:09 Debug: Checking for network_info in log
+2019-03-29 20:21:09 Debug: Found network_info
+2019-03-29 20:21:09 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:21:09 Debug: MESH: Found vpn_info
+2019-03-29 20:21:09 Debug: Checking for system_info in log
+2019-03-29 20:21:09 Debug: Found system_info
+2019-03-29 20:21:09 Debug: Checking for vis info in log
+2019-03-29 20:21:09 Debug: Found vis
+2019-03-29 20:21:09 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:21:09 Debug: Node with MAC  was not found
+2019-03-29 20:22:09 Debug: Got a new report submission
+2019-03-29 20:22:09 Debug: Checking for network_info in log
+2019-03-29 20:22:09 Debug: Found network_info
+2019-03-29 20:22:09 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:22:09 Debug: MESH: Found vpn_info
+2019-03-29 20:22:09 Debug: Checking for system_info in log
+2019-03-29 20:22:09 Debug: Found system_info
+2019-03-29 20:22:09 Debug: Checking for vis info in log
+2019-03-29 20:22:09 Debug: Found vis
+2019-03-29 20:22:09 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:22:09 Debug: Node with MAC  was not found
+2019-03-29 20:23:09 Debug: Got a new report submission
+2019-03-29 20:23:09 Debug: Checking for network_info in log
+2019-03-29 20:23:09 Debug: Found network_info
+2019-03-29 20:23:09 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:23:09 Debug: MESH: Found vpn_info
+2019-03-29 20:23:09 Debug: Checking for system_info in log
+2019-03-29 20:23:09 Debug: Found system_info
+2019-03-29 20:23:09 Debug: Checking for vis info in log
+2019-03-29 20:23:09 Debug: Found vis
+2019-03-29 20:23:09 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:23:09 Debug: Node with MAC  was not found
+2019-03-29 20:24:10 Debug: Got a new report submission
+2019-03-29 20:24:10 Debug: Checking for network_info in log
+2019-03-29 20:24:10 Debug: Found network_info
+2019-03-29 20:24:10 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:24:10 Debug: MESH: Found vpn_info
+2019-03-29 20:24:10 Debug: Checking for system_info in log
+2019-03-29 20:24:10 Debug: Found system_info
+2019-03-29 20:24:10 Debug: Checking for vis info in log
+2019-03-29 20:24:10 Debug: Found vis
+2019-03-29 20:24:10 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:24:10 Debug: Node with MAC  was not found
+2019-03-29 20:25:10 Debug: Got a new report submission
+2019-03-29 20:25:10 Debug: Checking for network_info in log
+2019-03-29 20:25:10 Debug: Found network_info
+2019-03-29 20:25:10 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:25:10 Debug: MESH: Found vpn_info
+2019-03-29 20:25:10 Debug: Checking for system_info in log
+2019-03-29 20:25:10 Debug: Found system_info
+2019-03-29 20:25:10 Debug: Checking for vis info in log
+2019-03-29 20:25:10 Debug: Found vis
+2019-03-29 20:25:10 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:25:10 Debug: Node with MAC  was not found
+2019-03-29 20:26:11 Debug: Got a new report submission
+2019-03-29 20:26:11 Debug: Checking for network_info in log
+2019-03-29 20:26:11 Debug: Found network_info
+2019-03-29 20:26:11 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:26:11 Debug: MESH: Found vpn_info
+2019-03-29 20:26:11 Debug: Checking for system_info in log
+2019-03-29 20:26:11 Debug: Found system_info
+2019-03-29 20:26:11 Debug: Checking for vis info in log
+2019-03-29 20:26:11 Debug: Found vis
+2019-03-29 20:26:11 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:26:11 Debug: Node with MAC  was not found
+2019-03-29 20:27:11 Debug: Got a new report submission
+2019-03-29 20:27:11 Debug: Checking for network_info in log
+2019-03-29 20:27:11 Debug: Found network_info
+2019-03-29 20:27:11 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:27:11 Debug: MESH: Found vpn_info
+2019-03-29 20:27:11 Debug: Checking for system_info in log
+2019-03-29 20:27:11 Debug: Found system_info
+2019-03-29 20:27:11 Debug: Checking for vis info in log
+2019-03-29 20:27:11 Debug: Found vis
+2019-03-29 20:27:11 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:27:11 Debug: Node with MAC  was not found
+2019-03-29 20:28:12 Debug: Got a new report submission
+2019-03-29 20:28:12 Debug: Checking for network_info in log
+2019-03-29 20:28:12 Debug: Found network_info
+2019-03-29 20:28:12 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:28:12 Debug: MESH: Found vpn_info
+2019-03-29 20:28:12 Debug: Checking for system_info in log
+2019-03-29 20:28:12 Debug: Found system_info
+2019-03-29 20:28:12 Debug: Checking for vis info in log
+2019-03-29 20:28:12 Debug: Found vis
+2019-03-29 20:28:12 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:28:12 Debug: Node with MAC  was not found
+2019-03-29 20:29:12 Debug: Got a new report submission
+2019-03-29 20:29:12 Debug: Checking for network_info in log
+2019-03-29 20:29:12 Debug: Found network_info
+2019-03-29 20:29:12 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:29:12 Debug: MESH: Found vpn_info
+2019-03-29 20:29:12 Debug: Checking for system_info in log
+2019-03-29 20:29:12 Debug: Found system_info
+2019-03-29 20:29:12 Debug: Checking for vis info in log
+2019-03-29 20:29:12 Debug: Found vis
+2019-03-29 20:29:12 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:29:12 Debug: Node with MAC  was not found
+2019-03-29 20:30:13 Debug: Got a new report submission
+2019-03-29 20:30:13 Debug: Checking for network_info in log
+2019-03-29 20:30:13 Debug: Found network_info
+2019-03-29 20:30:13 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:30:13 Debug: MESH: Found vpn_info
+2019-03-29 20:30:13 Debug: Checking for system_info in log
+2019-03-29 20:30:13 Debug: Found system_info
+2019-03-29 20:30:13 Debug: Checking for vis info in log
+2019-03-29 20:30:13 Debug: Found vis
+2019-03-29 20:30:13 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:30:13 Debug: Node with MAC  was not found
+2019-03-29 20:31:13 Debug: Got a new report submission
+2019-03-29 20:31:13 Debug: Checking for network_info in log
+2019-03-29 20:31:13 Debug: Found network_info
+2019-03-29 20:31:13 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:31:13 Debug: MESH: Found vpn_info
+2019-03-29 20:31:13 Debug: Checking for system_info in log
+2019-03-29 20:31:13 Debug: Found system_info
+2019-03-29 20:31:13 Debug: Checking for vis info in log
+2019-03-29 20:31:13 Debug: Found vis
+2019-03-29 20:31:13 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:31:13 Debug: Node with MAC  was not found
+2019-03-29 20:32:14 Debug: Got a new report submission
+2019-03-29 20:32:14 Debug: Checking for network_info in log
+2019-03-29 20:32:14 Debug: Found network_info
+2019-03-29 20:32:14 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:32:14 Debug: MESH: Found vpn_info
+2019-03-29 20:32:14 Debug: Checking for system_info in log
+2019-03-29 20:32:14 Debug: Found system_info
+2019-03-29 20:32:14 Debug: Checking for vis info in log
+2019-03-29 20:32:14 Debug: Found vis
+2019-03-29 20:32:14 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:32:14 Debug: Node with MAC  was not found
+2019-03-29 20:33:14 Debug: Got a new report submission
+2019-03-29 20:33:14 Debug: Checking for network_info in log
+2019-03-29 20:33:14 Debug: Found network_info
+2019-03-29 20:33:14 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:33:14 Debug: MESH: Found vpn_info
+2019-03-29 20:33:14 Debug: Checking for system_info in log
+2019-03-29 20:33:14 Debug: Found system_info
+2019-03-29 20:33:14 Debug: Checking for vis info in log
+2019-03-29 20:33:14 Debug: Found vis
+2019-03-29 20:33:14 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:33:14 Debug: Node with MAC  was not found
+2019-03-29 20:34:15 Debug: Got a new report submission
+2019-03-29 20:34:15 Debug: Checking for network_info in log
+2019-03-29 20:34:15 Debug: Found network_info
+2019-03-29 20:34:15 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:34:15 Debug: MESH: Found vpn_info
+2019-03-29 20:34:15 Debug: Checking for system_info in log
+2019-03-29 20:34:15 Debug: Found system_info
+2019-03-29 20:34:15 Debug: Checking for vis info in log
+2019-03-29 20:34:15 Debug: Found vis
+2019-03-29 20:34:15 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:34:15 Debug: Node with MAC  was not found
+2019-03-29 20:35:15 Debug: Got a new report submission
+2019-03-29 20:35:15 Debug: Checking for network_info in log
+2019-03-29 20:35:15 Debug: Found network_info
+2019-03-29 20:35:15 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:35:15 Debug: MESH: Found vpn_info
+2019-03-29 20:35:15 Debug: Checking for system_info in log
+2019-03-29 20:35:15 Debug: Found system_info
+2019-03-29 20:35:15 Debug: Checking for vis info in log
+2019-03-29 20:35:15 Debug: Found vis
+2019-03-29 20:35:15 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:35:15 Debug: Node with MAC  was not found
+2019-03-29 20:36:16 Debug: Got a new report submission
+2019-03-29 20:36:16 Debug: Checking for network_info in log
+2019-03-29 20:36:16 Debug: Found network_info
+2019-03-29 20:36:16 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:36:16 Debug: MESH: Found vpn_info
+2019-03-29 20:36:16 Debug: Checking for system_info in log
+2019-03-29 20:36:16 Debug: Found system_info
+2019-03-29 20:36:16 Debug: Checking for vis info in log
+2019-03-29 20:36:16 Debug: Found vis
+2019-03-29 20:36:16 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:36:16 Debug: Node with MAC  was not found
+2019-03-29 20:37:16 Debug: Got a new report submission
+2019-03-29 20:37:16 Debug: Checking for network_info in log
+2019-03-29 20:37:16 Debug: Found network_info
+2019-03-29 20:37:16 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:37:16 Debug: MESH: Found vpn_info
+2019-03-29 20:37:16 Debug: Checking for system_info in log
+2019-03-29 20:37:16 Debug: Found system_info
+2019-03-29 20:37:16 Debug: Checking for vis info in log
+2019-03-29 20:37:16 Debug: Found vis
+2019-03-29 20:37:16 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:37:16 Debug: Node with MAC  was not found
+2019-03-29 20:38:17 Debug: Got a new report submission
+2019-03-29 20:38:17 Debug: Checking for network_info in log
+2019-03-29 20:38:17 Debug: Found network_info
+2019-03-29 20:38:17 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:38:17 Debug: MESH: Found vpn_info
+2019-03-29 20:38:17 Debug: Checking for system_info in log
+2019-03-29 20:38:17 Debug: Found system_info
+2019-03-29 20:38:17 Debug: Checking for vis info in log
+2019-03-29 20:38:17 Debug: Found vis
+2019-03-29 20:38:17 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:38:17 Debug: Node with MAC  was not found
+2019-03-29 20:39:17 Debug: Got a new report submission
+2019-03-29 20:39:17 Debug: Checking for network_info in log
+2019-03-29 20:39:17 Debug: Found network_info
+2019-03-29 20:39:17 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:39:17 Debug: MESH: Found vpn_info
+2019-03-29 20:39:17 Debug: Checking for system_info in log
+2019-03-29 20:39:17 Debug: Found system_info
+2019-03-29 20:39:17 Debug: Checking for vis info in log
+2019-03-29 20:39:17 Debug: Found vis
+2019-03-29 20:39:17 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:39:17 Debug: Node with MAC  was not found
+2019-03-29 20:40:18 Debug: Got a new report submission
+2019-03-29 20:40:18 Debug: Checking for network_info in log
+2019-03-29 20:40:18 Debug: Found network_info
+2019-03-29 20:40:18 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:40:18 Debug: MESH: Found vpn_info
+2019-03-29 20:40:18 Debug: Checking for system_info in log
+2019-03-29 20:40:18 Debug: Found system_info
+2019-03-29 20:40:18 Debug: Checking for vis info in log
+2019-03-29 20:40:18 Debug: Found vis
+2019-03-29 20:40:18 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:40:18 Debug: Node with MAC  was not found
+2019-03-29 20:41:18 Debug: Got a new report submission
+2019-03-29 20:41:18 Debug: Checking for network_info in log
+2019-03-29 20:41:18 Debug: Found network_info
+2019-03-29 20:41:18 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:41:18 Debug: MESH: Found vpn_info
+2019-03-29 20:41:18 Debug: Checking for system_info in log
+2019-03-29 20:41:18 Debug: Found system_info
+2019-03-29 20:41:18 Debug: Checking for vis info in log
+2019-03-29 20:41:18 Debug: Found vis
+2019-03-29 20:41:18 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:41:18 Debug: Node with MAC  was not found
+2019-03-29 20:42:19 Debug: Got a new report submission
+2019-03-29 20:42:19 Debug: Checking for network_info in log
+2019-03-29 20:42:19 Debug: Found network_info
+2019-03-29 20:42:19 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:42:19 Debug: MESH: Found vpn_info
+2019-03-29 20:42:19 Debug: Checking for system_info in log
+2019-03-29 20:42:19 Debug: Found system_info
+2019-03-29 20:42:19 Debug: Checking for vis info in log
+2019-03-29 20:42:19 Debug: Found vis
+2019-03-29 20:42:19 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:42:19 Debug: Node with MAC  was not found
+2019-03-29 20:43:19 Debug: Got a new report submission
+2019-03-29 20:43:19 Debug: Checking for network_info in log
+2019-03-29 20:43:19 Debug: Found network_info
+2019-03-29 20:43:19 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:43:19 Debug: MESH: Found vpn_info
+2019-03-29 20:43:19 Debug: Checking for system_info in log
+2019-03-29 20:43:19 Debug: Found system_info
+2019-03-29 20:43:19 Debug: Checking for vis info in log
+2019-03-29 20:43:19 Debug: Found vis
+2019-03-29 20:43:19 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:43:19 Debug: Node with MAC  was not found
+2019-03-29 20:44:19 Debug: Got a new report submission
+2019-03-29 20:44:19 Debug: Checking for network_info in log
+2019-03-29 20:44:19 Debug: Found network_info
+2019-03-29 20:44:19 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:44:19 Debug: MESH: Found vpn_info
+2019-03-29 20:44:19 Debug: Checking for system_info in log
+2019-03-29 20:44:19 Debug: Found system_info
+2019-03-29 20:44:19 Debug: Checking for vis info in log
+2019-03-29 20:44:19 Debug: Found vis
+2019-03-29 20:44:19 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:44:19 Debug: Node with MAC  was not found
+2019-03-29 20:45:20 Debug: Got a new report submission
+2019-03-29 20:45:20 Debug: Checking for network_info in log
+2019-03-29 20:45:20 Debug: Found network_info
+2019-03-29 20:45:20 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:45:20 Debug: MESH: Found vpn_info
+2019-03-29 20:45:20 Debug: Checking for system_info in log
+2019-03-29 20:45:20 Debug: Found system_info
+2019-03-29 20:45:20 Debug: Checking for vis info in log
+2019-03-29 20:45:20 Debug: Found vis
+2019-03-29 20:45:20 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:45:20 Debug: Node with MAC  was not found
+2019-03-29 20:46:20 Debug: Got a new report submission
+2019-03-29 20:46:20 Debug: Checking for network_info in log
+2019-03-29 20:46:20 Debug: Found network_info
+2019-03-29 20:46:20 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:46:20 Debug: MESH: Found vpn_info
+2019-03-29 20:46:20 Debug: Checking for system_info in log
+2019-03-29 20:46:20 Debug: Found system_info
+2019-03-29 20:46:20 Debug: Checking for vis info in log
+2019-03-29 20:46:20 Debug: Found vis
+2019-03-29 20:46:20 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:46:20 Debug: Node with MAC  was not found
+2019-03-29 20:47:21 Debug: Got a new report submission
+2019-03-29 20:47:21 Debug: Checking for network_info in log
+2019-03-29 20:47:21 Debug: Found network_info
+2019-03-29 20:47:21 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:47:21 Debug: MESH: Found vpn_info
+2019-03-29 20:47:21 Debug: Checking for system_info in log
+2019-03-29 20:47:21 Debug: Found system_info
+2019-03-29 20:47:21 Debug: Checking for vis info in log
+2019-03-29 20:47:21 Debug: Found vis
+2019-03-29 20:47:21 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:47:21 Debug: Node with MAC  was not found
+2019-03-29 20:48:21 Debug: Got a new report submission
+2019-03-29 20:48:21 Debug: Checking for network_info in log
+2019-03-29 20:48:21 Debug: Found network_info
+2019-03-29 20:48:21 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:48:21 Debug: MESH: Found vpn_info
+2019-03-29 20:48:21 Debug: Checking for system_info in log
+2019-03-29 20:48:21 Debug: Found system_info
+2019-03-29 20:48:21 Debug: Checking for vis info in log
+2019-03-29 20:48:21 Debug: Found vis
+2019-03-29 20:48:21 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:48:21 Debug: Node with MAC  was not found
+2019-03-29 20:49:22 Debug: Got a new report submission
+2019-03-29 20:49:22 Debug: Checking for network_info in log
+2019-03-29 20:49:22 Debug: Found network_info
+2019-03-29 20:49:22 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:49:22 Debug: MESH: Found vpn_info
+2019-03-29 20:49:22 Debug: Checking for system_info in log
+2019-03-29 20:49:22 Debug: Found system_info
+2019-03-29 20:49:22 Debug: Checking for vis info in log
+2019-03-29 20:49:22 Debug: Found vis
+2019-03-29 20:49:22 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:49:22 Debug: Node with MAC  was not found
+2019-03-29 20:50:22 Debug: Got a new report submission
+2019-03-29 20:50:22 Debug: Checking for network_info in log
+2019-03-29 20:50:22 Debug: Found network_info
+2019-03-29 20:50:22 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:50:22 Debug: MESH: Found vpn_info
+2019-03-29 20:50:22 Debug: Checking for system_info in log
+2019-03-29 20:50:22 Debug: Found system_info
+2019-03-29 20:50:22 Debug: Checking for vis info in log
+2019-03-29 20:50:22 Debug: Found vis
+2019-03-29 20:50:22 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:50:22 Debug: Node with MAC  was not found
+2019-03-29 20:51:23 Debug: Got a new report submission
+2019-03-29 20:51:23 Debug: Checking for network_info in log
+2019-03-29 20:51:23 Debug: Found network_info
+2019-03-29 20:51:23 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:51:23 Debug: MESH: Found vpn_info
+2019-03-29 20:51:23 Debug: Checking for system_info in log
+2019-03-29 20:51:23 Debug: Found system_info
+2019-03-29 20:51:23 Debug: Checking for vis info in log
+2019-03-29 20:51:23 Debug: Found vis
+2019-03-29 20:51:23 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:51:23 Debug: Node with MAC  was not found
+2019-03-29 20:52:23 Debug: Got a new report submission
+2019-03-29 20:52:23 Debug: Checking for network_info in log
+2019-03-29 20:52:23 Debug: Found network_info
+2019-03-29 20:52:23 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:52:23 Debug: MESH: Found vpn_info
+2019-03-29 20:52:23 Debug: Checking for system_info in log
+2019-03-29 20:52:23 Debug: Found system_info
+2019-03-29 20:52:23 Debug: Checking for vis info in log
+2019-03-29 20:52:23 Debug: Found vis
+2019-03-29 20:52:23 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:52:23 Debug: Node with MAC  was not found
+2019-03-29 20:53:23 Debug: Got a new report submission
+2019-03-29 20:53:23 Debug: Checking for network_info in log
+2019-03-29 20:53:23 Debug: Found network_info
+2019-03-29 20:53:23 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:53:23 Debug: MESH: Found vpn_info
+2019-03-29 20:53:23 Debug: Checking for system_info in log
+2019-03-29 20:53:23 Debug: Found system_info
+2019-03-29 20:53:23 Debug: Checking for vis info in log
+2019-03-29 20:53:23 Debug: Found vis
+2019-03-29 20:53:23 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:53:23 Debug: Node with MAC  was not found
+2019-03-29 20:54:24 Debug: Got a new report submission
+2019-03-29 20:54:24 Debug: Checking for network_info in log
+2019-03-29 20:54:24 Debug: Found network_info
+2019-03-29 20:54:24 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:54:24 Debug: MESH: Found vpn_info
+2019-03-29 20:54:24 Debug: Checking for system_info in log
+2019-03-29 20:54:24 Debug: Found system_info
+2019-03-29 20:54:24 Debug: Checking for vis info in log
+2019-03-29 20:54:24 Debug: Found vis
+2019-03-29 20:54:24 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:54:24 Debug: Node with MAC  was not found
+2019-03-29 20:55:24 Debug: Got a new report submission
+2019-03-29 20:55:24 Debug: Checking for network_info in log
+2019-03-29 20:55:24 Debug: Found network_info
+2019-03-29 20:55:24 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:55:24 Debug: MESH: Found vpn_info
+2019-03-29 20:55:24 Debug: Checking for system_info in log
+2019-03-29 20:55:24 Debug: Found system_info
+2019-03-29 20:55:24 Debug: Checking for vis info in log
+2019-03-29 20:55:24 Debug: Found vis
+2019-03-29 20:55:24 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:55:24 Debug: Node with MAC  was not found
+2019-03-29 20:56:25 Debug: Got a new report submission
+2019-03-29 20:56:25 Debug: Checking for network_info in log
+2019-03-29 20:56:25 Debug: Found network_info
+2019-03-29 20:56:25 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:56:25 Debug: MESH: Found vpn_info
+2019-03-29 20:56:25 Debug: Checking for system_info in log
+2019-03-29 20:56:25 Debug: Found system_info
+2019-03-29 20:56:25 Debug: Checking for vis info in log
+2019-03-29 20:56:25 Debug: Found vis
+2019-03-29 20:56:25 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:56:25 Debug: Node with MAC  was not found
+2019-03-29 20:57:25 Debug: Got a new report submission
+2019-03-29 20:57:25 Debug: Checking for network_info in log
+2019-03-29 20:57:25 Debug: Found network_info
+2019-03-29 20:57:25 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:57:25 Debug: MESH: Found vpn_info
+2019-03-29 20:57:25 Debug: Checking for system_info in log
+2019-03-29 20:57:25 Debug: Found system_info
+2019-03-29 20:57:25 Debug: Checking for vis info in log
+2019-03-29 20:57:25 Debug: Found vis
+2019-03-29 20:57:25 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:57:25 Debug: Node with MAC  was not found
+2019-03-29 20:58:26 Debug: Got a new report submission
+2019-03-29 20:58:26 Debug: Checking for network_info in log
+2019-03-29 20:58:26 Debug: Found network_info
+2019-03-29 20:58:26 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:58:26 Debug: MESH: Found vpn_info
+2019-03-29 20:58:26 Debug: Checking for system_info in log
+2019-03-29 20:58:26 Debug: Found system_info
+2019-03-29 20:58:26 Debug: Checking for vis info in log
+2019-03-29 20:58:26 Debug: Found vis
+2019-03-29 20:58:26 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:58:26 Debug: Node with MAC  was not found
+2019-03-29 20:59:26 Debug: Got a new report submission
+2019-03-29 20:59:26 Debug: Checking for network_info in log
+2019-03-29 20:59:26 Debug: Found network_info
+2019-03-29 20:59:26 Debug: MESH: Checking for vpn_info in log
+2019-03-29 20:59:26 Debug: MESH: Found vpn_info
+2019-03-29 20:59:26 Debug: Checking for system_info in log
+2019-03-29 20:59:26 Debug: Found system_info
+2019-03-29 20:59:26 Debug: Checking for vis info in log
+2019-03-29 20:59:26 Debug: Found vis
+2019-03-29 20:59:26 Debug: Looking for commands waiting for this mesh
+2019-03-29 20:59:26 Debug: Node with MAC  was not found
+2019-03-29 21:00:27 Debug: Got a new report submission
+2019-03-29 21:00:27 Debug: Checking for network_info in log
+2019-03-29 21:00:27 Debug: Found network_info
+2019-03-29 21:00:27 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:00:27 Debug: MESH: Found vpn_info
+2019-03-29 21:00:27 Debug: Checking for system_info in log
+2019-03-29 21:00:27 Debug: Found system_info
+2019-03-29 21:00:27 Debug: Checking for vis info in log
+2019-03-29 21:00:27 Debug: Found vis
+2019-03-29 21:00:27 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:00:27 Debug: Node with MAC  was not found
+2019-03-29 21:01:27 Debug: Got a new report submission
+2019-03-29 21:01:27 Debug: Checking for network_info in log
+2019-03-29 21:01:27 Debug: Found network_info
+2019-03-29 21:01:27 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:01:27 Debug: MESH: Found vpn_info
+2019-03-29 21:01:27 Debug: Checking for system_info in log
+2019-03-29 21:01:27 Debug: Found system_info
+2019-03-29 21:01:27 Debug: Checking for vis info in log
+2019-03-29 21:01:27 Debug: Found vis
+2019-03-29 21:01:27 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:01:27 Debug: Node with MAC  was not found
+2019-03-29 21:02:28 Debug: Got a new report submission
+2019-03-29 21:02:28 Debug: Checking for network_info in log
+2019-03-29 21:02:28 Debug: Found network_info
+2019-03-29 21:02:28 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:02:28 Debug: MESH: Found vpn_info
+2019-03-29 21:02:28 Debug: Checking for system_info in log
+2019-03-29 21:02:28 Debug: Found system_info
+2019-03-29 21:02:28 Debug: Checking for vis info in log
+2019-03-29 21:02:28 Debug: Found vis
+2019-03-29 21:02:28 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:02:28 Debug: Node with MAC  was not found
+2019-03-29 21:03:28 Debug: Got a new report submission
+2019-03-29 21:03:28 Debug: Checking for network_info in log
+2019-03-29 21:03:28 Debug: Found network_info
+2019-03-29 21:03:28 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:03:28 Debug: MESH: Found vpn_info
+2019-03-29 21:03:28 Debug: Checking for system_info in log
+2019-03-29 21:03:28 Debug: Found system_info
+2019-03-29 21:03:28 Debug: Checking for vis info in log
+2019-03-29 21:03:28 Debug: Found vis
+2019-03-29 21:03:28 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:03:28 Debug: Node with MAC  was not found
+2019-03-29 21:04:29 Debug: Got a new report submission
+2019-03-29 21:04:29 Debug: Checking for network_info in log
+2019-03-29 21:04:29 Debug: Found network_info
+2019-03-29 21:04:29 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:04:29 Debug: MESH: Found vpn_info
+2019-03-29 21:04:29 Debug: Checking for system_info in log
+2019-03-29 21:04:29 Debug: Found system_info
+2019-03-29 21:04:29 Debug: Checking for vis info in log
+2019-03-29 21:04:29 Debug: Found vis
+2019-03-29 21:04:29 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:04:29 Debug: Node with MAC  was not found
+2019-03-29 21:05:29 Debug: Got a new report submission
+2019-03-29 21:05:29 Debug: Checking for network_info in log
+2019-03-29 21:05:29 Debug: Found network_info
+2019-03-29 21:05:29 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:05:29 Debug: MESH: Found vpn_info
+2019-03-29 21:05:29 Debug: Checking for system_info in log
+2019-03-29 21:05:29 Debug: Found system_info
+2019-03-29 21:05:29 Debug: Checking for vis info in log
+2019-03-29 21:05:29 Debug: Found vis
+2019-03-29 21:05:29 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:05:29 Debug: Node with MAC  was not found
+2019-03-29 21:06:30 Debug: Got a new report submission
+2019-03-29 21:06:30 Debug: Checking for network_info in log
+2019-03-29 21:06:30 Debug: Found network_info
+2019-03-29 21:06:30 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:06:30 Debug: MESH: Found vpn_info
+2019-03-29 21:06:30 Debug: Checking for system_info in log
+2019-03-29 21:06:30 Debug: Found system_info
+2019-03-29 21:06:30 Debug: Checking for vis info in log
+2019-03-29 21:06:30 Debug: Found vis
+2019-03-29 21:06:30 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:06:30 Debug: Node with MAC  was not found
+2019-03-29 21:07:30 Debug: Got a new report submission
+2019-03-29 21:07:30 Debug: Checking for network_info in log
+2019-03-29 21:07:30 Debug: Found network_info
+2019-03-29 21:07:30 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:07:30 Debug: MESH: Found vpn_info
+2019-03-29 21:07:30 Debug: Checking for system_info in log
+2019-03-29 21:07:30 Debug: Found system_info
+2019-03-29 21:07:30 Debug: Checking for vis info in log
+2019-03-29 21:07:30 Debug: Found vis
+2019-03-29 21:07:30 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:07:30 Debug: Node with MAC  was not found
+2019-03-29 21:08:31 Debug: Got a new report submission
+2019-03-29 21:08:31 Debug: Checking for network_info in log
+2019-03-29 21:08:31 Debug: Found network_info
+2019-03-29 21:08:31 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:08:31 Debug: MESH: Found vpn_info
+2019-03-29 21:08:31 Debug: Checking for system_info in log
+2019-03-29 21:08:31 Debug: Found system_info
+2019-03-29 21:08:31 Debug: Checking for vis info in log
+2019-03-29 21:08:31 Debug: Found vis
+2019-03-29 21:08:31 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:08:31 Debug: Node with MAC  was not found
+2019-03-29 21:09:31 Debug: Got a new report submission
+2019-03-29 21:09:31 Debug: Checking for network_info in log
+2019-03-29 21:09:31 Debug: Found network_info
+2019-03-29 21:09:31 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:09:31 Debug: MESH: Found vpn_info
+2019-03-29 21:09:31 Debug: Checking for system_info in log
+2019-03-29 21:09:31 Debug: Found system_info
+2019-03-29 21:09:31 Debug: Checking for vis info in log
+2019-03-29 21:09:31 Debug: Found vis
+2019-03-29 21:09:31 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:09:31 Debug: Node with MAC  was not found
+2019-03-29 21:10:32 Debug: Got a new report submission
+2019-03-29 21:10:32 Debug: Checking for network_info in log
+2019-03-29 21:10:32 Debug: Found network_info
+2019-03-29 21:10:32 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:10:32 Debug: MESH: Found vpn_info
+2019-03-29 21:10:32 Debug: Checking for system_info in log
+2019-03-29 21:10:32 Debug: Found system_info
+2019-03-29 21:10:32 Debug: Checking for vis info in log
+2019-03-29 21:10:32 Debug: Found vis
+2019-03-29 21:10:32 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:10:32 Debug: Node with MAC  was not found
+2019-03-29 21:11:33 Debug: Got a new report submission
+2019-03-29 21:11:33 Debug: Checking for network_info in log
+2019-03-29 21:11:33 Debug: Found network_info
+2019-03-29 21:11:33 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:11:33 Debug: MESH: Found vpn_info
+2019-03-29 21:11:33 Debug: Checking for system_info in log
+2019-03-29 21:11:33 Debug: Found system_info
+2019-03-29 21:11:33 Debug: Checking for vis info in log
+2019-03-29 21:11:33 Debug: Found vis
+2019-03-29 21:11:33 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:11:33 Debug: Node with MAC  was not found
+2019-03-29 21:12:33 Debug: Got a new report submission
+2019-03-29 21:12:33 Debug: Checking for network_info in log
+2019-03-29 21:12:33 Debug: Found network_info
+2019-03-29 21:12:33 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:12:33 Debug: MESH: Found vpn_info
+2019-03-29 21:12:33 Debug: Checking for system_info in log
+2019-03-29 21:12:33 Debug: Found system_info
+2019-03-29 21:12:33 Debug: Checking for vis info in log
+2019-03-29 21:12:33 Debug: Found vis
+2019-03-29 21:12:33 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:12:33 Debug: Node with MAC  was not found
+2019-03-29 21:13:33 Debug: Got a new report submission
+2019-03-29 21:13:33 Debug: Checking for network_info in log
+2019-03-29 21:13:33 Debug: Found network_info
+2019-03-29 21:13:33 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:13:33 Debug: MESH: Found vpn_info
+2019-03-29 21:13:33 Debug: Checking for system_info in log
+2019-03-29 21:13:33 Debug: Found system_info
+2019-03-29 21:13:33 Debug: Checking for vis info in log
+2019-03-29 21:13:33 Debug: Found vis
+2019-03-29 21:13:33 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:13:33 Debug: Node with MAC  was not found
+2019-03-29 21:14:34 Debug: Got a new report submission
+2019-03-29 21:14:34 Debug: Checking for network_info in log
+2019-03-29 21:14:34 Debug: Found network_info
+2019-03-29 21:14:34 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:14:34 Debug: MESH: Found vpn_info
+2019-03-29 21:14:34 Debug: Checking for system_info in log
+2019-03-29 21:14:34 Debug: Found system_info
+2019-03-29 21:14:34 Debug: Checking for vis info in log
+2019-03-29 21:14:34 Debug: Found vis
+2019-03-29 21:14:34 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:14:34 Debug: Node with MAC  was not found
+2019-03-29 21:15:35 Debug: Got a new report submission
+2019-03-29 21:15:35 Debug: Checking for network_info in log
+2019-03-29 21:15:35 Debug: Found network_info
+2019-03-29 21:15:35 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:15:35 Debug: MESH: Found vpn_info
+2019-03-29 21:15:35 Debug: Checking for system_info in log
+2019-03-29 21:15:35 Debug: Found system_info
+2019-03-29 21:15:35 Debug: Checking for vis info in log
+2019-03-29 21:15:35 Debug: Found vis
+2019-03-29 21:15:35 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:15:35 Debug: Node with MAC  was not found
+2019-03-29 21:16:35 Debug: Got a new report submission
+2019-03-29 21:16:35 Debug: Checking for network_info in log
+2019-03-29 21:16:35 Debug: Found network_info
+2019-03-29 21:16:35 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:16:35 Debug: MESH: Found vpn_info
+2019-03-29 21:16:35 Debug: Checking for system_info in log
+2019-03-29 21:16:35 Debug: Found system_info
+2019-03-29 21:16:35 Debug: Checking for vis info in log
+2019-03-29 21:16:35 Debug: Found vis
+2019-03-29 21:16:35 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:16:35 Debug: Node with MAC  was not found
+2019-03-29 21:17:36 Debug: Got a new report submission
+2019-03-29 21:17:36 Debug: Checking for network_info in log
+2019-03-29 21:17:36 Debug: Found network_info
+2019-03-29 21:17:36 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:17:36 Debug: MESH: Found vpn_info
+2019-03-29 21:17:36 Debug: Checking for system_info in log
+2019-03-29 21:17:36 Debug: Found system_info
+2019-03-29 21:17:36 Debug: Checking for vis info in log
+2019-03-29 21:17:36 Debug: Found vis
+2019-03-29 21:17:36 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:17:36 Debug: Node with MAC  was not found
+2019-03-29 21:18:36 Debug: Got a new report submission
+2019-03-29 21:18:36 Debug: Checking for network_info in log
+2019-03-29 21:18:36 Debug: Found network_info
+2019-03-29 21:18:36 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:18:36 Debug: MESH: Found vpn_info
+2019-03-29 21:18:36 Debug: Checking for system_info in log
+2019-03-29 21:18:36 Debug: Found system_info
+2019-03-29 21:18:36 Debug: Checking for vis info in log
+2019-03-29 21:18:36 Debug: Found vis
+2019-03-29 21:18:36 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:18:36 Debug: Node with MAC  was not found
+2019-03-29 21:19:36 Debug: Got a new report submission
+2019-03-29 21:19:36 Debug: Checking for network_info in log
+2019-03-29 21:19:36 Debug: Found network_info
+2019-03-29 21:19:36 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:19:36 Debug: MESH: Found vpn_info
+2019-03-29 21:19:36 Debug: Checking for system_info in log
+2019-03-29 21:19:36 Debug: Found system_info
+2019-03-29 21:19:36 Debug: Checking for vis info in log
+2019-03-29 21:19:36 Debug: Found vis
+2019-03-29 21:19:36 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:19:36 Debug: Node with MAC  was not found
+2019-03-29 21:20:37 Debug: Got a new report submission
+2019-03-29 21:20:37 Debug: Checking for network_info in log
+2019-03-29 21:20:37 Debug: Found network_info
+2019-03-29 21:20:37 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:20:37 Debug: MESH: Found vpn_info
+2019-03-29 21:20:37 Debug: Checking for system_info in log
+2019-03-29 21:20:37 Debug: Found system_info
+2019-03-29 21:20:37 Debug: Checking for vis info in log
+2019-03-29 21:20:37 Debug: Found vis
+2019-03-29 21:20:37 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:20:37 Debug: Node with MAC  was not found
+2019-03-29 21:21:37 Debug: Got a new report submission
+2019-03-29 21:21:37 Debug: Checking for network_info in log
+2019-03-29 21:21:37 Debug: Found network_info
+2019-03-29 21:21:37 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:21:37 Debug: MESH: Found vpn_info
+2019-03-29 21:21:37 Debug: Checking for system_info in log
+2019-03-29 21:21:37 Debug: Found system_info
+2019-03-29 21:21:37 Debug: Checking for vis info in log
+2019-03-29 21:21:37 Debug: Found vis
+2019-03-29 21:21:37 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:21:37 Debug: Node with MAC  was not found
+2019-03-29 21:22:38 Debug: Got a new report submission
+2019-03-29 21:22:38 Debug: Checking for network_info in log
+2019-03-29 21:22:38 Debug: Found network_info
+2019-03-29 21:22:38 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:22:38 Debug: MESH: Found vpn_info
+2019-03-29 21:22:38 Debug: Checking for system_info in log
+2019-03-29 21:22:38 Debug: Found system_info
+2019-03-29 21:22:38 Debug: Checking for vis info in log
+2019-03-29 21:22:38 Debug: Found vis
+2019-03-29 21:22:38 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:22:38 Debug: Node with MAC  was not found
+2019-03-29 21:23:38 Debug: Got a new report submission
+2019-03-29 21:23:38 Debug: Checking for network_info in log
+2019-03-29 21:23:38 Debug: Found network_info
+2019-03-29 21:23:38 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:23:38 Debug: MESH: Found vpn_info
+2019-03-29 21:23:38 Debug: Checking for system_info in log
+2019-03-29 21:23:38 Debug: Found system_info
+2019-03-29 21:23:38 Debug: Checking for vis info in log
+2019-03-29 21:23:38 Debug: Found vis
+2019-03-29 21:23:38 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:23:38 Debug: Node with MAC  was not found
+2019-03-29 21:24:39 Debug: Got a new report submission
+2019-03-29 21:24:39 Debug: Checking for network_info in log
+2019-03-29 21:24:39 Debug: Found network_info
+2019-03-29 21:24:39 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:24:39 Debug: MESH: Found vpn_info
+2019-03-29 21:24:39 Debug: Checking for system_info in log
+2019-03-29 21:24:39 Debug: Found system_info
+2019-03-29 21:24:39 Debug: Checking for vis info in log
+2019-03-29 21:24:39 Debug: Found vis
+2019-03-29 21:24:39 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:24:39 Debug: Node with MAC  was not found
+2019-03-29 21:25:39 Debug: Got a new report submission
+2019-03-29 21:25:39 Debug: Checking for network_info in log
+2019-03-29 21:25:39 Debug: Found network_info
+2019-03-29 21:25:39 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:25:39 Debug: MESH: Found vpn_info
+2019-03-29 21:25:39 Debug: Checking for system_info in log
+2019-03-29 21:25:39 Debug: Found system_info
+2019-03-29 21:25:39 Debug: Checking for vis info in log
+2019-03-29 21:25:39 Debug: Found vis
+2019-03-29 21:25:39 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:25:39 Debug: Node with MAC  was not found
+2019-03-29 21:26:39 Debug: Got a new report submission
+2019-03-29 21:26:39 Debug: Checking for network_info in log
+2019-03-29 21:26:39 Debug: Found network_info
+2019-03-29 21:26:39 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:26:39 Debug: MESH: Found vpn_info
+2019-03-29 21:26:39 Debug: Checking for system_info in log
+2019-03-29 21:26:39 Debug: Found system_info
+2019-03-29 21:26:39 Debug: Checking for vis info in log
+2019-03-29 21:26:39 Debug: Found vis
+2019-03-29 21:26:39 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:26:39 Debug: Node with MAC  was not found
+2019-03-29 21:27:40 Debug: Got a new report submission
+2019-03-29 21:27:40 Debug: Checking for network_info in log
+2019-03-29 21:27:40 Debug: Found network_info
+2019-03-29 21:27:40 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:27:40 Debug: MESH: Found vpn_info
+2019-03-29 21:27:40 Debug: Checking for system_info in log
+2019-03-29 21:27:40 Debug: Found system_info
+2019-03-29 21:27:40 Debug: Checking for vis info in log
+2019-03-29 21:27:40 Debug: Found vis
+2019-03-29 21:27:40 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:27:40 Debug: Node with MAC  was not found
+2019-03-29 21:28:40 Debug: Got a new report submission
+2019-03-29 21:28:40 Debug: Checking for network_info in log
+2019-03-29 21:28:40 Debug: Found network_info
+2019-03-29 21:28:40 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:28:40 Debug: MESH: Found vpn_info
+2019-03-29 21:28:40 Debug: Checking for system_info in log
+2019-03-29 21:28:40 Debug: Found system_info
+2019-03-29 21:28:40 Debug: Checking for vis info in log
+2019-03-29 21:28:40 Debug: Found vis
+2019-03-29 21:28:40 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:28:40 Debug: Node with MAC  was not found
+2019-03-29 21:29:41 Debug: Got a new report submission
+2019-03-29 21:29:41 Debug: Checking for network_info in log
+2019-03-29 21:29:41 Debug: Found network_info
+2019-03-29 21:29:41 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:29:41 Debug: MESH: Found vpn_info
+2019-03-29 21:29:41 Debug: Checking for system_info in log
+2019-03-29 21:29:41 Debug: Found system_info
+2019-03-29 21:29:41 Debug: Checking for vis info in log
+2019-03-29 21:29:41 Debug: Found vis
+2019-03-29 21:29:41 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:29:41 Debug: Node with MAC  was not found
+2019-03-29 21:30:41 Debug: Got a new report submission
+2019-03-29 21:30:41 Debug: Checking for network_info in log
+2019-03-29 21:30:41 Debug: Found network_info
+2019-03-29 21:30:41 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:30:41 Debug: MESH: Found vpn_info
+2019-03-29 21:30:41 Debug: Checking for system_info in log
+2019-03-29 21:30:41 Debug: Found system_info
+2019-03-29 21:30:41 Debug: Checking for vis info in log
+2019-03-29 21:30:41 Debug: Found vis
+2019-03-29 21:30:41 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:30:41 Debug: Node with MAC  was not found
+2019-03-29 21:31:42 Debug: Got a new report submission
+2019-03-29 21:31:42 Debug: Checking for network_info in log
+2019-03-29 21:31:42 Debug: Found network_info
+2019-03-29 21:31:42 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:31:42 Debug: MESH: Found vpn_info
+2019-03-29 21:31:42 Debug: Checking for system_info in log
+2019-03-29 21:31:42 Debug: Found system_info
+2019-03-29 21:31:42 Debug: Checking for vis info in log
+2019-03-29 21:31:42 Debug: Found vis
+2019-03-29 21:31:42 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:31:42 Debug: Node with MAC  was not found
+2019-03-29 21:32:42 Debug: Got a new report submission
+2019-03-29 21:32:42 Debug: Checking for network_info in log
+2019-03-29 21:32:42 Debug: Found network_info
+2019-03-29 21:32:42 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:32:42 Debug: MESH: Found vpn_info
+2019-03-29 21:32:42 Debug: Checking for system_info in log
+2019-03-29 21:32:42 Debug: Found system_info
+2019-03-29 21:32:42 Debug: Checking for vis info in log
+2019-03-29 21:32:42 Debug: Found vis
+2019-03-29 21:32:42 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:32:42 Debug: Node with MAC  was not found
+2019-03-29 21:33:43 Debug: Got a new report submission
+2019-03-29 21:33:43 Debug: Checking for network_info in log
+2019-03-29 21:33:43 Debug: Found network_info
+2019-03-29 21:33:43 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:33:43 Debug: MESH: Found vpn_info
+2019-03-29 21:33:43 Debug: Checking for system_info in log
+2019-03-29 21:33:43 Debug: Found system_info
+2019-03-29 21:33:43 Debug: Checking for vis info in log
+2019-03-29 21:33:43 Debug: Found vis
+2019-03-29 21:33:43 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:33:43 Debug: Node with MAC  was not found
+2019-03-29 21:34:43 Debug: Got a new report submission
+2019-03-29 21:34:43 Debug: Checking for network_info in log
+2019-03-29 21:34:43 Debug: Found network_info
+2019-03-29 21:34:43 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:34:43 Debug: MESH: Found vpn_info
+2019-03-29 21:34:43 Debug: Checking for system_info in log
+2019-03-29 21:34:43 Debug: Found system_info
+2019-03-29 21:34:43 Debug: Checking for vis info in log
+2019-03-29 21:34:43 Debug: Found vis
+2019-03-29 21:34:43 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:34:43 Debug: Node with MAC  was not found
+2019-03-29 21:35:43 Debug: Got a new report submission
+2019-03-29 21:35:43 Debug: Checking for network_info in log
+2019-03-29 21:35:43 Debug: Found network_info
+2019-03-29 21:35:43 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:35:43 Debug: MESH: Found vpn_info
+2019-03-29 21:35:43 Debug: Checking for system_info in log
+2019-03-29 21:35:43 Debug: Found system_info
+2019-03-29 21:35:43 Debug: Checking for vis info in log
+2019-03-29 21:35:43 Debug: Found vis
+2019-03-29 21:35:43 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:35:43 Debug: Node with MAC  was not found
+2019-03-29 21:36:44 Debug: Got a new report submission
+2019-03-29 21:36:44 Debug: Checking for network_info in log
+2019-03-29 21:36:44 Debug: Found network_info
+2019-03-29 21:36:44 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:36:44 Debug: MESH: Found vpn_info
+2019-03-29 21:36:44 Debug: Checking for system_info in log
+2019-03-29 21:36:44 Debug: Found system_info
+2019-03-29 21:36:44 Debug: Checking for vis info in log
+2019-03-29 21:36:44 Debug: Found vis
+2019-03-29 21:36:44 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:36:44 Debug: Node with MAC  was not found
+2019-03-29 21:37:44 Debug: Got a new report submission
+2019-03-29 21:37:44 Debug: Checking for network_info in log
+2019-03-29 21:37:44 Debug: Found network_info
+2019-03-29 21:37:44 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:37:44 Debug: MESH: Found vpn_info
+2019-03-29 21:37:44 Debug: Checking for system_info in log
+2019-03-29 21:37:44 Debug: Found system_info
+2019-03-29 21:37:44 Debug: Checking for vis info in log
+2019-03-29 21:37:44 Debug: Found vis
+2019-03-29 21:37:44 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:37:44 Debug: Node with MAC  was not found
+2019-03-29 21:38:45 Debug: Got a new report submission
+2019-03-29 21:38:45 Debug: Checking for network_info in log
+2019-03-29 21:38:45 Debug: Found network_info
+2019-03-29 21:38:45 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:38:45 Debug: MESH: Found vpn_info
+2019-03-29 21:38:45 Debug: Checking for system_info in log
+2019-03-29 21:38:45 Debug: Found system_info
+2019-03-29 21:38:45 Debug: Checking for vis info in log
+2019-03-29 21:38:45 Debug: Found vis
+2019-03-29 21:38:45 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:38:45 Debug: Node with MAC  was not found
+2019-03-29 21:39:46 Debug: Got a new report submission
+2019-03-29 21:39:46 Debug: Checking for network_info in log
+2019-03-29 21:39:46 Debug: Found network_info
+2019-03-29 21:39:46 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:39:46 Debug: MESH: Found vpn_info
+2019-03-29 21:39:46 Debug: Checking for system_info in log
+2019-03-29 21:39:46 Debug: Found system_info
+2019-03-29 21:39:46 Debug: Checking for vis info in log
+2019-03-29 21:39:46 Debug: Found vis
+2019-03-29 21:39:46 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:39:46 Debug: Node with MAC  was not found
+2019-03-29 21:40:46 Debug: Got a new report submission
+2019-03-29 21:40:46 Debug: Checking for network_info in log
+2019-03-29 21:40:46 Debug: Found network_info
+2019-03-29 21:40:46 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:40:46 Debug: MESH: Found vpn_info
+2019-03-29 21:40:46 Debug: Checking for system_info in log
+2019-03-29 21:40:46 Debug: Found system_info
+2019-03-29 21:40:46 Debug: Checking for vis info in log
+2019-03-29 21:40:46 Debug: Found vis
+2019-03-29 21:40:46 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:40:46 Debug: Node with MAC  was not found
+2019-03-29 21:41:46 Debug: Got a new report submission
+2019-03-29 21:41:46 Debug: Checking for network_info in log
+2019-03-29 21:41:46 Debug: Found network_info
+2019-03-29 21:41:46 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:41:46 Debug: MESH: Found vpn_info
+2019-03-29 21:41:46 Debug: Checking for system_info in log
+2019-03-29 21:41:46 Debug: Found system_info
+2019-03-29 21:41:46 Debug: Checking for vis info in log
+2019-03-29 21:41:46 Debug: Found vis
+2019-03-29 21:41:46 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:41:46 Debug: Node with MAC  was not found
+2019-03-29 21:42:47 Debug: Got a new report submission
+2019-03-29 21:42:47 Debug: Checking for network_info in log
+2019-03-29 21:42:47 Debug: Found network_info
+2019-03-29 21:42:47 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:42:47 Debug: MESH: Found vpn_info
+2019-03-29 21:42:47 Debug: Checking for system_info in log
+2019-03-29 21:42:47 Debug: Found system_info
+2019-03-29 21:42:47 Debug: Checking for vis info in log
+2019-03-29 21:42:47 Debug: Found vis
+2019-03-29 21:42:47 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:42:47 Debug: Node with MAC  was not found
+2019-03-29 21:43:47 Debug: Got a new report submission
+2019-03-29 21:43:47 Debug: Checking for network_info in log
+2019-03-29 21:43:47 Debug: Found network_info
+2019-03-29 21:43:47 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:43:47 Debug: MESH: Found vpn_info
+2019-03-29 21:43:47 Debug: Checking for system_info in log
+2019-03-29 21:43:47 Debug: Found system_info
+2019-03-29 21:43:47 Debug: Checking for vis info in log
+2019-03-29 21:43:47 Debug: Found vis
+2019-03-29 21:43:47 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:43:47 Debug: Node with MAC  was not found
+2019-03-29 21:44:48 Debug: Got a new report submission
+2019-03-29 21:44:48 Debug: Checking for network_info in log
+2019-03-29 21:44:48 Debug: Found network_info
+2019-03-29 21:44:48 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:44:48 Debug: MESH: Found vpn_info
+2019-03-29 21:44:48 Debug: Checking for system_info in log
+2019-03-29 21:44:48 Debug: Found system_info
+2019-03-29 21:44:48 Debug: Checking for vis info in log
+2019-03-29 21:44:48 Debug: Found vis
+2019-03-29 21:44:48 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:44:48 Debug: Node with MAC  was not found
+2019-03-29 21:45:48 Debug: Got a new report submission
+2019-03-29 21:45:48 Debug: Checking for network_info in log
+2019-03-29 21:45:48 Debug: Found network_info
+2019-03-29 21:45:48 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:45:48 Debug: MESH: Found vpn_info
+2019-03-29 21:45:48 Debug: Checking for system_info in log
+2019-03-29 21:45:48 Debug: Found system_info
+2019-03-29 21:45:48 Debug: Checking for vis info in log
+2019-03-29 21:45:48 Debug: Found vis
+2019-03-29 21:45:48 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:45:48 Debug: Node with MAC  was not found
+2019-03-29 21:46:49 Debug: Got a new report submission
+2019-03-29 21:46:49 Debug: Checking for network_info in log
+2019-03-29 21:46:49 Debug: Found network_info
+2019-03-29 21:46:49 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:46:49 Debug: MESH: Found vpn_info
+2019-03-29 21:46:49 Debug: Checking for system_info in log
+2019-03-29 21:46:49 Debug: Found system_info
+2019-03-29 21:46:49 Debug: Checking for vis info in log
+2019-03-29 21:46:49 Debug: Found vis
+2019-03-29 21:46:49 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:46:49 Debug: Node with MAC  was not found
+2019-03-29 21:47:49 Debug: Got a new report submission
+2019-03-29 21:47:49 Debug: Checking for network_info in log
+2019-03-29 21:47:49 Debug: Found network_info
+2019-03-29 21:47:49 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:47:49 Debug: MESH: Found vpn_info
+2019-03-29 21:47:49 Debug: Checking for system_info in log
+2019-03-29 21:47:49 Debug: Found system_info
+2019-03-29 21:47:49 Debug: Checking for vis info in log
+2019-03-29 21:47:49 Debug: Found vis
+2019-03-29 21:47:49 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:47:49 Debug: Node with MAC  was not found
+2019-03-29 21:48:50 Debug: Got a new report submission
+2019-03-29 21:48:50 Debug: Checking for network_info in log
+2019-03-29 21:48:50 Debug: Found network_info
+2019-03-29 21:48:50 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:48:50 Debug: MESH: Found vpn_info
+2019-03-29 21:48:50 Debug: Checking for system_info in log
+2019-03-29 21:48:50 Debug: Found system_info
+2019-03-29 21:48:50 Debug: Checking for vis info in log
+2019-03-29 21:48:50 Debug: Found vis
+2019-03-29 21:48:50 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:48:50 Debug: Node with MAC  was not found
+2019-03-29 21:49:50 Debug: Got a new report submission
+2019-03-29 21:49:50 Debug: Checking for network_info in log
+2019-03-29 21:49:50 Debug: Found network_info
+2019-03-29 21:49:50 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:49:50 Debug: MESH: Found vpn_info
+2019-03-29 21:49:50 Debug: Checking for system_info in log
+2019-03-29 21:49:50 Debug: Found system_info
+2019-03-29 21:49:50 Debug: Checking for vis info in log
+2019-03-29 21:49:50 Debug: Found vis
+2019-03-29 21:49:50 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:49:50 Debug: Node with MAC  was not found
+2019-03-29 21:50:51 Debug: Got a new report submission
+2019-03-29 21:50:51 Debug: Checking for network_info in log
+2019-03-29 21:50:51 Debug: Found network_info
+2019-03-29 21:50:51 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:50:51 Debug: MESH: Found vpn_info
+2019-03-29 21:50:51 Debug: Checking for system_info in log
+2019-03-29 21:50:51 Debug: Found system_info
+2019-03-29 21:50:51 Debug: Checking for vis info in log
+2019-03-29 21:50:51 Debug: Found vis
+2019-03-29 21:50:51 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:50:51 Debug: Node with MAC  was not found
+2019-03-29 21:51:51 Debug: Got a new report submission
+2019-03-29 21:51:51 Debug: Checking for network_info in log
+2019-03-29 21:51:51 Debug: Found network_info
+2019-03-29 21:51:51 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:51:51 Debug: MESH: Found vpn_info
+2019-03-29 21:51:51 Debug: Checking for system_info in log
+2019-03-29 21:51:51 Debug: Found system_info
+2019-03-29 21:51:51 Debug: Checking for vis info in log
+2019-03-29 21:51:51 Debug: Found vis
+2019-03-29 21:51:51 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:51:51 Debug: Node with MAC  was not found
+2019-03-29 21:52:52 Debug: Got a new report submission
+2019-03-29 21:52:52 Debug: Checking for network_info in log
+2019-03-29 21:52:52 Debug: Found network_info
+2019-03-29 21:52:52 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:52:52 Debug: MESH: Found vpn_info
+2019-03-29 21:52:52 Debug: Checking for system_info in log
+2019-03-29 21:52:52 Debug: Found system_info
+2019-03-29 21:52:52 Debug: Checking for vis info in log
+2019-03-29 21:52:52 Debug: Found vis
+2019-03-29 21:52:52 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:52:52 Debug: Node with MAC  was not found
+2019-03-29 21:53:52 Debug: Got a new report submission
+2019-03-29 21:53:52 Debug: Checking for network_info in log
+2019-03-29 21:53:52 Debug: Found network_info
+2019-03-29 21:53:52 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:53:52 Debug: MESH: Found vpn_info
+2019-03-29 21:53:52 Debug: Checking for system_info in log
+2019-03-29 21:53:52 Debug: Found system_info
+2019-03-29 21:53:52 Debug: Checking for vis info in log
+2019-03-29 21:53:52 Debug: Found vis
+2019-03-29 21:53:52 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:53:52 Debug: Node with MAC  was not found
+2019-03-29 21:54:53 Debug: Got a new report submission
+2019-03-29 21:54:53 Debug: Checking for network_info in log
+2019-03-29 21:54:53 Debug: Found network_info
+2019-03-29 21:54:53 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:54:53 Debug: MESH: Found vpn_info
+2019-03-29 21:54:53 Debug: Checking for system_info in log
+2019-03-29 21:54:53 Debug: Found system_info
+2019-03-29 21:54:53 Debug: Checking for vis info in log
+2019-03-29 21:54:53 Debug: Found vis
+2019-03-29 21:54:53 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:54:53 Debug: Node with MAC  was not found
+2019-03-29 21:55:53 Debug: Got a new report submission
+2019-03-29 21:55:53 Debug: Checking for network_info in log
+2019-03-29 21:55:53 Debug: Found network_info
+2019-03-29 21:55:53 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:55:53 Debug: MESH: Found vpn_info
+2019-03-29 21:55:53 Debug: Checking for system_info in log
+2019-03-29 21:55:53 Debug: Found system_info
+2019-03-29 21:55:53 Debug: Checking for vis info in log
+2019-03-29 21:55:53 Debug: Found vis
+2019-03-29 21:55:53 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:55:53 Debug: Node with MAC  was not found
+2019-03-29 21:56:53 Debug: Got a new report submission
+2019-03-29 21:56:53 Debug: Checking for network_info in log
+2019-03-29 21:56:53 Debug: Found network_info
+2019-03-29 21:56:53 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:56:53 Debug: MESH: Found vpn_info
+2019-03-29 21:56:53 Debug: Checking for system_info in log
+2019-03-29 21:56:53 Debug: Found system_info
+2019-03-29 21:56:53 Debug: Checking for vis info in log
+2019-03-29 21:56:53 Debug: Found vis
+2019-03-29 21:56:53 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:56:53 Debug: Node with MAC  was not found
+2019-03-29 21:57:54 Debug: Got a new report submission
+2019-03-29 21:57:54 Debug: Checking for network_info in log
+2019-03-29 21:57:54 Debug: Found network_info
+2019-03-29 21:57:54 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:57:54 Debug: MESH: Found vpn_info
+2019-03-29 21:57:54 Debug: Checking for system_info in log
+2019-03-29 21:57:54 Debug: Found system_info
+2019-03-29 21:57:54 Debug: Checking for vis info in log
+2019-03-29 21:57:54 Debug: Found vis
+2019-03-29 21:57:54 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:57:54 Debug: Node with MAC  was not found
+2019-03-29 21:58:54 Debug: Got a new report submission
+2019-03-29 21:58:54 Debug: Checking for network_info in log
+2019-03-29 21:58:54 Debug: Found network_info
+2019-03-29 21:58:54 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:58:54 Debug: MESH: Found vpn_info
+2019-03-29 21:58:54 Debug: Checking for system_info in log
+2019-03-29 21:58:54 Debug: Found system_info
+2019-03-29 21:58:54 Debug: Checking for vis info in log
+2019-03-29 21:58:54 Debug: Found vis
+2019-03-29 21:58:54 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:58:54 Debug: Node with MAC  was not found
+2019-03-29 21:59:55 Debug: Got a new report submission
+2019-03-29 21:59:55 Debug: Checking for network_info in log
+2019-03-29 21:59:55 Debug: Found network_info
+2019-03-29 21:59:55 Debug: MESH: Checking for vpn_info in log
+2019-03-29 21:59:55 Debug: MESH: Found vpn_info
+2019-03-29 21:59:55 Debug: Checking for system_info in log
+2019-03-29 21:59:55 Debug: Found system_info
+2019-03-29 21:59:55 Debug: Checking for vis info in log
+2019-03-29 21:59:55 Debug: Found vis
+2019-03-29 21:59:55 Debug: Looking for commands waiting for this mesh
+2019-03-29 21:59:55 Debug: Node with MAC  was not found
+2019-03-29 22:04:12 Debug: Got a new report submission
+2019-03-29 22:04:12 Debug: AP: Checking for network_info in log
+2019-03-29 22:04:12 Debug: AP: Found network_info
+2019-03-29 22:04:12 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:04:12 Debug: AP: Found vpn_info
+2019-03-29 22:04:12 Debug: AP: Checking for system_info in log
+2019-03-29 22:04:12 Debug: AP: Found system_info
+2019-03-29 22:04:12 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:04:12 Debug: AP: Node with MAC  was not found
+2019-03-29 22:05:39 Debug: Got a new report submission
+2019-03-29 22:05:39 Debug: AP: Checking for network_info in log
+2019-03-29 22:05:39 Debug: AP: Found network_info
+2019-03-29 22:05:39 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:05:39 Debug: AP: Found vpn_info
+2019-03-29 22:05:39 Debug: AP: Checking for system_info in log
+2019-03-29 22:05:39 Debug: AP: Found system_info
+2019-03-29 22:05:39 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:05:39 Debug: AP: Node with MAC  was not found
+2019-03-29 22:10:37 Debug: Got a new report submission
+2019-03-29 22:10:37 Debug: AP: Checking for network_info in log
+2019-03-29 22:10:37 Debug: AP: Found network_info
+2019-03-29 22:10:37 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:10:37 Debug: AP: Found vpn_info
+2019-03-29 22:10:37 Debug: AP: Checking for system_info in log
+2019-03-29 22:10:37 Debug: AP: Found system_info
+2019-03-29 22:10:37 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:10:37 Debug: AP: Node with MAC  was not found
+2019-03-29 22:11:19 Debug: Got a new report submission
+2019-03-29 22:11:19 Debug: AP: Checking for network_info in log
+2019-03-29 22:11:19 Debug: AP: Found network_info
+2019-03-29 22:11:19 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:11:19 Debug: AP: Found vpn_info
+2019-03-29 22:11:19 Debug: AP: Checking for system_info in log
+2019-03-29 22:11:19 Debug: AP: Found system_info
+2019-03-29 22:11:19 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:11:19 Debug: AP: Node with MAC  was not found
+2019-03-29 22:16:54 Debug: Got a new report submission
+2019-03-29 22:16:54 Debug: AP: Checking for network_info in log
+2019-03-29 22:16:54 Debug: AP: Found network_info
+2019-03-29 22:16:54 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:16:54 Debug: AP: Found vpn_info
+2019-03-29 22:16:54 Debug: AP: Checking for system_info in log
+2019-03-29 22:16:54 Debug: AP: Found system_info
+2019-03-29 22:16:54 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:16:54 Debug: AP: Node with MAC  was not found
+2019-03-29 22:27:08 Debug: Got a new report submission
+2019-03-29 22:27:08 Debug: AP: Checking for network_info in log
+2019-03-29 22:27:08 Debug: AP: Found network_info
+2019-03-29 22:27:08 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:27:08 Debug: AP: Found vpn_info
+2019-03-29 22:27:08 Debug: AP: Checking for system_info in log
+2019-03-29 22:27:08 Debug: AP: Found system_info
+2019-03-29 22:27:08 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:27:08 Debug: AP: Node with MAC  was not found
+2019-03-29 22:28:36 Debug: Got a new report submission
+2019-03-29 22:28:36 Debug: AP: Checking for network_info in log
+2019-03-29 22:28:36 Debug: AP: Found network_info
+2019-03-29 22:28:36 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:28:36 Debug: AP: Found vpn_info
+2019-03-29 22:28:36 Debug: AP: Checking for system_info in log
+2019-03-29 22:28:36 Debug: AP: Found system_info
+2019-03-29 22:28:36 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:28:36 Debug: AP: Node with MAC  was not found
+2019-03-29 22:31:28 Debug: Got a new report submission
+2019-03-29 22:31:28 Debug: AP: Checking for network_info in log
+2019-03-29 22:31:28 Debug: AP: Found network_info
+2019-03-29 22:31:28 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:31:28 Debug: AP: Found vpn_info
+2019-03-29 22:31:28 Debug: AP: Checking for system_info in log
+2019-03-29 22:31:28 Debug: AP: Found system_info
+2019-03-29 22:31:28 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:31:28 Debug: AP: Node with MAC  was not found
+2019-03-29 22:45:49 Debug: Got a new report submission
+2019-03-29 22:45:49 Debug: AP: Checking for network_info in log
+2019-03-29 22:45:49 Debug: AP: Found network_info
+2019-03-29 22:45:49 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:45:49 Debug: AP: Found vpn_info
+2019-03-29 22:45:49 Debug: AP: Checking for system_info in log
+2019-03-29 22:45:49 Debug: AP: Found system_info
+2019-03-29 22:45:49 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:45:49 Debug: AP: Node with MAC  was not found
+2019-03-29 22:51:34 Debug: Got a new report submission
+2019-03-29 22:51:34 Debug: AP: Checking for network_info in log
+2019-03-29 22:51:34 Debug: AP: Found network_info
+2019-03-29 22:51:34 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:51:34 Debug: AP: Found vpn_info
+2019-03-29 22:51:34 Debug: AP: Checking for system_info in log
+2019-03-29 22:51:34 Debug: AP: Found system_info
+2019-03-29 22:51:34 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:51:34 Debug: AP: Node with MAC  was not found
+2019-03-29 22:52:16 Debug: Got a new report submission
+2019-03-29 22:52:16 Debug: AP: Checking for network_info in log
+2019-03-29 22:52:16 Debug: AP: Found network_info
+2019-03-29 22:52:16 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:52:16 Debug: AP: Found vpn_info
+2019-03-29 22:52:16 Debug: AP: Checking for system_info in log
+2019-03-29 22:52:16 Debug: AP: Found system_info
+2019-03-29 22:52:16 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:52:16 Debug: AP: Node with MAC  was not found
+2019-03-29 22:58:58 Debug: Got a new report submission
+2019-03-29 22:58:58 Debug: AP: Checking for network_info in log
+2019-03-29 22:58:58 Debug: AP: Found network_info
+2019-03-29 22:58:58 Debug: AP: Checking for vpn_info in log
+2019-03-29 22:58:58 Debug: AP: Found vpn_info
+2019-03-29 22:58:58 Debug: AP: Checking for system_info in log
+2019-03-29 22:58:58 Debug: AP: Found system_info
+2019-03-29 22:58:58 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 22:58:58 Debug: AP: Node with MAC  was not found
+2019-03-29 23:06:21 Debug: Got a new report submission
+2019-03-29 23:06:21 Debug: AP: Checking for network_info in log
+2019-03-29 23:06:21 Debug: AP: Found network_info
+2019-03-29 23:06:21 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:06:21 Debug: AP: Found vpn_info
+2019-03-29 23:06:21 Debug: AP: Checking for system_info in log
+2019-03-29 23:06:21 Debug: AP: Found system_info
+2019-03-29 23:06:21 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:06:21 Debug: AP: Node with MAC  was not found
+2019-03-29 23:09:19 Debug: Got a new report submission
+2019-03-29 23:09:19 Debug: Checking for network_info in log
+2019-03-29 23:09:19 Debug: Found network_info
+2019-03-29 23:09:19 Debug: MESH: Checking for vpn_info in log
+2019-03-29 23:09:19 Debug: MESH: Found vpn_info
+2019-03-29 23:09:19 Debug: Checking for system_info in log
+2019-03-29 23:09:19 Debug: Found system_info
+2019-03-29 23:09:19 Debug: Checking for vis info in log
+2019-03-29 23:09:19 Debug: Found vis
+2019-03-29 23:09:19 Debug: Looking for commands waiting for this mesh
+2019-03-29 23:09:19 Debug: Node with MAC  was not found
+2019-03-29 23:10:49 Debug: Got a new report submission
+2019-03-29 23:10:49 Debug: Checking for network_info in log
+2019-03-29 23:10:49 Debug: Found network_info
+2019-03-29 23:10:49 Debug: MESH: Checking for vpn_info in log
+2019-03-29 23:10:49 Debug: MESH: Found vpn_info
+2019-03-29 23:10:49 Debug: Checking for system_info in log
+2019-03-29 23:10:49 Debug: Found system_info
+2019-03-29 23:10:49 Debug: Checking for vis info in log
+2019-03-29 23:10:49 Debug: Found vis
+2019-03-29 23:10:49 Debug: Looking for commands waiting for this mesh
+2019-03-29 23:10:49 Debug: Node with MAC  was not found
+2019-03-29 23:12:20 Debug: Got a new report submission
+2019-03-29 23:12:20 Debug: Checking for network_info in log
+2019-03-29 23:12:20 Debug: Found network_info
+2019-03-29 23:12:20 Debug: MESH: Checking for vpn_info in log
+2019-03-29 23:12:20 Debug: MESH: Found vpn_info
+2019-03-29 23:12:20 Debug: Checking for system_info in log
+2019-03-29 23:12:20 Debug: Found system_info
+2019-03-29 23:12:20 Debug: Checking for vis info in log
+2019-03-29 23:12:20 Debug: Found vis
+2019-03-29 23:12:20 Debug: Looking for commands waiting for this mesh
+2019-03-29 23:12:20 Debug: Node with MAC  was not found
+2019-03-29 23:13:50 Debug: Got a new report submission
+2019-03-29 23:13:50 Debug: Checking for network_info in log
+2019-03-29 23:13:50 Debug: Found network_info
+2019-03-29 23:13:50 Debug: MESH: Checking for vpn_info in log
+2019-03-29 23:13:50 Debug: MESH: Found vpn_info
+2019-03-29 23:13:50 Debug: Checking for system_info in log
+2019-03-29 23:13:50 Debug: Found system_info
+2019-03-29 23:13:50 Debug: Checking for vis info in log
+2019-03-29 23:13:50 Debug: Found vis
+2019-03-29 23:13:50 Debug: Looking for commands waiting for this mesh
+2019-03-29 23:13:50 Debug: Node with MAC  was not found
+2019-03-29 23:15:21 Debug: Got a new report submission
+2019-03-29 23:15:21 Debug: Checking for network_info in log
+2019-03-29 23:15:21 Debug: Found network_info
+2019-03-29 23:15:21 Debug: MESH: Checking for vpn_info in log
+2019-03-29 23:15:21 Debug: MESH: Found vpn_info
+2019-03-29 23:15:21 Debug: Checking for system_info in log
+2019-03-29 23:15:21 Debug: Found system_info
+2019-03-29 23:15:21 Debug: Checking for vis info in log
+2019-03-29 23:15:21 Debug: Found vis
+2019-03-29 23:15:21 Debug: Looking for commands waiting for this mesh
+2019-03-29 23:15:21 Debug: Node with MAC  was not found
+2019-03-29 23:25:54 Debug: Got a new report submission
+2019-03-29 23:25:54 Debug: AP: Checking for network_info in log
+2019-03-29 23:25:54 Debug: AP: Found network_info
+2019-03-29 23:25:54 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:25:54 Debug: AP: Found vpn_info
+2019-03-29 23:25:54 Debug: AP: Checking for system_info in log
+2019-03-29 23:25:54 Debug: AP: Found system_info
+2019-03-29 23:25:54 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:25:54 Debug: AP: Node with MAC  was not found
+2019-03-29 23:27:26 Debug: Got a new report submission
+2019-03-29 23:27:26 Debug: AP: Checking for network_info in log
+2019-03-29 23:27:26 Debug: AP: Found network_info
+2019-03-29 23:27:26 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:27:26 Debug: AP: Found vpn_info
+2019-03-29 23:27:26 Debug: AP: Checking for system_info in log
+2019-03-29 23:27:26 Debug: AP: Found system_info
+2019-03-29 23:27:26 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:27:26 Debug: AP: Node with MAC  was not found
+2019-03-29 23:28:04 Debug: Got a new report submission
+2019-03-29 23:28:04 Debug: AP: Checking for network_info in log
+2019-03-29 23:28:04 Debug: AP: Found network_info
+2019-03-29 23:28:04 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:28:04 Debug: AP: Found vpn_info
+2019-03-29 23:28:04 Debug: AP: Checking for system_info in log
+2019-03-29 23:28:04 Debug: AP: Found system_info
+2019-03-29 23:28:04 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:28:04 Debug: AP: Node with MAC  was not found
+2019-03-29 23:29:47 Debug: Got a new report submission
+2019-03-29 23:29:47 Debug: AP: Checking for network_info in log
+2019-03-29 23:29:47 Debug: AP: Found network_info
+2019-03-29 23:29:47 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:29:47 Debug: AP: Found vpn_info
+2019-03-29 23:29:47 Debug: AP: Checking for system_info in log
+2019-03-29 23:29:47 Debug: AP: Found system_info
+2019-03-29 23:29:47 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:29:47 Debug: AP: Node with MAC  was not found
+2019-03-29 23:33:05 Debug: Got a new report submission
+2019-03-29 23:33:05 Debug: AP: Checking for network_info in log
+2019-03-29 23:33:05 Debug: AP: Found network_info
+2019-03-29 23:33:05 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:33:05 Debug: AP: Found vpn_info
+2019-03-29 23:33:05 Debug: AP: Checking for system_info in log
+2019-03-29 23:33:05 Debug: AP: Found system_info
+2019-03-29 23:33:05 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:33:05 Debug: AP: Node with MAC  was not found
+2019-03-29 23:34:35 Debug: Got a new report submission
+2019-03-29 23:34:35 Debug: AP: Checking for network_info in log
+2019-03-29 23:34:35 Debug: AP: Found network_info
+2019-03-29 23:34:35 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:34:35 Debug: AP: Found vpn_info
+2019-03-29 23:34:35 Debug: AP: Checking for system_info in log
+2019-03-29 23:34:35 Debug: AP: Found system_info
+2019-03-29 23:34:35 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:34:35 Debug: AP: Node with MAC  was not found
+2019-03-29 23:36:06 Debug: Got a new report submission
+2019-03-29 23:36:06 Debug: AP: Checking for network_info in log
+2019-03-29 23:36:06 Debug: AP: Found network_info
+2019-03-29 23:36:06 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:36:06 Debug: AP: Found vpn_info
+2019-03-29 23:36:06 Debug: AP: Checking for system_info in log
+2019-03-29 23:36:06 Debug: AP: Found system_info
+2019-03-29 23:36:06 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:36:06 Debug: AP: Node with MAC  was not found
+2019-03-29 23:37:36 Debug: Got a new report submission
+2019-03-29 23:37:36 Debug: AP: Checking for network_info in log
+2019-03-29 23:37:36 Debug: AP: Found network_info
+2019-03-29 23:37:36 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:37:36 Debug: AP: Found vpn_info
+2019-03-29 23:37:36 Debug: AP: Checking for system_info in log
+2019-03-29 23:37:36 Debug: AP: Found system_info
+2019-03-29 23:37:36 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:37:36 Debug: AP: Node with MAC  was not found
+2019-03-29 23:39:07 Debug: Got a new report submission
+2019-03-29 23:39:07 Debug: AP: Checking for network_info in log
+2019-03-29 23:39:07 Debug: AP: Found network_info
+2019-03-29 23:39:07 Debug: AP: Checking for vpn_info in log
+2019-03-29 23:39:07 Debug: AP: Found vpn_info
+2019-03-29 23:39:07 Debug: AP: Checking for system_info in log
+2019-03-29 23:39:07 Debug: AP: Found system_info
+2019-03-29 23:39:07 Debug: AP: Looking for commands waiting for this mesh
+2019-03-29 23:39:07 Debug: AP: Node with MAC  was not found
+2019-04-10 12:16:24 Debug: Got a new report submission
+2019-04-10 12:16:24 Debug: Checking for network_info in log
+2019-04-10 12:16:24 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:24 Debug: Checking for system_info in log
+2019-04-10 12:16:24 Debug: Checking for vis info in log
+2019-04-10 12:16:36 Debug: Got a new report submission
+2019-04-10 12:16:36 Debug: Checking for network_info in log
+2019-04-10 12:16:36 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:36 Debug: Checking for system_info in log
+2019-04-10 12:16:36 Debug: Checking for vis info in log
+2019-04-10 12:16:37 Debug: Got a new report submission
+2019-04-10 12:16:37 Debug: Checking for network_info in log
+2019-04-10 12:16:37 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:37 Debug: Checking for system_info in log
+2019-04-10 12:16:37 Debug: Checking for vis info in log
+2019-04-10 12:16:37 Debug: Got a new report submission
+2019-04-10 12:16:37 Debug: Checking for network_info in log
+2019-04-10 12:16:37 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:37 Debug: Checking for system_info in log
+2019-04-10 12:16:37 Debug: Checking for vis info in log
+2019-04-10 12:16:37 Debug: Got a new report submission
+2019-04-10 12:16:37 Debug: Checking for network_info in log
+2019-04-10 12:16:37 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:37 Debug: Checking for system_info in log
+2019-04-10 12:16:37 Debug: Checking for vis info in log
+2019-04-10 12:16:38 Debug: Got a new report submission
+2019-04-10 12:16:38 Debug: Checking for network_info in log
+2019-04-10 12:16:38 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:38 Debug: Checking for system_info in log
+2019-04-10 12:16:38 Debug: Checking for vis info in log
+2019-04-10 12:16:38 Debug: Got a new report submission
+2019-04-10 12:16:38 Debug: Checking for network_info in log
+2019-04-10 12:16:38 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:38 Debug: Checking for system_info in log
+2019-04-10 12:16:38 Debug: Checking for vis info in log
+2019-04-10 12:16:38 Debug: Got a new report submission
+2019-04-10 12:16:38 Debug: Checking for network_info in log
+2019-04-10 12:16:38 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:38 Debug: Checking for system_info in log
+2019-04-10 12:16:38 Debug: Checking for vis info in log
+2019-04-10 12:16:38 Debug: Got a new report submission
+2019-04-10 12:16:38 Debug: Checking for network_info in log
+2019-04-10 12:16:38 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:38 Debug: Checking for system_info in log
+2019-04-10 12:16:38 Debug: Checking for vis info in log
+2019-04-10 12:16:38 Debug: Got a new report submission
+2019-04-10 12:16:38 Debug: Checking for network_info in log
+2019-04-10 12:16:38 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:38 Debug: Checking for system_info in log
+2019-04-10 12:16:38 Debug: Checking for vis info in log
+2019-04-10 12:16:39 Debug: Got a new report submission
+2019-04-10 12:16:39 Debug: Checking for network_info in log
+2019-04-10 12:16:39 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:39 Debug: Checking for system_info in log
+2019-04-10 12:16:39 Debug: Checking for vis info in log
+2019-04-10 12:16:39 Debug: Got a new report submission
+2019-04-10 12:16:39 Debug: Checking for network_info in log
+2019-04-10 12:16:39 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:39 Debug: Checking for system_info in log
+2019-04-10 12:16:39 Debug: Checking for vis info in log
+2019-04-10 12:16:39 Debug: Got a new report submission
+2019-04-10 12:16:39 Debug: Checking for network_info in log
+2019-04-10 12:16:39 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:39 Debug: Checking for system_info in log
+2019-04-10 12:16:39 Debug: Checking for vis info in log
+2019-04-10 12:16:39 Debug: Got a new report submission
+2019-04-10 12:16:39 Debug: Checking for network_info in log
+2019-04-10 12:16:39 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:39 Debug: Checking for system_info in log
+2019-04-10 12:16:39 Debug: Checking for vis info in log
+2019-04-10 12:16:39 Debug: Got a new report submission
+2019-04-10 12:16:39 Debug: Checking for network_info in log
+2019-04-10 12:16:39 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:39 Debug: Checking for system_info in log
+2019-04-10 12:16:39 Debug: Checking for vis info in log
+2019-04-10 12:16:40 Debug: Got a new report submission
+2019-04-10 12:16:40 Debug: Checking for network_info in log
+2019-04-10 12:16:40 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:40 Debug: Checking for system_info in log
+2019-04-10 12:16:40 Debug: Checking for vis info in log
+2019-04-10 12:16:40 Debug: Got a new report submission
+2019-04-10 12:16:40 Debug: Checking for network_info in log
+2019-04-10 12:16:40 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:40 Debug: Checking for system_info in log
+2019-04-10 12:16:40 Debug: Checking for vis info in log
+2019-04-10 12:16:40 Debug: Got a new report submission
+2019-04-10 12:16:40 Debug: Checking for network_info in log
+2019-04-10 12:16:40 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:40 Debug: Checking for system_info in log
+2019-04-10 12:16:40 Debug: Checking for vis info in log
+2019-04-10 12:16:40 Debug: Got a new report submission
+2019-04-10 12:16:40 Debug: Checking for network_info in log
+2019-04-10 12:16:40 Debug: MESH: Checking for vpn_info in log
+2019-04-10 12:16:40 Debug: Checking for system_info in log
+2019-04-10 12:16:40 Debug: Checking for vis info in log
