@@ -327,25 +327,7 @@ Ext.define('Rd.view.aps.winAccessPointEditAp', {
                                                         name      : 'radio0_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
-                                                    },
-													{//for AC5G
-														boxLabel  :	'VHT20',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},
-													{
-														boxLabel  :	'VHT40',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},													
-													{
-														boxLabel  :	'VHT80',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													}//END AC5G													
+                                                    }
                                                 ]
                                             },
                                              {
@@ -449,25 +431,7 @@ Ext.define('Rd.view.aps.winAccessPointEditAp', {
                                                         name      : 'radio1_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
-                                                    },
-													{//for AC5G
-														boxLabel  :	'VHT20',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},
-													{
-														boxLabel  :	'VHT40',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},													
-													{
-														boxLabel  :	'VHT80',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													}//END AC5G													
+                                                    }
                                                 ]
                                             },
  
