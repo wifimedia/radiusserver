@@ -316,11 +316,23 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
                                                         margin    : Rd.config.radioMargin
                                                     }, 
                                                     {
-                                                        boxLabel  : 'HT40',
+                                                        list  : 'HT40',
                                                         name      : 'radio0_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
                                                     },
+													{
+														boxLabel  :	'VHT20',
+														name	  : 'radio0_htmode',
+														inputValue: 'VHT80',
+														margin	  : Rd.config.radioMargin
+													},
+													{
+														boxLabel  :	'VHT40',
+														name	  : 'radio0_htmode',
+														inputValue: 'VHT80',
+														margin	  : Rd.config.radioMargin
+													},													
 													{
 														boxLabel  :	'VHT80',
 														name	  : 'radio0_htmode',
@@ -437,7 +449,25 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
                                                         name      : 'radio1_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
-                                                    }
+                                                    },
+													{
+														boxLabel  :	'VHT20',
+														name	  : 'radio1_htmode',
+														inputValue: 'VHT80',
+														margin	  : Rd.config.radioMargin
+													},
+													{
+														boxLabel  :	'VHT40',
+														name	  : 'radio1_htmode',
+														inputValue: 'VHT80',
+														margin	  : Rd.config.radioMargin
+													},													
+													{
+														boxLabel  :	'VHT80',
+														name	  : 'radio1_htmode',
+														inputValue: 'VHT80',
+														margin	  : Rd.config.radioMargin
+													}													
                                                 ]
                                             },
   
