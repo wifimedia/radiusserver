@@ -183,7 +183,7 @@ Ext.define('Rd.view.aps.winAccessPointEditAp', {
 										            anchor      : '100%',
 										            name        : 'radio0_channel_two',
 										            fieldLabel  : i18n("s2_pt_4G_Channel"),
-										            value       : 5,
+										            value       : 6,
 										            maxValue    : 14,
 										            minValue    : 1,
 											        hidden		: true,

@@ -5,7 +5,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
     draggable   : true,
     resizable   : true,
     title       : 'New Device',
-    width       : 600,
+    width       : 400,
     height      : 450,
     plain       : true,
     border      : false,
@@ -176,7 +176,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
 										            anchor      : '100%',
 										            name        : 'radio0_channel_two',
 										            fieldLabel  : i18n("s2_pt_4G_Channel"),
-										            value       : 5,
+										            value       : 6,
 										            maxValue    : 14,
 										            minValue    : 1,
 											        hidden		: true,
@@ -248,7 +248,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
 										            anchor      : '100%',
 										            name        : 'radio1_channel_two',
 										            fieldLabel  : i18n("s2_pt_4G_Channel"),
-										            value       : 5,
+										            value       : 6,
 										            maxValue    : 14,
 										            minValue    : 1,
 											        hidden		: true,
@@ -316,29 +316,11 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
                                                         margin    : Rd.config.radioMargin
                                                     }, 
                                                     {
-                                                        list  : 'HT40',
+                                                        boxLabel  : 'HT40',
                                                         name      : 'radio0_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
-                                                    },
-													{//for AC5G
-														boxLabel  :	'VHT20',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},
-													{
-														boxLabel  :	'VHT40',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},													
-													{
-														boxLabel  :	'VHT80',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													}//END AC5G
+                                                    }
                                                 ]
                                             },
                                             {
@@ -449,25 +431,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
                                                         name      : 'radio1_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
-                                                    },
-													{ //for AC5G
-														boxLabel  :	'VHT20',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},
-													{
-														boxLabel  :	'VHT40',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},													
-													{
-														boxLabel  :	'VHT80',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													}	//END AC5G												
+                                                    }
                                                 ]
                                             },
   

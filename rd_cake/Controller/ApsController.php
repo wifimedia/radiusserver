@@ -1009,13 +1009,15 @@ class ApsController extends AppController {
         if($this->RadioSettings[0]['radio0_band'] == '24'){
             $channel = $this->RadioSettings[0]['radio0_channel_two'];
             $hwmode  = '11g';
-            $band   = 'two';
+            $band    = 'two';
+			$htmode  = $this->RadioSettings[0]['radio0_htmode'];
         }
         
         if($this->RadioSettings[0]['radio0_band'] == '5'){
             $channel = $this->RadioSettings[0]['radio0_channel_five'];
             $hwmode  = '11a';
             $band   = 'five';
+			$htmode = 'VHT80';
         }
         
         //Country
@@ -1079,7 +1081,8 @@ class ApsController extends AppController {
                         'hwmode'        => $hwmode,
                         'country'       => $country,
                         'distance'      => intval($this->RadioSettings[0]['radio0_distance']),
-                        'htmode'        => $this->RadioSettings[0]['radio0_htmode'],
+						'htmode' 		=> $htmode,
+                        //'htmode'        => $this->RadioSettings[0]['radio0_htmode'],
                         'txpower'       => intval($this->RadioSettings[0]['radio0_txpower']),
                         'beacon_int'    => intval($this->RadioSettings[0]['radio0_beacon_int']),
                         'noscan'        => $noscan,
@@ -1174,24 +1177,28 @@ class ApsController extends AppController {
             $channel_0  = $this->RadioSettings[0]['radio0_channel_two'];
             $hwmode_0   = '11g';
             $band_0     = 'two';
+			$htmode_0	= $this->RadioSettings[0]['radio0_htmode'];
         }
         
         if($this->RadioSettings[0]['radio0_band'] == '5'){
             $channel_0 = $this->RadioSettings[0]['radio0_channel_five'];
             $hwmode_0  = '11a';
-            $band_0    = 'five';     
+            $band_0    = 'five';
+			$htmode_0  = 'VHT80';
         }
         
         if($this->RadioSettings[1]['radio1_band'] == '24'){
             $channel_1 = $this->RadioSettings[1]['radio1_channel_two'];
             $hwmode_1  = '11g';
-            $band_1    = 'two';  
+            $band_1    = 'two';
+			$htmode_1	= $this->RadioSettings[0]['radio1_htmode'];			
         }
         
         if($this->RadioSettings[1]['radio1_band'] == '5'){
             $channel_1 = $this->RadioSettings[1]['radio1_channel_five'];
             $hwmode_1  = '11a';
             $band_1    = 'five';
+			$htmode_1  = 'VHT80';
         }
         
         //Country
@@ -1258,7 +1265,8 @@ class ApsController extends AppController {
                     'hwmode'        => $hwmode_0,
                     'country'       => $country,
                     'distance'      => intval($this->RadioSettings[0]['radio0_distance']),
-                    'htmode'        => $this->RadioSettings[0]['radio0_htmode'],
+					'htmode'		=> $htmode_0,
+                    //'htmode'        => $this->RadioSettings[0]['radio0_htmode'],
                     'txpower'       => intval($this->RadioSettings[0]['radio0_txpower']),
                     'beacon_int'    => intval($this->RadioSettings[0]['radio0_beacon_int']),
                     'noscan'        => $noscan,
@@ -1321,7 +1329,8 @@ class ApsController extends AppController {
 
                     'disabled'      => intval($this->RadioSettings[1]['radio1_disabled']),
                     'distance'      => intval($this->RadioSettings[1]['radio1_distance']),
-                    'htmode'        => $this->RadioSettings[1]['radio1_htmode'],
+					'htmode'		=> $htmode_1,
+                    //'htmode'        => $this->RadioSettings[1]['radio1_htmode'],
                     'txpower'       => intval($this->RadioSettings[1]['radio1_txpower']),
                     'beacon_int'    => intval($this->RadioSettings[1]['radio1_beacon_int']),
                     'noscan'        => $noscan1,
