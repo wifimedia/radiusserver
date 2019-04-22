@@ -320,7 +320,13 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
                                                         name      : 'radio0_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
-                                                    }
+                                                    },
+													{
+														boxLabel  :	'VHT80',
+														name	  : 'radio0_htmode',
+														inputValue: 'VHT80',
+														margin	  : Rd.config.radioMargin
+													}
                                                 ]
                                             },
                                             {
@@ -475,7 +481,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
 									            minValue    : 15
 									        },
                                             {
-			            fieldLabel  : 'Distance',
+												fieldLabel  : 'Distance',
 									            value       : 300,
 									            maxValue    : 3000,
 									            minValue    : 1
