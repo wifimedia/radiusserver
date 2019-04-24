@@ -75,7 +75,7 @@ Ext.define('Rd.view.aps.winAccessPointAddExit', {
                         { boxLabel: i18n("sNAT_plus_DHCP"),             name: 'exit_type', inputValue: 'nat' },
                         { boxLabel: i18n("sCaptive_Portal"),            name: 'exit_type', inputValue: 'captive_portal' },
                         { boxLabel: i18n('sOpenVPN_Bridge'),            name: 'exit_type', inputValue: 'openvpn_bridge' },
-						{ boxLabel: i18n('sNds_Portal'),				   name: 'exit_type', inputValue:  'nds_portal'}
+						{ boxLabel: i18n('sNds_Portal'),			    name: 'exit_type', inputValue:  'nds_portal'}
                     ];
         }else{
             var radios = [
@@ -83,7 +83,7 @@ Ext.define('Rd.view.aps.winAccessPointAddExit', {
                     { boxLabel: i18n("sTagged_Ethernet_bridge"),   name: 'exit_type', inputValue: 'tagged_bridge'},
                     { boxLabel: i18n("sNAT_plus_DHCP"),            name: 'exit_type', inputValue: 'nat' },
                     { boxLabel: i18n("sCaptive_Portal"),           name: 'exit_type', inputValue: 'captive_portal' },
-                    { boxLabel: i18n('sOpenVPN_Bridge'),           name: 'exit_type', inputValue: 'openvpn_bridge' }//wifimedia option
+                    { boxLabel: i18n('sOpenVPN_Bridge'),           name: 'exit_type', inputValue: 'openvpn_bridge' },//wifimedia option
 					//{ boxLabel: i18n('sNds_Portal')				   name: 'exit_type', inputValue:  'nds_portal'}
 					//{ boxLabel: i18n("sLan"),					   name: 'exit_type', inputValue: 'lan'},
 					//{ boxLabel: i18n("sWan"),					   name: 'exit_type', inputValue: 'wan'}
