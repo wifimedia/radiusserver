@@ -160,66 +160,9 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
                                     xtype       : 'cmbOpenVpnServers',
                                     labelClsExtra: 'lblRdReq',
                                     allowBlank  : false
-                                },
-								{
-									itemId		: 'chkEnabled',
-									xtype		: 'checkbox',
-									fieldLabel	: 'Enable Nds Portal',
-									name		: 'enabled',
-									inputValue	: 'enabled',
-									labelClsExtra	: 'lblRdReq'
-								}
-								
+                                }
                             ]
                         },
-						//---nds portal---
-						{
-							title	: i18n("sNds_Portal"),
-							layout  : 'fit',
-							disable : true,
-							itemId  : 'tabNdsPortal',
-							hidden  : hide_nds, //ss controller
-							items	: [
-								{
-									xtype	: 'tabpanel',
-									layout	: 'fit',
-									xtype	: 'tabpanel',
-									margins : '0 0 0 0',
-									plain	: true,
-									cls		: 'subTab',
-									tabPosition	: 'top',
-									border	: false,
-									items	:[
-										{
-											title		: i18n("sBasic"),
-											layout		: 'anchor',
-											defaults	: {
-												anchor: '100%'
-											},
-											autoScroll	: true,
-											items 		: [
-												{
-													xtype		: 'checkbox',
-													fieldLabel  : i18n("sEnabled_Nds"),
-													name		: 'enabled',
-													inputValue  : 'enabled',
-													checkbox 	: true,
-													labelClsExtra	: 'lblRdReq'
-												},
-												{
-													xtype		: 'checkbox',
-													fieldLabel  : i18n("sEnabled_Nds"),
-													name		: 'fwhook_enabled',
-													inputValue  : 'fwhook_enabled',
-													checkbox 	: true,
-													labelClsExtra	: 'lblRdReq'
-												}
-											]
-										}
-									]
-								}
-							]
-						},
                         //---- Captive Protal ----
                         { 
                             title       : i18n("sCaptive_Portal_settings"),
@@ -465,16 +408,10 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
 
         //Should we enable or disable the captive portal tab
         var tab_capt= frmData.down('#tabCaptivePortal');
-        var tab_nds	= frmData.down('#tabNdsPortal');
+        
         var a_nas   = frmData.down('#chkNasClient');
         var a_page  = frmData.down('#chkLoginPage');
         var cmb_page= frmData.down('cmbDynamicDetail');
-		
-		if(me.type == 'nds_portal'){
-			tab_nds.setDisabled(false);
-		}else{
-			tab_nds.setDisabled(true);
-		}
         
         if(me.type == 'captive_portal'){
             tab_capt.setDisabled(false);

@@ -581,7 +581,21 @@ class ApProfilesController extends AppController {
         $entry_point    = ClassRegistry::init('ApProfileExitApProfileEntry');
         $exit           = ClassRegistry::init('ApProfileExit'); 
         $exit->create();
-        
+        //
+		if($this->request->data['type'] == 'nds_portal'){
+			if(isset($this->request->data['enabled'])){
+				$this->request->data['enabled'] == 1;	
+			}else{
+				$this->request->data['enabled'] == 0;
+			}
+			
+			if(isset($this->request->data['fwhook_enabled'])){
+				$this->request->data['fwhook_enabled'] == 1;
+			}else{
+				$this->request->data['fwhook_enabled'] == 0;
+			}
+		}
+		//
         if($this->request->data['type'] == 'captive_portal'){ 
             if(isset($this->request->data['auto_dynamic_client'])){
                 $this->request->data['auto_dynamic_client'] = 1;
@@ -652,9 +666,34 @@ class ApProfilesController extends AppController {
                 }
             }
             //---- END openvpn_bridge ------
-            
-            
-            
+            if($this->request->data['type'] == 'nds_portal'){
+				$this->request->data['ap_profile_exit_id'] = $new_id;
+				$nds_portal = ClassRegistry::init('ApProfileExitNdsPortal');
+				$nds_portal->create();
+				$check_items = array(
+					'enabled',
+					'fwhook_enabled'
+				);
+				foreach($check_items as $i){
+					if(isset($this->request->data[$i])){
+						$this->request->data[$i] == 1;
+					}else{
+						$this->request->data[$i] == 0;
+					}
+				}
+				//save data
+				
+				if(!($nds_portal->save($this->request->data))){
+					$exit->delete($new_id, true);//Remove the newly created exit point since the  portal add failed
+					$this->set(array(
+						'errors'	=> $nds_portal->validationErrors,
+						'success'	=> $false,
+						'message'	=>array('message' =>__('Could not create item')),
+						'_serialize'	=>array('errors','success','message')
+					));
+					return;
+				}
+			}
 
             //===== Captive Portal ==========
             if($this->request->data['type'] == 'captive_portal'){
@@ -798,7 +837,40 @@ class ApProfilesController extends AppController {
                 }            
             }
             //---- END openvpn_bridge ------
-            
+            if($this->request->data['type'] == 'nds_portal'){
+				$nds_portal = ClassRegistry::init('ApProfileExitNdsPortal');
+				$cp_data	= $this->request->data;
+				$ap_profile_exit_id =$this->request->data['id'];
+				$q_r 		= $nds_portal->find('first',array('conditions' =>
+								array('ApProfileExitNdsPortal.ap_profile_exit_id' =>$ap_profile_exit_id)
+							  ));
+				if($q_r){
+					$cp_id = $q_r['ApProfileExitNdsPortal']['id'];
+					$cp_data['id'] = $cp_id;
+					$nds_portal->id = $cp_id;
+					
+					$check_items = array(
+						'enabled',
+						'fwhook_enabled'
+					);
+					foreach($check_items as $i){
+						if(isset($this->request->data)){
+							$cp_id[$i] = 1;
+						}else{
+								$cp_id[$i] = 0;
+						}
+					}
+					if(!($nds_portal->save($cp_data))){
+                        $this->set(array(
+                            'errors'    => $captive_portal->validationErrors,
+                            'success'   => false,
+                            'message'   => array('message' => __('Could not create item')),
+                            '_serialize' => array('errors','success','message')
+                        ));
+                        return;						
+					}
+				}		  
+			}
 
             //===== Captive Portal ==========
             //== First see if we can save the captive portal data ====
@@ -846,7 +918,20 @@ class ApProfilesController extends AppController {
                 }
             }
             //==== End of Captive Portal ====
-            
+			if($this->request->data['type'] == 'nds_portal'){
+				if(isset($this->request->data['enabled'])){
+					$this->request->data['enabled'] = 1;
+				}else{
+					$this->request->data['enabled'] = 0;
+				}
+				
+				if(isset($this->request->data['fwhook_enabled'])){
+					$this->request->data['fwhook_enabled'] = 1;
+				}else{
+					$this->request->data['fwhook_enabled'] = 0;
+				}
+			}
+           ////
             $this->request->data['realm_list'] = ""; //Prime it
             
             if($this->request->data['type'] == 'captive_portal'){ 
@@ -985,7 +1070,19 @@ class ApProfilesController extends AppController {
         foreach($q_r['ApProfileExitApProfileEntry'] as $i){
             array_push($q_r['ApProfileExit']['entry_points'],intval($i['ap_profile_entry_id']));
         }
-
+		//if($q_r['ApProfileExitNdsPortal']){
+        //    $q_r['ApProfileExit']['enabled']        			= $q_r['ApProfileExitNdsPortal']['enabled'];        		
+        //    $q_r['ApProfileExit']['fwhook_enabled']       		= $q_r['ApProfileExitNdsPortal']['fwhook_enabled'];       	
+        //    $q_r['ApProfileExit']['gatewayinterface']   		= $q_r['ApProfileExitNdsPortal']['gatewayinterface']; 	
+        //    $q_r['ApProfileExit']['maxclients']         		= $q_r['ApProfileExitNdsPortal']['maxclients'];         	
+        //    $q_r['ApProfileExit']['preauthidletimeout']     	= $q_r['ApProfileExitNdsPortal']['preauthidletimeout'];     
+        //    $q_r['ApProfileExit']['authidletimeout']   			= $q_r['ApProfileExitNdsPortal']['authidletimeout'];   		
+        //    $q_r['ApProfileExit']['sessiontimeout']     		= $q_r['ApProfileExitNdsPortal']['sessiontimeout'];     	
+		//	$q_r['ApProfileExit']['checkinterval']        		= $q_r['ApProfileExitNdsPortal']['checkinterval'];        	
+        //    $q_r['ApProfileExit']['redirecturl']   				= $q_r['ApProfileExitNdsPortal']['redirecturl'];   			
+        //    $q_r['ApProfileExit']['preauthenticated_users']     = $q_r['ApProfileExitNdsPortal']['preauthenticated_users']; 	
+		//}
+		//
         if($q_r['ApProfileExitCaptivePortal']){
             $q_r['ApProfileExit']['radius_1']        = $q_r['ApProfileExitCaptivePortal']['radius_1'];
             $q_r['ApProfileExit']['radius_2']        = $q_r['ApProfileExitCaptivePortal']['radius_2'];
@@ -1334,6 +1431,9 @@ class ApProfilesController extends AppController {
         $ap             = ClassRegistry::init('Ap');
         $ap_profile_id  = $this->request->query['ap_profile_id'];
         $q_r            = $ap->find('all',array('conditions' => array('Ap.ap_profile_id' => $ap_profile_id)));
+
+
+
 
         //Create a hardware lookup for proper names of hardware
         $hardware = array();  

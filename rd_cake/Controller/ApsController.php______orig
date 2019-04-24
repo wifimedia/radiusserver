@@ -41,7 +41,6 @@ class ApsController extends AppController {
                     'ApProfileSetting',
                     'ApProfileSpecific',
                     'ApProfileExit.ApProfileExitCaptivePortal',
-					'ApProfileExit.ApProfileExitNdsPortal',
                     'Ap'
                 );
                 $ap_profile     = $this->Ap->ApProfile->findById($ap_profile_id);
@@ -580,7 +579,6 @@ class ApsController extends AppController {
         //========== Gateway  ======
         $json['config_settings']['gateways']        = $net_return[2]; //Gateways
         $json['config_settings']['captive_portals'] = $net_return[3]; //Captive portals
-		$json['config_settings']['nds_portals']		= $net_return[4]; //Nds Portal
         
         $openvpn_bridges                            = $this->_build_openvpn_bridges($net_return[4]);
         $json['config_settings']['openvpn_bridges'] = $openvpn_bridges; //Openvpn Bridges
@@ -685,10 +683,9 @@ class ApsController extends AppController {
         $network 				= array();
         $nat_data				= array();
         $captive_portal_data 	= array();
-		$nds_portal_data 	= array();
         $openvpn_bridge_data    = array();
 		$inner_lan_data			= array(); //insert inner lan network
-		$wan_data				= array(); //insert lan network
+		$wan_data			= array(); //insert lan network
 		$include_lan_dhcp 		= true;
 
         //-> loopback if
@@ -708,7 +705,7 @@ class ApsController extends AppController {
         }else{
             $br_int = $this->_eth_br_for($this->Hardware);
         }
-		
+
 		if($include_lan_dhcp){
 		    array_push( $network,
 		        array(
@@ -739,7 +736,6 @@ class ApsController extends AppController {
 
             $has_entries_attached   = false;
             $if_name                = 'ex_'.$this->_number_to_word($start_number);
-			//$if_name                = 'wan';
             $exit_id                = $ap_profile_e['id'];
             $type                   = $ap_profile_e['type'];
             $vlan                   = $ap_profile_e['vlan'];
@@ -752,13 +748,9 @@ class ApsController extends AppController {
                 foreach($ap_profile_e['ApProfileExitApProfileEntry'] as $entry){    
                     if($type == 'bridge'){ //The gateway needs the entry points to be bridged to the LAN
                         array_push($entry_point_data,array('network' => 'lan','entry_id' => $entry['ap_profile_entry_id']));
-                    }elseif($type == 'wan'){
-                        array_push($entry_point_data,array('network' => $ifname_outner,'entry_id' => $entry['ap_profile_entry_id']));
-                    }elseif($type == 'lan'){
-						array_push($entry_point_data,array('network' => $ifname_inner,'entry_id' => $entry['ap_profile_entry_id']));
-					}else{
-						array_push($entry_point_data,array('network' => $if_name,'entry_id' => $entry['ap_profile_entry_id']));
-					}        
+                    }else{
+                        array_push($entry_point_data,array('network' => $if_name,'entry_id' => $entry['ap_profile_entry_id']));
+                    }        
                 }
             }
           
@@ -787,17 +779,10 @@ class ApsController extends AppController {
                 }
 
                 if($type == 'nat'){
-                    //$interfaces =  "nat.".$start_number;
-		    $br_int = $this->_eth_br_for($this->Hardware);
-		    if(preg_match('/eth1/', $br_int)){	//If it has two add both
-                    	$interfaces =  "eth1.".$start_number;
-		    }else{
-			$interfaces =  "eth0.".$start_number; //only one
-		    }
+                    $interfaces =  "nat.".$start_number;
                     array_push($network,
                         array(
-                            //"interface"    => "$if_name", default
-							"interface"    => "$if_name",
+                            "interface"    => "$if_name",
                             "options"   => array(
                                 "ifname"    => $interfaces,
                                 "type"      => "bridge",
@@ -814,14 +799,14 @@ class ApsController extends AppController {
                 }
 
                 if($type=='bridge'){
-                
+                /*
                     $current_interfaces = $network[1]['options']['ifname'];
                     $interfaces =  "bridge0.".$start_number;
                     $network[1]['options']['ifname'] = $current_interfaces." ".$interfaces;
                     
                     $start_number++;
-                   
-                    //continue; //We dont care about the other if's wifimedi bridge fix
+                   */
+                    continue; //We dont care about the other if's wifimedi bridge fix
                 }
 				//insert inner_lan_data
 				if($type =='wan'){
@@ -860,31 +845,7 @@ class ApsController extends AppController {
                     $start_number++;
                     continue; //We dont care about the other if's					
 				}
-				// wifimedia lan & wan wireless and interface
-				if($type == 'nds_portals'){
-					//Add the nds portal's detail
-					 if($type =='captive_portal'){
-						 $n = $ap_profile_e['ApProfileExitNdsPortal'];
-						 $n['gatewayinterface'] = 'br-'.$if_name;
-					 }
-					 
-					 if($ap_profile_e['ApProfileExitCaptivePortal']['enabled'] == true){
-                        array_push($network,
-                            array(
-                                "interface"    => "$if_name",
-                                "options"   => array(
-                                "ifname"    => $interfaces,
-                                "type"      => "bridge",
-                                'ipaddr'    =>  "172.16.99.1",
-                                'netmask'   =>  "255.255.255.0",
-                                'proto'     => 'static'
-                            ))
-                        ); 						  
-					 }
-                    $start_number++;
-                    continue; //We dont care about the other if's					 
-				}
-				//nds_portals
+				// wifimedia lan & wan wireless and interface				
                 if($type == 'captive_portal'){
                 
                     //---WIP Start---
@@ -1000,7 +961,7 @@ class ApsController extends AppController {
                 }            
             }
         } 
-        return array($network,$entry_point_data,$nat_data,$captive_portal_data,$nds_portal_data,$openvpn_bridge_data,$inner_lan_data,$wan_data);
+        return array($network,$entry_point_data,$nat_data,$captive_portal_data,$openvpn_bridge_data,$inner_lan_data,$wan_data);
     }
     
     private function _build_wireless($ap_profile,$entry_point_data){
@@ -1029,7 +990,7 @@ class ApsController extends AppController {
 
         $wireless = array();
         
-        $channel = 6;
+        $channel = 8;
         $hwmode  = '11g';
         $band    = 'two';
         
@@ -1106,7 +1067,7 @@ class ApsController extends AppController {
                         'hwmode'        => $hwmode,
                         'country'       => $country,
                         'distance'      => intval($this->RadioSettings[0]['radio0_distance']),
-                        //'htmode'        => $this->RadioSettings[0]['radio0_htmode'],
+                        'htmode'        => $this->RadioSettings[0]['radio0_htmode'],
                         'txpower'       => intval($this->RadioSettings[0]['radio0_txpower']),
                         'beacon_int'    => intval($this->RadioSettings[0]['radio0_beacon_int']),
                         'noscan'        => $noscan,
@@ -1285,7 +1246,7 @@ class ApsController extends AppController {
                     'hwmode'        => $hwmode_0,
                     'country'       => $country,
                     'distance'      => intval($this->RadioSettings[0]['radio0_distance']),
-                    //'htmode'        => $this->RadioSettings[0]['radio0_htmode'],
+                    'htmode'        => $this->RadioSettings[0]['radio0_htmode'],
                     'txpower'       => intval($this->RadioSettings[0]['radio0_txpower']),
                     'beacon_int'    => intval($this->RadioSettings[0]['radio0_beacon_int']),
                     'noscan'        => $noscan,
@@ -1348,7 +1309,7 @@ class ApsController extends AppController {
 
                     'disabled'      => intval($this->RadioSettings[1]['radio1_disabled']),
                     'distance'      => intval($this->RadioSettings[1]['radio1_distance']),
-                    //'htmode'        => $this->RadioSettings[1]['radio1_htmode'],
+                    'htmode'        => $this->RadioSettings[1]['radio1_htmode'],
                     'txpower'       => intval($this->RadioSettings[1]['radio1_txpower']),
                     'beacon_int'    => intval($this->RadioSettings[1]['radio1_beacon_int']),
                     'noscan'        => $noscan1,

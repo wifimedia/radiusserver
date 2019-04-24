@@ -226,7 +226,7 @@ class ThirdPartyAuthsController extends AppController {
 	}
 
 	private function _addVoucher($i){
-		$url = 'http://rd.wifimedia.vn/cake2/rd_cake/vouchers/add.json';
+		$url = 'http://127.0.0.1/cake2/rd_cake/vouchers/add.json';
 		$this->User 	= ClassRegistry::init('User');
 		$this->User->contain();
 		$q_r			= $this->User->find('first',array('conditions' => array('User.username' => 'root')));
@@ -260,7 +260,7 @@ class ThirdPartyAuthsController extends AppController {
 	}
 
 	private function _addPermanentUser($i){
-		$url = 'http://rd.wifimedia.vn/cake2/rd_cake/permanent_users/add.json';
+		$url = 'http://127.0.0.1/cake2/rd_cake/permanent_users/add.json';
 		$this->User 	= ClassRegistry::init('User');
 		$this->User->contain();
 		$q_r			= $this->User->find('first',array('conditions' => array('User.username' => 'root')));

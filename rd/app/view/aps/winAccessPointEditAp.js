@@ -319,7 +319,7 @@ Ext.define('Rd.view.aps.winAccessPointEditAp', {
                                                         boxLabel  : 'HT20',
                                                         name      : 'radio0_htmode',
                                                         inputValue: 'HT20',
-                                                        //checked   : true,
+                                                        checked   : true,
                                                         margin    : Rd.config.radioMargin
                                                     }, 
                                                     {
@@ -423,7 +423,7 @@ Ext.define('Rd.view.aps.winAccessPointEditAp', {
                                                         boxLabel  : 'HT20',
                                                         name      : 'radio1_htmode',
                                                         inputValue: 'HT20',
-                                                        //checked   : true,
+                                                        checked   : true,
                                                         margin    : Rd.config.radioMargin
                                                     }, 
                                                     {

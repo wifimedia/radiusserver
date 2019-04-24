@@ -485,8 +485,7 @@ class DashboardController extends AppController {
                 'layout'  => 'fit'
             ),
             array(
-                'title'   => __('AP Manager'),
-		//'title'   => __('APdesk'),
+                'title'   => __('APdesk'),
                 'glyph'   => Configure::read('icnCloud'),
                 'id'      => 'cAccessPoints',
                 'layout'  => 'fit' 
@@ -939,7 +938,6 @@ class DashboardController extends AppController {
         if($this->Acl->check(array('model' => 'User', 'foreign_key' => $id), $base."Meshes/index")){
              array_push($tabs, array(
                     'title'   => __('MESHdesk'),
-		    //'title'   => __('Mesh Network'),
                     'glyph'   => Configure::read('icnMesh'),
                     'id'      => 'cMeshes',
                     'layout'  => 'fit'
@@ -951,8 +949,7 @@ class DashboardController extends AppController {
         
         if($this->Acl->check(array('model' => 'User', 'foreign_key' => $id), $base."ApProfiles/index")){
              array_push($tabs, array(
-                    //'title'   => __('AP Manager'),
-		    'title'   => __('APdesk'),
+                    'title'   => __('APdesk'),
                     'glyph'   => Configure::read('icnCloud'),
                     'id'      => 'cAccessPoints',
                     'layout'  => 'fit' 

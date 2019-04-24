@@ -5,7 +5,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
     draggable   : true,
     resizable   : true,
     title       : 'New Device',
-    width       : 600,
+    width       : 400,
     height      : 450,
     plain       : true,
     border      : false,
@@ -312,33 +312,15 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
                                                         boxLabel  : 'HT20',
                                                         name      : 'radio0_htmode',
                                                         inputValue: 'HT20',
-                                                        //checked   : true,
+                                                        checked   : true,
                                                         margin    : Rd.config.radioMargin
                                                     }, 
                                                     {
-                                                        list  : 'HT40',
+                                                        boxLabel  : 'HT40',
                                                         name      : 'radio0_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
-                                                    },
-													{//for AC5G
-														boxLabel  :	'VHT20',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},
-													{
-														boxLabel  :	'VHT40',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},													
-													{
-														boxLabel  :	'VHT80',
-														name	  : 'radio0_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													}//END AC5G
+                                                    }
                                                 ]
                                             },
                                             {
@@ -441,7 +423,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
                                                         boxLabel  : 'HT20',
                                                         name      : 'radio1_htmode',
                                                         inputValue: 'HT20',
-                                                        //checked   : true,
+                                                        checked   : true,
                                                         margin    : Rd.config.radioMargin
                                                     }, 
                                                     {
@@ -449,25 +431,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
                                                         name      : 'radio1_htmode',
                                                         inputValue: 'HT40',
                                                         margin    : Rd.config.radioMargin
-                                                    },
-													{ //for AC5G
-														boxLabel  :	'VHT20',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},
-													{
-														boxLabel  :	'VHT40',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													},													
-													{
-														boxLabel  :	'VHT80',
-														name	  : 'radio1_htmode',
-														inputValue: 'VHT80',
-														margin	  : Rd.config.radioMargin
-													}	//END AC5G												
+                                                    }
                                                 ]
                                             },
   
@@ -511,7 +475,7 @@ Ext.define('Rd.view.aps.winAccessPointAddAp', {
 									            minValue    : 15
 									        },
                                             {
-												fieldLabel  : 'Distance',
+			            fieldLabel  : 'Distance',
 									            value       : 300,
 									            maxValue    : 3000,
 									            minValue    : 1
