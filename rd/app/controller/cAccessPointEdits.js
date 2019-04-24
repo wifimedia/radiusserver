@@ -239,6 +239,9 @@ Ext.define('Rd.controller.cAccessPointEdits', {
 			},
 			'winAccessPointEditExit #chkLoginPage' : {
 				change	: me.chkLoginPageChange
+			},
+			'winAccessPointEditExit #chkEnabled' : {
+				change	: me.chk
 			}
         });
     },

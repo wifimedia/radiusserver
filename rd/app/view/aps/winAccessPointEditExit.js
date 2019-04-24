@@ -160,7 +160,16 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
                                     xtype       : 'cmbOpenVpnServers',
                                     labelClsExtra: 'lblRdReq',
                                     allowBlank  : false
-                                }
+                                },
+								{
+									itemId		: 'chkEnabled',
+									xtype		: 'checkbox',
+									fieldLabel	: 'Enable Nds Portal',
+									name		: 'enabled',
+									inputValue	: 'enabled',
+									labelClsExtra	: 'lblRdReq'
+								}
+								
                             ]
                         },
                         //---- Captive Protal ----
