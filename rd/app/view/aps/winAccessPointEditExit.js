@@ -172,6 +172,46 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
 								
                             ]
                         },
+						//---nds portal---
+						{
+							title	: i18n("sNds_Portal"),
+							layout  : 'fit',
+							disable : true,
+							itemId  : 'tabNdsPortal',
+							hidden  : hide_nds, //ss controller
+							items	: [
+								{
+									xtype	: 'tabpanel',
+									layout	: 'fit',
+									xtype	: 'tabpanel',
+									margins : '0 0 0 0',
+									plain	: true,
+									cls		: 'subTab',
+									tabPosition	: 'top',
+									border	: false,
+									items	:[
+										{
+											title		: i18n("sBasic"),
+											layout		: 'anchor',
+											defaults	: {
+												anchor: '100%'
+											},
+											autoScroll	: true,
+											items 		: [
+												{
+													xtype		: 'checkbox',
+													fieldLabel  : i18n("sEnabled_Nds"),
+													name		: 'enabled',
+													inputValue  : 'enabled',
+													checkbox 	: true,
+													labelClsExtra	: 'lblRdReq'
+												}
+											]
+										}
+									]
+								}
+							]
+						},
                         //---- Captive Protal ----
                         { 
                             title       : i18n("sCaptive_Portal_settings"),
