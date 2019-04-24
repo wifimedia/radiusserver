@@ -205,7 +205,15 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
 													inputValue  : 'enabled',
 													checkbox 	: true,
 													labelClsExtra	: 'lblRdReq'
-												}
+												},
+												{
+													xtype		: 'checkbox',
+													fieldLabel  : i18n("sEnabled_Nds"),
+													name		: 'fwhook_enabled',
+													inputValue  : 'fwhook_enabled',
+													checkbox 	: true,
+													labelClsExtra	: 'lblRdReq'
+												},
 											]
 										}
 									]
@@ -457,10 +465,16 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
 
         //Should we enable or disable the captive portal tab
         var tab_capt= frmData.down('#tabCaptivePortal');
-        
+        var tab_nds	= frmData.down('#tabNdsPortal');
         var a_nas   = frmData.down('#chkNasClient');
         var a_page  = frmData.down('#chkLoginPage');
         var cmb_page= frmData.down('cmbDynamicDetail');
+		
+		if(me.type == 'nds_portal'){
+			tab_nds.setDisabled(false);
+		}else{
+			tab_nds.setDisabled(true);
+		}
         
         if(me.type == 'captive_portal'){
             tab_capt.setDisabled(false);
