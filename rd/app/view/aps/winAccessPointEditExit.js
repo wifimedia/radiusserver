@@ -213,7 +213,7 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
 													inputValue  : 'fwhook_enabled',
 													checkbox 	: true,
 													labelClsExtra	: 'lblRdReq'
-												},
+												}
 											]
 										}
 									]
@@ -470,11 +470,11 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
         var a_page  = frmData.down('#chkLoginPage');
         var cmb_page= frmData.down('cmbDynamicDetail');
 		
-		if(me.type == 'nds_portal'){
-			tab_nds.setDisabled(false);
-		}else{
-			tab_nds.setDisabled(true);
-		}
+		//if(me.type == 'nds_portal'){
+		//	tab_nds.setDisabled(false);
+		//}else{
+		//	tab_nds.setDisabled(true);
+		//}
         
         if(me.type == 'captive_portal'){
             tab_capt.setDisabled(false);

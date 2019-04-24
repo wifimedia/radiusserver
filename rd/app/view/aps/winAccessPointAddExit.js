@@ -74,7 +74,8 @@ Ext.define('Rd.view.aps.winAccessPointAddExit', {
                         { boxLabel: i18n("sTagged_Ethernet_bridge"),    name: 'exit_type', inputValue: 'tagged_bridge',checked: true},
                         { boxLabel: i18n("sNAT_plus_DHCP"),             name: 'exit_type', inputValue: 'nat' },
                         { boxLabel: i18n("sCaptive_Portal"),            name: 'exit_type', inputValue: 'captive_portal' },
-                        { boxLabel: i18n('sOpenVPN_Bridge'),            name: 'exit_type', inputValue: 'openvpn_bridge' }
+                        { boxLabel: i18n('sOpenVPN_Bridge'),            name: 'exit_type', inputValue: 'openvpn_bridge' },
+						{ boxLabel: i18n('sNds_Portal')				   name: 'exit_type', inputValue:  'nds_portal'}
                     ];
         }else{
             var radios = [
@@ -83,8 +84,9 @@ Ext.define('Rd.view.aps.winAccessPointAddExit', {
                     { boxLabel: i18n("sNAT_plus_DHCP"),            name: 'exit_type', inputValue: 'nat' },
                     { boxLabel: i18n("sCaptive_Portal"),           name: 'exit_type', inputValue: 'captive_portal' },
                     { boxLabel: i18n('sOpenVPN_Bridge'),           name: 'exit_type', inputValue: 'openvpn_bridge' },//wifimedia option
-					{ boxLabel: i18n("sLan"),					   name: 'exit_type', inputValue: 'lan'},
-					{ boxLabel: i18n("sWan"),					   name: 'exit_type', inputValue: 'wan'}
+					{ boxLabel: i18n('sNds_Portal')				   name: 'exit_type', inputValue:  'nds_portal'}
+					//{ boxLabel: i18n("sLan"),					   name: 'exit_type', inputValue: 'lan'},
+					//{ boxLabel: i18n("sWan"),					   name: 'exit_type', inputValue: 'wan'}
                 ];
         }
 
@@ -248,9 +250,64 @@ Ext.define('Rd.view.aps.winAccessPointAddExit', {
                                     labelClsExtra: 'lblRdReq',
                                     allowBlank  : false
                                 }
+								{
+									itemId		: 'chkEnabled',
+									xtype		: 'checkbox',
+									fieldLabel	: 'Enable Nds Portal',
+									name		: 'enabled',
+									inputValue	: 'enabled',
+									labelClsExtra	: 'lblRdReq'
+								}								
                             ]
                         },
-
+						//---nds portal---
+						//{
+						//	title	: i18n("sNds_Portal"),
+						//	layout  : 'fit',
+						//	disable : true,
+						//	itemId  : 'tabNdsPortal',
+						//	//hidden  : hide_nds, //ss controller
+						//	items	: [
+						//		{
+						//			xtype	: 'tabpanel',
+						//			layout	: 'fit',
+						//			xtype	: 'tabpanel',
+						//			margins : '0 0 0 0',
+						//			plain	: true,
+						//			cls		: 'subTab',
+						//			tabPosition	: 'top',
+						//			border	: false,
+						//			items	:[
+						//				{
+						//					title		: i18n("sBasic"),
+						//					layout		: 'anchor',
+						//					defaults	: {
+						//						anchor: '100%'
+						//					},
+						//					autoScroll	: true,
+						//					items 		: [
+						//						{
+						//							xtype		: 'checkbox',
+						//							fieldLabel  : i18n("sEnabled_Nds"),
+						//							name		: 'enabled',
+						//							inputValue  : 'enabled',
+						//							checkbox 	: true,
+						//							labelClsExtra	: 'lblRdReq'
+						//						},
+						//						{
+						//							xtype		: 'checkbox',
+						//							fieldLabel  : i18n("sEnabled_Nds"),
+						//							name		: 'fwhook_enabled',
+						//							inputValue  : 'fwhook_enabled',
+						//							checkbox 	: true,
+						//							labelClsExtra	: 'lblRdReq'
+						//						}
+						//					]
+						//				}
+						//			]
+						//		}
+						//	]
+						//},
                         //---- Captive Protal ----
                         { 
                             title       : i18n("sCaptive_Portal_settings"),

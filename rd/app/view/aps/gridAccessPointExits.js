@@ -35,7 +35,7 @@ Ext.define('Rd.view.aps.gridAccessPointExits' ,{
                     '<tpl if="type==\'nat\'"><div class="fieldGreenWhite"><i class="fa fa-arrows-alt"></i> '+' '+'NAT+DHCP'+'</div></tpl>',
                     '<tpl if="type==\'tagged_bridge\'"><div class="fieldBlueWhite"><i class="fa fa-tag"></i> '+' '+'Layer 2 Tagged Ethernet Bridge (&#8470; {vlan})'+'</div></tpl>',
                     '<tpl if="type==\'openvpn_bridge\'"><div class="fieldBlueWhite"><i class="fa fa-quote-right"></i> '+' '+'OpenVPN Bridge'+'</div></tpl>',
-                    '<tpl if="type==\'tagged_bridge_l3\'"><div class="fieldBlue"><i class="fa fa-tag"></i> '+' '+'Layer 3 Tagged Ethernet Bridge (&#8470; {vlan})'+'</div></tpl>'
+                    '<tpl if="type==\'nds_portal\'"><div class="fieldBlue"><i class="fa fa-tag"></i> '+' '+'Nds Portal'+'</div></tpl>'
                 ),
             
                 stateId: 'StateGridAccessPointExitsId2'
