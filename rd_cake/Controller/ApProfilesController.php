@@ -823,7 +823,10 @@ class ApProfilesController extends AppController {
                         'dns_manual',
                         'uamanydns',
                         'dnsparanoia',
-                        'dnsdesk'
+                        'dnsdesk',
+						'enabled',
+						'fwhook_enabled'
+						
 					);
 					foreach($check_items as $i){
 					    if(isset($this->request->data[$i])){
@@ -1005,13 +1008,21 @@ class ApProfilesController extends AppController {
             $q_r['ApProfileExit']['coova_optional']  = $q_r['ApProfileExitCaptivePortal']['coova_optional'];
             
             //DNS settings
-            $q_r['ApProfileExit']['dns_manual']      = $q_r['ApProfileExitCaptivePortal']['dns_manual'];
-            $q_r['ApProfileExit']['dns1']            = $q_r['ApProfileExitCaptivePortal']['dns1'];
-            $q_r['ApProfileExit']['dns2']            = $q_r['ApProfileExitCaptivePortal']['dns2'];
-            $q_r['ApProfileExit']['uamanydns']       = $q_r['ApProfileExitCaptivePortal']['uamanydns'];
-            $q_r['ApProfileExit']['dnsparanoia']     = $q_r['ApProfileExitCaptivePortal']['dnsparanoia'];
-            $q_r['ApProfileExit']['dnsdesk']         = $q_r['ApProfileExitCaptivePortal']['dnsdesk'];
-
+            $q_r['ApProfileExit']['dns_manual']      			= $q_r['ApProfileExitCaptivePortal']['dns_manual'];
+            $q_r['ApProfileExit']['dns1']            			= $q_r['ApProfileExitCaptivePortal']['dns1'];
+            $q_r['ApProfileExit']['dns2']            			= $q_r['ApProfileExitCaptivePortal']['dns2'];
+            $q_r['ApProfileExit']['uamanydns']       			= $q_r['ApProfileExitCaptivePortal']['uamanydns'];
+            $q_r['ApProfileExit']['dnsparanoia']     			= $q_r['ApProfileExitCaptivePortal']['dnsparanoia'];
+            $q_r['ApProfileExit']['dnsdesk']         			= $q_r['ApProfileExitCaptivePortal']['dnsdesk'];
+			//Nds Portal
+			$q_r['ApProfileExit']['gatewayinterface']         	= $q_r['ApProfileExitCaptivePortal']['gatewayinterface'];
+			$q_r['ApProfileExit']['maxclients']         		= $q_r['ApProfileExitCaptivePortal']['maxclients'];
+			$q_r['ApProfileExit']['preauthidletimeout']         = $q_r['ApProfileExitCaptivePortal']['preauthidletimeout'];
+			$q_r['ApProfileExit']['authidletimeout']         	= $q_r['ApProfileExitCaptivePortal']['authidletimeout'];
+			$q_r['ApProfileExit']['sessiontimeout']         	= $q_r['ApProfileExitCaptivePortal']['sessiontimeout'];
+			$q_r['ApProfileExit']['checkinterval']         		= $q_r['ApProfileExitCaptivePortal']['checkinterval'];
+			$q_r['ApProfileExit']['redirecturl']         		= $q_r['ApProfileExitCaptivePortal']['redirecturl'];
+			$q_r['ApProfileExit']['preauthenticated_users']         = $q_r['ApProfileExitCaptivePortal']['preauthenticated_users'];
         }
         
         if($q_r['DynamicDetail']){
@@ -1045,25 +1056,25 @@ class ApProfilesController extends AppController {
         $user_id    = $user['id'];
         $fail_flag  = false;
         $exit       = ClassRegistry::init('ApProfileExit'); 
-
+		
 	    if(isset($this->data['id'])){   //Single item delete
             $message = "Single item ".$this->data['id']; 
             
             $exit->contain('ApProfile');
             $id                 = $this->data['id'];
             $q_r                = $exit->findById($this->data['id']);
-            if($q_r){
-                if($q_r['ApProfileExit']['type'] == 'captive_portal'){
-                    $ap_profile_name    = $q_r['ApProfile']['name'];
-                    $ap_profile_name    = preg_replace('/\s+/', '_', $ap_profile_name);
-                    $this->DynamicClient->deleteAll(array('DynamicClient.nasidentifier LIKE' => "$ap_profile_name"."_%_cp_".$id), true);
-                    $this->DynamicPair->deleteAll(
-                        array(
-                            'DynamicPair.value LIKE' => "$ap_profile_name"."_%_cp_".$id,
-                            'DynamicPair.name' => 'nasid',
-                        ), true);
-                }
-            }     
+            //if($q_r){
+            //    if($q_r['ApProfileExit']['type'] == 'captive_portal'){
+            //        $ap_profile_name    = $q_r['ApProfile']['name'];
+            //        $ap_profile_name    = preg_replace('/\s+/', '_', $ap_profile_name);
+            //        $this->DynamicClient->deleteAll(array('DynamicClient.nasidentifier LIKE' => "$ap_profile_name"."_%_cp_".$id), true);
+            //        $this->DynamicPair->deleteAll(
+            //            array(
+            //                'DynamicPair.value LIKE' => "$ap_profile_name"."_%_cp_".$id,
+            //                'DynamicPair.name' => 'nasid',
+            //            ), true);
+            //    }
+            //}     
             
             $exit->id = $this->data['id'];
             $exit->delete($exit->id, true);
@@ -1072,18 +1083,18 @@ class ApProfilesController extends AppController {
                 $exit->contain('ApProfile');
                 $id                 = $d['id'];
                 $q_r                = $exit->findById($d['id']);
-                if($q_r){
-                    if($q_r['ApProfileExit']['type'] == 'captive_portal'){
-                        $ap_profile_name    = $q_r['ApProfile']['name'];
-                        $ap_profile_name    = preg_replace('/\s+/', '_', $ap_profile_name);
-                        $this->DynamicClient->deleteAll(array('DynamicClient.nasidentifier LIKE' => "$ap_profile_name"."_%_cp_".$id), true);
-                        $this->DynamicPair->deleteAll(
-                            array(
-                                'DynamicPair.value LIKE' => "$ap_profile_name"."_%_cp_".$id,
-                                'DynamicPair.name' => 'nasid',
-                            ), true);
-                    }
-                }          
+                //if($q_r){
+                //    if($q_r['ApProfileExit']['type'] == 'captive_portal'){
+                //        $ap_profile_name    = $q_r['ApProfile']['name'];
+                //        $ap_profile_name    = preg_replace('/\s+/', '_', $ap_profile_name);
+                //        $this->DynamicClient->deleteAll(array('DynamicClient.nasidentifier LIKE' => "$ap_profile_name"."_%_cp_".$id), true);
+                //        $this->DynamicPair->deleteAll(
+                //            array(
+                //                'DynamicPair.value LIKE' => "$ap_profile_name"."_%_cp_".$id,
+                //                'DynamicPair.name' => 'nasid',
+                //            ), true);
+                //    }
+                //}          
                 $exit->id = $d['id'];
                 $exit->delete($exit->id, true);
             }
