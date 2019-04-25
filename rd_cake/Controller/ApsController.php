@@ -740,8 +740,6 @@ class ApsController extends AppController {
             $exit_id                = $ap_profile_e['id'];
             $type                   = $ap_profile_e['type'];
             $vlan                   = $ap_profile_e['vlan'];
-			$ifname_inner			= 'lan';
-			$ifname_outner			= 'wan';
 
             //This is used to fetch info eventually about the entry points
             if(count($ap_profile_e['ApProfileExitApProfileEntry']) > 0){

@@ -972,9 +972,9 @@ class ApProfilesController extends AppController {
 
         //entry_points
         $q_r['ApProfileExit']['entry_points'] = array();
-        foreach($q_r['ApProfileExitApProfileEntry'] as $i){
-            array_push($q_r['ApProfileExit']['entry_points'],intval($i['ap_profile_entry_id']));
-        }
+        //foreach($q_r['ApProfileExitApProfileEntry'] as $i){
+        //    array_push($q_r['ApProfileExit']['entry_points'],intval($i['ap_profile_entry_id']));
+        //}
 
         if($q_r['ApProfileExitCaptivePortal']){
             //$q_r['ApProfileExit']['radius_1']        = $q_r['ApProfileExitCaptivePortal']['radius_1'];
@@ -1497,7 +1497,7 @@ class ApProfilesController extends AppController {
 	        );
 	        foreach($q_exits as $qe){
 	            	        
-	            $exit_id = $qe['ApProfileExit']['id'];
+	            //$exit_id = $qe['ApProfileExit']['id'];
 	            
 	            $name_no_spaces = $this->request->data['name'];
 	            $name_no_spaces = preg_replace('/\s+/', '_', $name_no_spaces);
@@ -1506,17 +1506,17 @@ class ApProfilesController extends AppController {
 	            $dc_data                            = array();       	            
 	            $dc_data['user_id']                 = $user_id;
 	            $dc_data['available_to_siblings']   = $a_to_s;
-	            $dc_data['nasidentifier']           = $ap_profile_name.'_'.$name_no_spaces.'_cp_'.$exit_id;
+	            //$dc_data['nasidentifier']           = $ap_profile_name.'_'.$name_no_spaces.'_cp_'.$exit_id;
 	            $dc_data['realm_list']              = $qe['ApProfileExit']['realm_list'];
 	            
-	            if($qe['ApProfileExit']['auto_dynamic_client'] == 1){  //It has to be enabled
-	                $this->_add_dynamic($dc_data);
-	            }
-	            
-	            if($qe['ApProfileExit']['auto_login_page'] == 1){  //It has to be enabled
-	                $dc_data['dynamic_detail_id'] = $qe['ApProfileExit']['dynamic_detail_id'];
-	                $this->_add_dynamic_pair($dc_data);
-	            }
+	            //if($qe['ApProfileExit']['auto_dynamic_client'] == 1){  //It has to be enabled
+	            //    $this->_add_dynamic($dc_data);
+	            //}
+	            //
+	            //if($qe['ApProfileExit']['auto_login_page'] == 1){  //It has to be enabled
+	            //    $dc_data['dynamic_detail_id'] = $qe['ApProfileExit']['dynamic_detail_id'];
+	            //    $this->_add_dynamic_pair($dc_data);
+	            //}
 	        }
 	        //_______________________________________________________________________
 	
