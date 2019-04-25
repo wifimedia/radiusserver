@@ -161,6 +161,14 @@ Ext.define('Rd.controller.cAccessPointEdits', {
             '#chkProxyEnable' : {
                 change:  me.chkProxyEnableChange
             },
+			//enabled nds portal
+			'#chkNdsEnable' : {
+                change:  me.chkNdsEnableChange
+            },
+			'#chkNdsFwEnable' : {
+                change:  me.chkNdsFwEnableChange
+            },
+			//end nds option
             'pnlAccessPointEdit #tabAccessPointCommonSettings' : {
                 activate:      me.frmApCommonSettingsLoad
             },
@@ -599,6 +607,18 @@ Ext.define('Rd.controller.cAccessPointEdits', {
     chkLoginPageChange: function(chk){
         var me          = this;
         var form        = chk.up('form');
+        var NdsEnable    = form.down('#chkNdsEnable');
+        if(chk.getValue()){	
+			NdsEnable.setVisible(true);
+			NdsEnable.setDisabled(false);
+		}else{
+			NdsEnable.setVisible(false);
+			NdsEnable.setDisabled(true);		
+		}
+    },
+     chkNdsEnableChange: function(chk){
+        var me          = this;
+        var form        = chk.up('form');
         var cmb_page    = form.down('#cmbDynamicDetail');
         if(chk.getValue()){	
 			cmb_page.setVisible(true);
@@ -609,6 +629,7 @@ Ext.define('Rd.controller.cAccessPointEdits', {
 		}
     },
       
+ 
     reloadExit: function(button){
         var me      = this;
         var pnl     = button.up("pnlAccessPointEdit");
@@ -972,7 +993,43 @@ Ext.define('Rd.controller.cAccessPointEdits', {
                  item.setVisible(false);
             });
         }
-    },  
+    },
+
+//function enable Nds Port Settings
+
+//    chkNdsEnableChange: function(chk){
+//        var me      = this;
+//        var panel   = chk.up('panel');
+//        var items   = Ext.ComponentQuery.query("textfield", panel);
+//        if(chk.getValue()){
+//            Ext.Array.each(items, function(item, index, itemsItSelf) {
+//                item.setDisabled(false);
+//                 item.setVisible(true);
+//            });
+//        }else{
+//            Ext.Array.each(items, function(item, index, itemsItSelf) {
+//                item.setDisabled(true);
+//                 item.setVisible(false);
+//            });
+//        }
+//    },
+//    chkNdsFwEnableChange: function(chk){
+//        var me      = this;
+//        var panel   = chk.up('panel');
+//        var items   = Ext.ComponentQuery.query("textfield", panel);
+//        if(chk.getValue()){
+//            Ext.Array.each(items, function(item, index, itemsItSelf) {
+//                item.setDisabled(false);
+//                 item.setVisible(true);
+//            });
+//        }else{
+//            Ext.Array.each(items, function(item, index, itemsItSelf) {
+//                item.setDisabled(true);
+//                 item.setVisible(false);
+//            });
+//        }
+//    },	
+//end	
     //Common ap settings
     frmApCommonSettingsLoad: function(tab){
         var me          = this;

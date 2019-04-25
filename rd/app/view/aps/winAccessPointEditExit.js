@@ -264,6 +264,7 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
 											autoScroll:true,
 											items	: [
 												{
+													itemId		: 'chkNdsEnable',
                                                     xtype       : 'checkbox',      
                                                     fieldLabel  : 'Enable Nds Portal',
                                                     name        : 'enabled',
@@ -272,6 +273,7 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
                                                     labelClsExtra: 'lblRdReq'													
 												},
 												{
+													itemId		: 'chkNdsFwEnable',
                                                     xtype       : 'checkbox',      
                                                     fieldLabel  : 'Enable Fwhook',
                                                     name        : 'fwhook_enabled',
@@ -343,14 +345,6 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
                                                     xtype       : 'textfield',
                                                     fieldLabel  : 'Checkinterval',
                                                     name        : 'checkinterval',
-                                                    allowBlank  : true,
-                                                    labelClsExtra: 'lblRdReq',
-                                                    disabled    : false
-                                                },
-                                                {
-                                                    xtype       : 'textfield',
-                                                    fieldLabel  : 'Redirecturl',
-                                                    name        : 'redirecturl',
                                                     allowBlank  : true,
                                                     labelClsExtra: 'lblRdReq',
                                                     disabled    : false

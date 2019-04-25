@@ -1015,13 +1015,15 @@ class ApProfilesController extends AppController {
             $q_r['ApProfileExit']['dnsparanoia']     			= $q_r['ApProfileExitCaptivePortal']['dnsparanoia'];
             $q_r['ApProfileExit']['dnsdesk']         			= $q_r['ApProfileExitCaptivePortal']['dnsdesk'];
 			//Nds Portal
-			$q_r['ApProfileExit']['gatewayinterface']         	= $q_r['ApProfileExitCaptivePortal']['gatewayinterface'];
-			$q_r['ApProfileExit']['maxclients']         		= $q_r['ApProfileExitCaptivePortal']['maxclients'];
-			$q_r['ApProfileExit']['preauthidletimeout']         = $q_r['ApProfileExitCaptivePortal']['preauthidletimeout'];
-			$q_r['ApProfileExit']['authidletimeout']         	= $q_r['ApProfileExitCaptivePortal']['authidletimeout'];
-			$q_r['ApProfileExit']['sessiontimeout']         	= $q_r['ApProfileExitCaptivePortal']['sessiontimeout'];
-			$q_r['ApProfileExit']['checkinterval']         		= $q_r['ApProfileExitCaptivePortal']['checkinterval'];
-			$q_r['ApProfileExit']['redirecturl']         		= $q_r['ApProfileExitCaptivePortal']['redirecturl'];
+			$q_r['ApProfileExit']['enabled']         				= $q_r['ApProfileExitCaptivePortal']['enabled'];
+			$q_r['ApProfileExit']['fwhook_enabled']         		= $q_r['ApProfileExitCaptivePortal']['fwhook_enabled'];			
+			$q_r['ApProfileExit']['gatewayinterface']         		= $q_r['ApProfileExitCaptivePortal']['gatewayinterface'];
+			$q_r['ApProfileExit']['maxclients']         			= $q_r['ApProfileExitCaptivePortal']['maxclients'];
+			$q_r['ApProfileExit']['preauthidletimeout']         	= $q_r['ApProfileExitCaptivePortal']['preauthidletimeout'];
+			$q_r['ApProfileExit']['authidletimeout']         		= $q_r['ApProfileExitCaptivePortal']['authidletimeout'];
+			$q_r['ApProfileExit']['sessiontimeout']         		= $q_r['ApProfileExitCaptivePortal']['sessiontimeout'];
+			$q_r['ApProfileExit']['checkinterval']         			= $q_r['ApProfileExitCaptivePortal']['checkinterval'];
+			$q_r['ApProfileExit']['redirecturl']         			= $q_r['ApProfileExitCaptivePortal']['redirecturl'];
 			$q_r['ApProfileExit']['preauthenticated_users']         = $q_r['ApProfileExitCaptivePortal']['preauthenticated_users'];
         }
         
