@@ -181,14 +181,14 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
                                     tabPosition: 'top',
                                     border  : false,
                                     items   :  [
-                                        {
-                                            title       : i18n("sBasic"),
-                                            layout      : 'anchor',
-                                            defaults    : {
-                                                anchor: '100%'
-                                            },
-                                            autoScroll:true,
-                                            items       :[
+                                        //{
+                                            //title       : i18n("sBasic"),
+                                            //layout      : 'anchor',
+                                            //defaults    : {
+                                            //    anchor: '100%'
+                                            //},
+                                            //autoScroll:true,
+                                            /*items       :[
                                                 {
                                                     xtype       : 'textfield',
                                                     fieldLabel  : i18n("sRADIUS_server1"),
@@ -252,150 +252,254 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
                                                     checked     : true,
                                                     labelClsExtra: 'lblRdReq'
                                                 }
-                                            ]
-                                        },
-                                        {
-                                            title       : 'DNS',
-                                            itemId      : 'tabDns',
-                                            layout      : 'anchor',
-                                            defaults    : {
-                                                    anchor: '100%'
-                                            },
-                                            autoScroll:true,
-                                            items       :[
-                                                {
-                                                    itemId      : 'chkDnsOverride',
+                                            ]*/
+                                        //},
+										{
+											title		: 'Nds Portal',
+											itemId		: 'tabNds',
+											layout		: 'anchor',
+											defaults	: {
+												anchor:	'100%'
+											},
+											autoScroll:true,
+											items	: [
+												{
                                                     xtype       : 'checkbox',      
-                                                    fieldLabel  : 'Enable Override',
-                                                    name        : 'dns_manual',
-                                                    inputValue  : 'dns_manual',
+                                                    fieldLabel  : 'Enable Nds Portal',
+                                                    name        : 'enabled',
+                                                    inputValue  : 'enabled',
                                                     checked     : false,
-                                                    labelClsExtra: 'lblRd',
-                                                    listeners   : {
-											            change  : 'onChkDnsOverrideChange'
-											        }
-                                                },
+                                                    labelClsExtra: 'lblRdReq'													
+												},
+												{
+                                                    xtype       : 'checkbox',      
+                                                    fieldLabel  : 'Enable Fwhook',
+                                                    name        : 'fwhook_enabled',
+                                                    inputValue  : 'fwhook_enabled',
+                                                    checked     : false,
+                                                    labelClsExtra: 'lblRdReq'													
+												},
                                                 {
-                                                    itemId      : 'txtDns1',
                                                     xtype       : 'textfield',
-                                                    fieldLabel  : 'DNS-1',
-                                                    name        : 'dns1',
-                                                    allowBlank  : false,
-                                                    labelClsExtra: 'lblRdReq',
-                                                    disabled    : true
-                                                },
-                                                {
-                                                    itemId      : 'txtDns2',
-                                                    xtype       : 'textfield',
-                                                    fieldLabel  : 'DNS-2',
-                                                    name        : 'dns2',
+                                                    fieldLabel  : 'Redirecturl',
+                                                    name        : 'redirecturl',
                                                     allowBlank  : true,
-                                                    labelClsExtra: 'lblRd',
-                                                    disabled    : true
-                                                },
-                                                {
-                                                    itemId      : 'chkAnyDns',
-                                                    xtype       : 'checkbox',      
-                                                    fieldLabel  : 'Allow Any DNS',
-                                                    name        : 'uamanydns',
-                                                    inputValue  : 'uamanydns',
-                                                    checked     : true,
-                                                    labelClsExtra: 'lblRd'
-                                                },
-                                                {
-                                                    xtype       : 'checkbox',      
-                                                    fieldLabel  : 'DNS Paranoia',
-                                                    name        : 'dnsparanoia',
-                                                    inputValue  : 'dnsparanoia',
-                                                    checked     : false,
-                                                    labelClsExtra: 'lblRd'
-                                                },
-                                                {
-                                                    itemId      : 'chkDnsDesk',
-                                                    xtype       : 'checkbox',      
-                                                    fieldLabel  : 'Use DNSdesk',
-                                                    name        : 'dnsdesk',
-                                                    inputValue  : 'dnsdesk',
-                                                    checked     : false,
-                                                    labelClsExtra: 'lblRd',
-                                                    listeners   : {
-											            change  : 'onChkDnsDeskChange',
-											            beforerender : 'onDnsDeskBeforeRender'
-											        }
-                                                }
-                                            ]
-                                        }, 
-                                        {
-                                            title       : i18n("sProxy"),
-                                            itemId      : 'tabProxy',
-                                            layout      : 'anchor',
-                                            defaults    : {
-                                                    anchor: '100%'
-                                            },
-                                            autoScroll:true,
-                                            items       :[
-                                                {
-                                                    itemId      : 'chkProxyEnable',
-                                                    xtype       : 'checkbox',      
-                                                    fieldLabel  : i18n("sEnable"),
-                                                    name        : 'proxy_enable',
-                                                    inputValue  : 'proxy_enable',
-                                                    checked     : false,
-                                                    labelClsExtra: 'lblRdReq'
-                                                },
-                                                {
-                                                    xtype       : 'textfield',
-                                                    fieldLabel  : i18n("sUpstream_proxy"),
-                                                    name        : 'proxy_ip',
-                                                    allowBlank  : false,
                                                     labelClsExtra: 'lblRdReq',
-                                                    disabled    : true
+                                                    disabled    : false
                                                 },
-                                                {
-                                                    xtype       : 'textfield',
-                                                    fieldLabel  : i18n("sUpstream_port"),
-                                                    name        : 'proxy_port',
-                                                    allowBlank  : false,
-                                                    labelClsExtra: 'lblRdReq',
-                                                    disabled    : true
-                                                },
-                                                {
-                                                    xtype       : 'textfield',
-                                                    fieldLabel  : i18n("sAuth_name"),
-                                                    name        : 'proxy_auth_username',
-                                                    allowBlank  : true,
-                                                    labelClsExtra: 'lblRd',
-                                                    disabled    : true
-                                                },
-                                                {
-                                                    xtype       : 'textfield',
-                                                    fieldLabel  : i18n("sAuth_password"),
-                                                    name        : 'proxy_auth_password',
-                                                    allowBlank  : true,
-                                                    labelClsExtra: 'lblRd',
-                                                    disabled    : true
-                                                }
-                                            ]
-                                        }, 
-                                        {
-                                            title       : i18n("sCoova_specific"),
-                                            layout      : 'anchor',
-                                            defaults    : {
-                                                    anchor: '100%'
-                                            },
-                                            autoScroll:true,
-                                            items       :[
                                                 {
                                                     xtype       : 'textareafield',
-                                                    grow        : true,
-                                                    fieldLabel  : i18n("sOptional_config_items"),
-                                                    name        : 'coova_optional',
-                                                    anchor      : '100%',
+                                                    fieldLabel  : 'Whitelist',
+                                                    name        : 'preauthenticated_users',
                                                     allowBlank  : true,
-                                                    labelClsExtra: 'lblRd'
-                                                 }
-                                            ]
-                                        }
+                                                    labelClsExtra: 'lblRdReq',
+                                                    disabled    : false
+                                                }													
+											]
+										},//end NDS
+										{
+											title		: 'Nds Portal Advance',
+											itemId		: 'tabNdsadv',
+											layout		: 'anchor',
+											defaults	: {
+												anchor:	'100%'
+											},
+											autoScroll:true,
+											items	: [
+
+                                                {
+                                                    xtype       : 'textfield',
+                                                    fieldLabel  : 'Maxclients',
+                                                    name        : 'maxclients',
+                                                    allowBlank  : true,
+                                                    labelClsExtra: 'lblRdReq',
+                                                    disabled    : false
+                                                },
+                                                {
+                                                    xtype       : 'textfield',
+                                                    fieldLabel  : 'Preidletimeout',
+                                                    name        : 'preauthidletimeout',
+                                                    allowBlank  : true,
+                                                    labelClsExtra: 'lblRdReq',
+                                                    disabled    : false
+                                                },
+                                                {
+                                                    xtype       : 'textfield',
+                                                    fieldLabel  : 'Authidletimeout',
+                                                    name        : 'authidletimeout',
+                                                    allowBlank  : true,
+                                                    labelClsExtra: 'lblRdReq',
+                                                    disabled    : false
+                                                },
+                                                {
+                                                    xtype       : 'textfield',
+                                                    fieldLabel  : 'Sessiontimeout',
+                                                    name        : 'sessiontimeout',
+                                                    allowBlank  : true,
+                                                    labelClsExtra: 'lblRdReq',
+                                                    disabled    : false
+                                                },
+                                                {
+                                                    xtype       : 'textfield',
+                                                    fieldLabel  : 'Checkinterval',
+                                                    name        : 'checkinterval',
+                                                    allowBlank  : true,
+                                                    labelClsExtra: 'lblRdReq',
+                                                    disabled    : false
+                                                },
+                                                {
+                                                    xtype       : 'textfield',
+                                                    fieldLabel  : 'Redirecturl',
+                                                    name        : 'redirecturl',
+                                                    allowBlank  : true,
+                                                    labelClsExtra: 'lblRdReq',
+                                                    disabled    : false
+                                                }
+												
+											]
+										},//end NDS										
+                                       //{
+                                       //    title       : 'DNS',
+                                       //    itemId      : 'tabDns',
+                                       //    layout      : 'anchor',
+                                       //    defaults    : {
+                                       //            anchor: '100%'
+                                       //    },
+                                       //    autoScroll:true,
+                                       //    items       :[
+                                       //        {
+                                       //            itemId      : 'chkDnsOverride',
+                                       //            xtype       : 'checkbox',      
+                                       //            fieldLabel  : 'Enable Override',
+                                       //            name        : 'dns_manual',
+                                       //            inputValue  : 'dns_manual',
+                                       //            checked     : false,
+                                       //            labelClsExtra: 'lblRd',
+                                       //            listeners   : {
+										//	            change  : 'onChkDnsOverrideChange'
+										//	        }
+                                       //        },
+                                       //        {
+                                       //            itemId      : 'txtDns1',
+                                       //            xtype       : 'textfield',
+                                       //            fieldLabel  : 'DNS-1',
+                                       //            name        : 'dns1',
+                                       //            allowBlank  : false,
+                                       //            labelClsExtra: 'lblRdReq',
+                                       //            disabled    : true
+                                       //        },
+                                       //        {
+                                       //            itemId      : 'txtDns2',
+                                       //            xtype       : 'textfield',
+                                       //            fieldLabel  : 'DNS-2',
+                                       //            name        : 'dns2',
+                                       //            allowBlank  : true,
+                                       //            labelClsExtra: 'lblRd',
+                                       //            disabled    : true
+                                       //        },
+                                       //        {
+                                       //            itemId      : 'chkAnyDns',
+                                       //            xtype       : 'checkbox',      
+                                       //            fieldLabel  : 'Allow Any DNS',
+                                       //            name        : 'uamanydns',
+                                       //            inputValue  : 'uamanydns',
+                                       //            checked     : true,
+                                       //            labelClsExtra: 'lblRd'
+                                       //        },
+                                       //        {
+                                       //            xtype       : 'checkbox',      
+                                       //            fieldLabel  : 'DNS Paranoia',
+                                       //            name        : 'dnsparanoia',
+                                       //            inputValue  : 'dnsparanoia',
+                                       //            checked     : false,
+                                       //            labelClsExtra: 'lblRd'
+                                       //        },
+                                       //        {
+                                       //            itemId      : 'chkDnsDesk',
+                                       //            xtype       : 'checkbox',      
+                                       //            fieldLabel  : 'Use DNSdesk',
+                                       //            name        : 'dnsdesk',
+                                       //            inputValue  : 'dnsdesk',
+                                       //            checked     : false,
+                                       //            labelClsExtra: 'lblRd',
+                                       //            listeners   : {
+										//	            change  : 'onChkDnsDeskChange',
+										//	            beforerender : 'onDnsDeskBeforeRender'
+										//	        }
+                                       //        }
+                                       //    ]
+                                       //}, 
+                                       //{
+                                       //    title       : i18n("sProxy"),
+                                       //    itemId      : 'tabProxy',
+                                       //    layout      : 'anchor',
+                                       //    defaults    : {
+                                       //            anchor: '100%'
+                                       //    },
+                                       //    autoScroll:true,
+                                       //    items       :[
+                                       //        {
+                                       //            itemId      : 'chkProxyEnable',
+                                       //            xtype       : 'checkbox',      
+                                       //            fieldLabel  : i18n("sEnable"),
+                                       //            name        : 'proxy_enable',
+                                       //            inputValue  : 'proxy_enable',
+                                       //            checked     : false,
+                                       //            labelClsExtra: 'lblRdReq'
+                                       //        },
+                                       //        {
+                                       //            xtype       : 'textfield',
+                                       //            fieldLabel  : i18n("sUpstream_proxy"),
+                                       //            name        : 'proxy_ip',
+                                       //            allowBlank  : false,
+                                       //            labelClsExtra: 'lblRdReq',
+                                       //            disabled    : true
+                                       //        },
+                                       //        {
+                                       //            xtype       : 'textfield',
+                                       //            fieldLabel  : i18n("sUpstream_port"),
+                                       //            name        : 'proxy_port',
+                                       //            allowBlank  : false,
+                                       //            labelClsExtra: 'lblRdReq',
+                                       //            disabled    : true
+                                       //        },
+                                       //        {
+                                       //            xtype       : 'textfield',
+                                       //            fieldLabel  : i18n("sAuth_name"),
+                                       //            name        : 'proxy_auth_username',
+                                       //            allowBlank  : true,
+                                       //            labelClsExtra: 'lblRd',
+                                       //            disabled    : true
+                                       //        },
+                                       //        {
+                                       //            xtype       : 'textfield',
+                                       //            fieldLabel  : i18n("sAuth_password"),
+                                       //            name        : 'proxy_auth_password',
+                                       //            allowBlank  : true,
+                                       //            labelClsExtra: 'lblRd',
+                                       //            disabled    : true
+                                       //        }
+                                       //    ]
+                                       //}, 
+                                       //{
+                                       //    title       : i18n("sCoova_specific"),
+                                       //    layout      : 'anchor',
+                                       //    defaults    : {
+                                       //            anchor: '100%'
+                                       //    },
+                                       //    autoScroll:true,
+                                       //    items       :[
+                                       //        {
+                                       //            xtype       : 'textareafield',
+                                       //            grow        : true,
+                                       //            fieldLabel  : i18n("sOptional_config_items"),
+                                       //            name        : 'coova_optional',
+                                       //            anchor      : '100%',
+                                       //            allowBlank  : true,
+                                       //            labelClsExtra: 'lblRd'
+                                       //         }
+                                       //    ]
+                                       //}
                                     ]
                                 } 
                             ]
