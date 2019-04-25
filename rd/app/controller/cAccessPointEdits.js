@@ -901,6 +901,7 @@ Ext.define('Rd.controller.cAccessPointEdits', {
                     vlan.setVisible(false);
                     vlan.setDisabled(true);
                 }
+				/*
                 var ent  = form.down("cmbAccessPointEntryPoints");
                 ent.setValue(b.result.data.entry_points);
                 if(b.result.data.type == 'captive_portal'){
@@ -916,6 +917,7 @@ Ext.define('Rd.controller.cAccessPointEdits', {
                         form.down("cmbDynamicDetail").setDisabled(true);
                     }
                     //Realms for Dynamic Client (auto_dynamic_client)
+					
                     if((b.result.data.auto_dynamic_client == true)&&
                     (b.result.data.realm_records != null)){    
                         var cmb_r     = form.down("cmbRealm");
@@ -929,8 +931,8 @@ Ext.define('Rd.controller.cAccessPointEdits', {
                     }else{
                         form.down("cmbRealm").setVisible(false);
                         form.down("cmbRealm").setDisabled(true);
-                    }    
-                }
+                    } //end realms   
+                }*///end captive_portal
             }
         });
     },

@@ -519,11 +519,11 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
         
         if(me.type == 'captive_portal'){
             tab_capt.setDisabled(false);
-            a_nas.setVisible(true);
+            a_nas.setVisible(false);
             a_nas.setDisabled(false);
-            a_page.setVisible(true);
+            a_page.setVisible(false);
             a_page.setDisabled(false);
-            cmb_page.setVisible(true);
+            cmb_page.setVisible(false);
             cmb_page.setDisabled(false);
               
         }else{
