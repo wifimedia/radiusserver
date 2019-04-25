@@ -584,18 +584,18 @@ Ext.define('Rd.controller.cAccessPointEdits', {
         }
     },
     
-    chkNasClientChange: function(chk){
-        var me          = this;
-        var form        = chk.up('form');
-        var cmb_realm   = form.down('#cmbRealm');
-        if(chk.getValue()){	
-			cmb_realm.setVisible(true);
-			cmb_realm.setDisabled(false);
-		}else{
-			cmb_realm.setVisible(false);
-			cmb_realm.setDisabled(true);		
-		}
-    },
+    //chkNasClientChange: function(chk){
+    //    var me          = this;
+    //    var form        = chk.up('form');
+    //    var cmb_realm   = form.down('#cmbRealm');
+    //    if(chk.getValue()){	
+	//		cmb_realm.setVisible(true);
+	//		cmb_realm.setDisabled(false);
+	//	}else{
+	//		cmb_realm.setVisible(false);
+	//		cmb_realm.setDisabled(true);		
+	//	}
+    //},
     chkLoginPageChange: function(chk){
         var me          = this;
         var form        = chk.up('form');

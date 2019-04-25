@@ -122,39 +122,39 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
                                     blankText   : i18n("sSupply_a_value")
                                 },
                                 cmbConnectWith,
-                                {
-                                    itemId      : 'chkNasClient',
-                                    xtype       : 'checkbox',      
-                                    fieldLabel  : 'Auto-add Dynamic RADIUS Client',
-                                    name        : 'auto_dynamic_client',
-                                    inputValue  : 'auto_dynamic_client',
-                                    checked     : true,
-                                    labelClsExtra: 'lblRdReq'
-                                },
-                                {
-                                    itemId      : 'cmbRealm',
-                                    xtype       : 'cmbRealm',
-                                    multiSelect : true,
-                                    typeAhead   : false,
-                                    allowBlank  : true,
-                                    name        : 'realm_ids[]',
-                                    emptyText   : 'Empty = Any Realm',
-                                    blankText   : 'Empty = Any Realm'
-                                },
-                                {
-                                    itemId      : 'chkLoginPage',
-                                    xtype       : 'checkbox',      
-                                    fieldLabel  : 'Auto-add Login Page',
-                                    name        : 'auto_login_page',
-                                    inputValue  : 'auto_login_page',
-                                    checked     : true,
-                                    labelClsExtra: 'lblRdReq'
-                                },
-                                {
-                                    itemId      : 'cmbDynamicDetail',
-                                    xtype       : 'cmbDynamicDetail',
-                                    labelClsExtra: 'lblRdReq'
-                                },
+                                //{
+                                //    itemId      : 'chkNasClient',
+                                //    xtype       : 'checkbox',      
+                                //    fieldLabel  : 'Auto-add Dynamic RADIUS Client',
+                                //    name        : 'auto_dynamic_client',
+                                //    inputValue  : 'auto_dynamic_client',
+                                //    checked     : true,
+                                //    labelClsExtra: 'lblRdReq'
+                                //},
+                                //{
+                                //    itemId      : 'cmbRealm',
+                                //    xtype       : 'cmbRealm',
+                                //    multiSelect : true,
+                                //    typeAhead   : false,
+                                //    allowBlank  : true,
+                                //    name        : 'realm_ids[]',
+                                //    emptyText   : 'Empty = Any Realm',
+                                //    blankText   : 'Empty = Any Realm'
+                                //},
+                                //{
+                                //    itemId      : 'chkLoginPage',
+                                //    xtype       : 'checkbox',      
+                                //    fieldLabel  : 'Auto-add Login Page',
+                                //    name        : 'auto_login_page',
+                                //    inputValue  : 'auto_login_page',
+                                //    checked     : true,
+                                //    labelClsExtra: 'lblRdReq'
+                                //},
+                                //{
+                                //    itemId      : 'cmbDynamicDetail',
+                                //    xtype       : 'cmbDynamicDetail',
+                                //    labelClsExtra: 'lblRdReq'
+                                //},
                                 {
                                     itemId      : 'cmbOpenVpnServers',
                                     xtype       : 'cmbOpenVpnServers',
@@ -512,28 +512,28 @@ Ext.define('Rd.view.aps.winAccessPointEditExit', {
 
         //Should we enable or disable the captive portal tab
         var tab_capt= frmData.down('#tabCaptivePortal');
-        
-        var a_nas   = frmData.down('#chkNasClient');
-        var a_page  = frmData.down('#chkLoginPage');
-        var cmb_page= frmData.down('cmbDynamicDetail');
-        
+        //
+        //var a_nas   = frmData.down('#chkNasClient');
+        //var a_page  = frmData.down('#chkLoginPage');
+        //var cmb_page= frmData.down('cmbDynamicDetail');
+        //
         if(me.type == 'captive_portal'){
             tab_capt.setDisabled(false);
-            a_nas.setVisible(false);
-            a_nas.setDisabled(false);
-            a_page.setVisible(false);
-            a_page.setDisabled(false);
-            cmb_page.setVisible(false);
-            cmb_page.setDisabled(false);
-              
+        //    a_nas.setVisible(false);
+        //    a_nas.setDisabled(false);
+        //    a_page.setVisible(false);
+        //    a_page.setDisabled(false);
+        //    cmb_page.setVisible(false);
+        //    cmb_page.setDisabled(false);
+        //      
         }else{
             tab_capt.setDisabled(true); 
-            a_nas.setVisible(false);
-            a_nas.setDisabled(true);
-            a_page.setVisible(false);
-            a_page.setDisabled(true);
-            cmb_page.setVisible(false);
-            cmb_page.setDisabled(true);
+        //    a_nas.setVisible(false);
+        //    a_nas.setDisabled(true);
+        //    a_page.setVisible(false);
+        //    a_page.setDisabled(true);
+        //    cmb_page.setVisible(false);
+        //    cmb_page.setDisabled(true);
         }
 
         me.items = frmData;
