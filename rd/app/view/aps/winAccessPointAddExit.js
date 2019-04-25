@@ -359,16 +359,7 @@ Ext.define('Rd.view.aps.winAccessPointAddExit', {
                                                     allowBlank  : true,
                                                     labelClsExtra: 'lblRdReq',
                                                     disabled    : false
-                                                },
-                                                {
-                                                    xtype       : 'textfield',
-                                                    fieldLabel  : 'Redirecturl',
-                                                    name        : 'redirecturl',
-                                                    allowBlank  : true,
-                                                    labelClsExtra: 'lblRdReq',
-                                                    disabled    : false
                                                 }
-												
 											]
 										},//end NDS									
                                         //{

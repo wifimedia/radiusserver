@@ -749,10 +749,6 @@ class ApsController extends AppController {
                 foreach($ap_profile_e['ApProfileExitApProfileEntry'] as $entry){    
                     if($type == 'bridge'){ //The gateway needs the entry points to be bridged to the LAN
                         array_push($entry_point_data,array('network' => 'lan','entry_id' => $entry['ap_profile_entry_id']));
-                    }elseif($type == 'wan'){
-                        array_push($entry_point_data,array('network' => $ifname_outner,'entry_id' => $entry['ap_profile_entry_id']));
-                    }elseif($type == 'lan'){
-						array_push($entry_point_data,array('network' => $ifname_inner,'entry_id' => $entry['ap_profile_entry_id']));
 					}else{
 						array_push($entry_point_data,array('network' => $if_name,'entry_id' => $entry['ap_profile_entry_id']));
 					}        
@@ -820,107 +816,17 @@ class ApsController extends AppController {
                    
                     //continue; //We dont care about the other if's wifimedi bridge fix
                 }
-				//insert inner_lan_data
-				if($type =='wan'){
-					$interfaces = 'eth0'; //ethernet lan 
-                    array_push($network,
-                        array(
-                            "interface"    => "$ifname_outner",
-                            "options"   => array(
-                                "ifname"    => $interfaces,
-                                "type"      => "bridge",
-                                'proto'     => 'dhcp'
-                        ))
-                    );
-                    //Push the nat data
-                    array_push($wan_data,$ifname_outner);
-                    $start_number++;
-                    continue; //We dont care about the other if's					
-				}
-				//start
-				//insert inner_lan_data
-				if($type =='lan'){
-					$interfaces = 'eth1'; //ethernet lan 
-                    array_push($network,
-                        array(
-                            "interface"    => "$ifname_inner",
-                            "options"   => array(
-                                "ifname"    => $interfaces,
-                                "type"      => "bridge",
-                                'ipaddr'    =>  "172.16.99.1",
-                                'netmask'   =>  "255.255.255.0",
-                                'proto'     => 'static'
-                        ))
-                    );
-                    //Push the nat data
-                    array_push($inner_lan_data,$ifname_inner);
-                    $start_number++;
-                    continue; //We dont care about the other if's					
-				}
+
 				// wifimedia lan & wan wireless and interface				
                 if($type == 'captive_portal'){
-                
-                    //---WIP Start---
-                    if($ap_profile_e['ApProfileExitCaptivePortal']['dnsdesk'] == true){ 
-                        $if_ip      = "10.$captive_portal_count.0.2";
-                    }
-                    $captive_portal_count++; //Up it for the next one
-                    //---WIP END---
-                       
                 
                     //Add the captive portal's detail
                     if($type =='captive_portal'){
                         $a = $ap_profile_e['ApProfileExitCaptivePortal'];
-                        $a['hslan_if']      = 'br-'.$if_name;
-                        $a['network']       = $if_name;
-                        
-                        //---WIP Start---
-                        if($ap_profile_e['ApProfileExitCaptivePortal']['dnsdesk'] == true){
-                            $a['dns1']      = $if_ip;
-                            //Also sent along the upstream DNS Server to use
-                            $a['upstream_dns1'] = Configure::read('dnsfilter.dns1'); //Read the defaults
-                            $a['upstream_dns2'] = Configure::read('dnsfilter.dns2'); //Read the defaults
-                        }
-                        //---WIP END---
-                        
-                        
-                        //Generate the NAS ID
-                        $ap_profile_name    = preg_replace('/\s+/', '_', $ap_profile['ApProfile']['name']);
-                        $a['radius_nasid']  = $ap_profile_name.'_'.$ap_profile['ApDetail']['name'].'_cp_'.$ap_profile_e['ApProfileExitCaptivePortal']['ap_profile_exit_id'];
-                        array_push($captive_portal_data,$a);             
-                    }
-                    
+                        $a['gatewayinterface']      = 'br-'.$if_name;
 
-                    if($ap_profile_e['ApProfileExitCaptivePortal']['dnsdesk'] == true){
-                    
-                        array_push($network,
-                            array(
-                                "interface"    => "$if_name",
-                                "options"   => array(
-                                    "type"      => "bridge",
-                                    "proto"     => "none",
-                                    
-                                    //---WIP Start--- // Add the special bridged interface IP
-                                    "ipaddr"    => "$if_ip",
-                                    "netmask"   => "255.255.255.0",
-                                    "proto"     => "static",
-                                    //---WIP END--- 
-                            ))
-                        ); 
-                    
-                    }else{
-                        array_push($network,
-                            array(
-                                "interface"    => "$if_name",
-                                "options"   => array(
-                                    "type"      => "bridge",
-                                    "proto"     => "none"
-     
-                            ))
-                        ); 
-                    }
-                        
-                             
+                        array_push($captive_portal_data,$a);             
+                    }                          
                     $start_number++;
                     continue; //We dont care about the other if's
                 }
@@ -973,7 +879,7 @@ class ApsController extends AppController {
                 }            
             }
         } 
-        return array($network,$entry_point_data,$nat_data,$captive_portal_data,$openvpn_bridge_data,$inner_lan_data,$wan_data);
+        return array($network,$entry_point_data,$nat_data,$captive_portal_data,$openvpn_bridge_data);
     }
     
     private function _build_wireless($ap_profile,$entry_point_data){

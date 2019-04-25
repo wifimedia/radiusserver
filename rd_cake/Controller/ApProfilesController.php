@@ -582,34 +582,34 @@ class ApProfilesController extends AppController {
         $exit           = ClassRegistry::init('ApProfileExit'); 
         $exit->create();
         
-        if($this->request->data['type'] == 'captive_portal'){ 
-            if(isset($this->request->data['auto_dynamic_client'])){
-                $this->request->data['auto_dynamic_client'] = 1;
-                
-                //Get a list of realms if the person selected a list - If it is empty that's fine
-                $count      = 0;
-                $this->request->data['realm_list'] = ""; //Prime it
-                if (array_key_exists('realm_ids', $this->request->data)) {
-                    foreach($this->request->data['realm_ids'] as $r){
-                        if($count == 0){
-                            $this->request->data['realm_list'] = $this->request->data['realm_ids'][$count]; 
-                        }else{
-                            $this->request->data['realm_list'] = $this->request->data['realm_list'].",".$this->request->data['realm_ids'][$count];
-                        }  
-                        $count++;
-                    }
-                }
-                
-            }else{
-                $this->request->data['auto_dynamic_client'] = 0;
-            }
-            
-            if(isset($this->request->data['auto_login_page'])){
-                $this->request->data['auto_login_page'] = 1;
-            }else{
-                $this->request->data['auto_login_page'] = 0;
-            }
-        }
+        //if($this->request->data['type'] == 'captive_portal'){ 
+        //    if(isset($this->request->data['auto_dynamic_client'])){
+        //        $this->request->data['auto_dynamic_client'] = 1;
+        //        
+        //        //Get a list of realms if the person selected a list - If it is empty that's fine
+        //        $count      = 0;
+        //        $this->request->data['realm_list'] = ""; //Prime it
+        //        if (array_key_exists('realm_ids', $this->request->data)) {
+        //            foreach($this->request->data['realm_ids'] as $r){
+        //                if($count == 0){
+        //                    $this->request->data['realm_list'] = $this->request->data['realm_ids'][$count]; 
+        //                }else{
+        //                    $this->request->data['realm_list'] = $this->request->data['realm_list'].",".$this->request->data['realm_ids'][$count];
+        //                }  
+        //                $count++;
+        //            }
+        //        }
+        //        
+        //    }else{
+        //        $this->request->data['auto_dynamic_client'] = 0;
+        //    }
+        //    
+        //    if(isset($this->request->data['auto_login_page'])){
+        //        $this->request->data['auto_login_page'] = 1;
+        //    }else{
+        //        $this->request->data['auto_login_page'] = 0;
+        //    }
+        //}
         
         if ($exit->save($this->request->data)) {
             $new_id         = $exit->id;     
@@ -665,13 +665,8 @@ class ApProfilesController extends AppController {
                 $captive_portal->create();
 
 				$check_items = array(
-					'swap_octets',
-					'mac_auth',
-                    'proxy_enable',
-                    'dns_manual',
-                    'uamanydns',
-                    'dnsparanoia',
-                    'dnsdesk'
+						'enabled',
+						'fwhook_enabled'
 				);
 			    foreach($check_items as $i){
 			        if(isset($this->request->data[$i])){
@@ -817,16 +812,8 @@ class ApProfilesController extends AppController {
                     $captive_portal->id = $cp_id;
 
 					$check_items = array(
-						'swap_octets',
-						'mac_auth',
-                        'proxy_enable',
-                        'dns_manual',
-                        'uamanydns',
-                        'dnsparanoia',
-                        'dnsdesk',
 						'enabled',
 						'fwhook_enabled'
-						
 					);
 					foreach($check_items as $i){
 					    if(isset($this->request->data[$i])){
@@ -852,33 +839,33 @@ class ApProfilesController extends AppController {
             
             $this->request->data['realm_list'] = ""; //Prime it
             
-            if($this->request->data['type'] == 'captive_portal'){ 
-                if(isset($this->request->data['auto_dynamic_client'])){
-                    $this->request->data['auto_dynamic_client'] = 1;
-                    
-                    //Get a list of realms if the person selected a list - If it is empty that's fine
-                    $count      = 0;
-                    if (array_key_exists('realm_ids', $this->request->data)) {
-                        foreach($this->request->data['realm_ids'] as $r){
-                            if($count == 0){
-                                $this->request->data['realm_list'] = $this->request->data['realm_ids'][$count]; 
-                            }else{
-                                $this->request->data['realm_list'] = $this->request->data['realm_list'].",".$this->request->data['realm_ids'][$count];
-                            }  
-                            $count++;
-                        }
-                    }   
-                    
-                }else{
-                    $this->request->data['auto_dynamic_client'] = 0;
-                }
-                
-                if(isset($this->request->data['auto_login_page'])){
-                    $this->request->data['auto_login_page'] = 1;
-                }else{
-                    $this->request->data['auto_login_page'] = 0;
-                }
-            }
+            //if($this->request->data['type'] == 'captive_portal'){ 
+            //    if(isset($this->request->data['auto_dynamic_client'])){
+            //        $this->request->data['auto_dynamic_client'] = 1;
+            //        
+            //        //Get a list of realms if the person selected a list - If it is empty that's fine
+            //        $count      = 0;
+            //        if (array_key_exists('realm_ids', $this->request->data)) {
+            //            foreach($this->request->data['realm_ids'] as $r){
+            //                if($count == 0){
+            //                    $this->request->data['realm_list'] = $this->request->data['realm_ids'][$count]; 
+            //                }else{
+            //                    $this->request->data['realm_list'] = $this->request->data['realm_list'].",".$this->request->data['realm_ids'][$count];
+            //                }  
+            //                $count++;
+            //            }
+            //        }   
+            //        
+            //    }else{
+            //        $this->request->data['auto_dynamic_client'] = 0;
+            //    }
+            //    
+            //    if(isset($this->request->data['auto_login_page'])){
+            //        $this->request->data['auto_login_page'] = 1;
+            //    }else{
+            //        $this->request->data['auto_login_page'] = 0;
+            //    }
+            //}
             
 
             // If the form data can be validated and saved...
@@ -990,30 +977,30 @@ class ApProfilesController extends AppController {
         }
 
         if($q_r['ApProfileExitCaptivePortal']){
-            $q_r['ApProfileExit']['radius_1']        = $q_r['ApProfileExitCaptivePortal']['radius_1'];
-            $q_r['ApProfileExit']['radius_2']        = $q_r['ApProfileExitCaptivePortal']['radius_2'];
-            $q_r['ApProfileExit']['radius_secret']   = $q_r['ApProfileExitCaptivePortal']['radius_secret'];
-            $q_r['ApProfileExit']['uam_url']         = $q_r['ApProfileExitCaptivePortal']['uam_url'];
-            $q_r['ApProfileExit']['uam_secret']      = $q_r['ApProfileExitCaptivePortal']['uam_secret'];
-            $q_r['ApProfileExit']['walled_garden']   = $q_r['ApProfileExitCaptivePortal']['walled_garden'];
-            $q_r['ApProfileExit']['swap_octets']     = $q_r['ApProfileExitCaptivePortal']['swap_octets'];
-			$q_r['ApProfileExit']['mac_auth']        = $q_r['ApProfileExitCaptivePortal']['mac_auth'];
-
-            //Proxy settings
-            $q_r['ApProfileExit']['proxy_enable']    = $q_r['ApProfileExitCaptivePortal']['proxy_enable'];
-            $q_r['ApProfileExit']['proxy_ip']        = $q_r['ApProfileExitCaptivePortal']['proxy_ip'];
-            $q_r['ApProfileExit']['proxy_port']      = intval($q_r['ApProfileExitCaptivePortal']['proxy_port']);
-            $q_r['ApProfileExit']['proxy_auth_username']      = $q_r['ApProfileExitCaptivePortal']['proxy_auth_username'];
-            $q_r['ApProfileExit']['proxy_auth_password']      = $q_r['ApProfileExitCaptivePortal']['proxy_auth_password'];
-            $q_r['ApProfileExit']['coova_optional']  = $q_r['ApProfileExitCaptivePortal']['coova_optional'];
-            
-            //DNS settings
-            $q_r['ApProfileExit']['dns_manual']      			= $q_r['ApProfileExitCaptivePortal']['dns_manual'];
-            $q_r['ApProfileExit']['dns1']            			= $q_r['ApProfileExitCaptivePortal']['dns1'];
-            $q_r['ApProfileExit']['dns2']            			= $q_r['ApProfileExitCaptivePortal']['dns2'];
-            $q_r['ApProfileExit']['uamanydns']       			= $q_r['ApProfileExitCaptivePortal']['uamanydns'];
-            $q_r['ApProfileExit']['dnsparanoia']     			= $q_r['ApProfileExitCaptivePortal']['dnsparanoia'];
-            $q_r['ApProfileExit']['dnsdesk']         			= $q_r['ApProfileExitCaptivePortal']['dnsdesk'];
+            //$q_r['ApProfileExit']['radius_1']        = $q_r['ApProfileExitCaptivePortal']['radius_1'];
+            //$q_r['ApProfileExit']['radius_2']        = $q_r['ApProfileExitCaptivePortal']['radius_2'];
+            //$q_r['ApProfileExit']['radius_secret']   = $q_r['ApProfileExitCaptivePortal']['radius_secret'];
+            //$q_r['ApProfileExit']['uam_url']         = $q_r['ApProfileExitCaptivePortal']['uam_url'];
+            //$q_r['ApProfileExit']['uam_secret']      = $q_r['ApProfileExitCaptivePortal']['uam_secret'];
+            //$q_r['ApProfileExit']['walled_garden']   = $q_r['ApProfileExitCaptivePortal']['walled_garden'];
+            //$q_r['ApProfileExit']['swap_octets']     = $q_r['ApProfileExitCaptivePortal']['swap_octets'];
+			//$q_r['ApProfileExit']['mac_auth']        = $q_r['ApProfileExitCaptivePortal']['mac_auth'];
+            //
+            ////Proxy settings
+            //$q_r['ApProfileExit']['proxy_enable']    = $q_r['ApProfileExitCaptivePortal']['proxy_enable'];
+            //$q_r['ApProfileExit']['proxy_ip']        = $q_r['ApProfileExitCaptivePortal']['proxy_ip'];
+            //$q_r['ApProfileExit']['proxy_port']      = intval($q_r['ApProfileExitCaptivePortal']['proxy_port']);
+            //$q_r['ApProfileExit']['proxy_auth_username']      = $q_r['ApProfileExitCaptivePortal']['proxy_auth_username'];
+            //$q_r['ApProfileExit']['proxy_auth_password']      = $q_r['ApProfileExitCaptivePortal']['proxy_auth_password'];
+            //$q_r['ApProfileExit']['coova_optional']  = $q_r['ApProfileExitCaptivePortal']['coova_optional'];
+            //
+            ////DNS settings
+            //$q_r['ApProfileExit']['dns_manual']      			= $q_r['ApProfileExitCaptivePortal']['dns_manual'];
+            //$q_r['ApProfileExit']['dns1']            			= $q_r['ApProfileExitCaptivePortal']['dns1'];
+            //$q_r['ApProfileExit']['dns2']            			= $q_r['ApProfileExitCaptivePortal']['dns2'];
+            //$q_r['ApProfileExit']['uamanydns']       			= $q_r['ApProfileExitCaptivePortal']['uamanydns'];
+            //$q_r['ApProfileExit']['dnsparanoia']     			= $q_r['ApProfileExitCaptivePortal']['dnsparanoia'];
+            //$q_r['ApProfileExit']['dnsdesk']         			= $q_r['ApProfileExitCaptivePortal']['dnsdesk'];
 			//Nds Portal
 			$q_r['ApProfileExit']['enabled']         				= $q_r['ApProfileExitCaptivePortal']['enabled'];
 			$q_r['ApProfileExit']['fwhook_enabled']         		= $q_r['ApProfileExitCaptivePortal']['fwhook_enabled'];			
@@ -1027,9 +1014,9 @@ class ApProfilesController extends AppController {
 			$q_r['ApProfileExit']['preauthenticated_users']         = $q_r['ApProfileExitCaptivePortal']['preauthenticated_users'];
         }
         
-        if($q_r['DynamicDetail']){
-           $q_r['ApProfileExit']['dynamic_detail'] =  $q_r['DynamicDetail']['name'];
-        }
+        //if($q_r['DynamicDetail']){
+        //   $q_r['ApProfileExit']['dynamic_detail'] =  $q_r['DynamicDetail']['name'];
+        //}
 
         $data = $q_r['ApProfileExit'];
 
