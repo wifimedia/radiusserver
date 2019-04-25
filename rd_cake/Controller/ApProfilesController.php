@@ -837,7 +837,7 @@ class ApProfilesController extends AppController {
             }
             //==== End of Captive Portal ====
             
-            $this->request->data['realm_list'] = ""; //Prime it
+            //$this->request->data['realm_list'] = ""; //Prime it
             
             //if($this->request->data['type'] == 'captive_portal'){ 
             //    if(isset($this->request->data['auto_dynamic_client'])){
