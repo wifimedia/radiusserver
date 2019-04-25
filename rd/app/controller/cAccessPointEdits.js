@@ -228,18 +228,18 @@ Ext.define('Rd.controller.cAccessPointEdits', {
                 change: me.cmbApHardwareModelsChange
             },
             
-            'winAccessPointAddExit #chkNasClient' : {
-				change	: me.chkNasClientChange
-			},
-			'winAccessPointEditExit #chkNasClient' : {
-				change	: me.chkNasClientChange
-			},  
-            'winAccessPointAddExit #chkLoginPage' : {
-				change	: me.chkLoginPageChange
-			},
-			'winAccessPointEditExit #chkLoginPage' : {
-				change	: me.chkLoginPageChange
-			}
+            //'winAccessPointAddExit #chkNasClient' : {
+			//	change	: me.chkNasClientChange
+			//},
+			//'winAccessPointEditExit #chkNasClient' : {
+			//	change	: me.chkNasClientChange
+			//},  
+            //'winAccessPointAddExit #chkLoginPage' : {
+			//	change	: me.chkLoginPageChange
+			//},
+			//'winAccessPointEditExit #chkLoginPage' : {
+			//	change	: me.chkLoginPageChange
+			//}
         });
     },
     actionIndex: function(ap_profile_id,name){
@@ -655,10 +655,10 @@ Ext.define('Rd.controller.cAccessPointEdits', {
         var tab_capt= win.down('#tabCaptivePortal');
         var sel_type= win.down('#type');
         var vpn     = win.down('#cmbOpenVpnServers') 
-        var a_nas   = win.down('#chkNasClient');
-        var cmb_realm = win.down('#cmbRealm');
-        var a_page  = win.down('#chkLoginPage');
-        var cmb_page= win.down('cmbDynamicDetail');
+        //var a_nas   = win.down('#chkNasClient');
+        //var cmb_realm = win.down('#cmbRealm');
+        //var a_page  = win.down('#chkLoginPage');
+        //var cmb_page= win.down('cmbDynamicDetail');
         
         sel_type.setValue(type);
         
@@ -682,27 +682,27 @@ Ext.define('Rd.controller.cAccessPointEdits', {
             tab_capt.setDisabled(false);
 			tab_capt.tab.show();
 						
-			a_nas.setVisible(true);
-			a_nas.setDisabled(false);
-			a_page.setVisible(true);
-			a_page.setDisabled(false);
-			cmb_page.setVisible(true);
-			cmb_page.setDisabled(false);
-			cmb_realm.setVisible(true);
-			cmb_realm.setDisabled(false);
+			//a_nas.setVisible(true);
+			//a_nas.setDisabled(false);
+			//a_page.setVisible(true);
+			//a_page.setDisabled(false);
+			//cmb_page.setVisible(true);
+			//cmb_page.setDisabled(false);
+			//cmb_realm.setVisible(true);
+			//cmb_realm.setDisabled(false);
 			
         }else{
             tab_capt.setDisabled(true);
 			tab_capt.tab.hide();
 			
-			a_nas.setVisible(false);
-			a_nas.setDisabled(true);
-			a_page.setVisible(false);
-			a_page.setDisabled(true);
-			cmb_page.setVisible(false);
-			cmb_page.setDisabled(true);
-			cmb_realm.setVisible(false);
-			cmb_realm.setDisabled(true);
+			//a_nas.setVisible(false);
+			//a_nas.setDisabled(true);
+			//a_page.setVisible(false);
+			//a_page.setDisabled(true);
+			//cmb_page.setVisible(false);
+			//cmb_page.setDisabled(true);
+			//cmb_realm.setVisible(false);
+			//cmb_realm.setDisabled(true);
 			
         }
         win.getLayout().setActiveItem('scrnData');
@@ -818,9 +818,9 @@ Ext.define('Rd.controller.cAccessPointEdits', {
                 w.apProfileId   = apProfileId;
                 var vpn         = win.down('#cmbOpenVpnServers'); 
                 
-                var a_nas       = w.down('#chkNasClient');
-                var a_page      = w.down('#chkLoginPage');
-                var cmb_page    = w.down('cmbDynamicDetail');
+                //var a_nas       = w.down('#chkNasClient');
+                //var a_page      = w.down('#chkLoginPage');
+                //var cmb_page    = w.down('cmbDynamicDetail');
                 
                 if(type == 'openvpn_bridge'){
                     vpn.setVisible(true);
@@ -846,23 +846,23 @@ Ext.define('Rd.controller.cAccessPointEdits', {
                     tab_capt.setDisabled(false);
 					tab_capt.tab.show();
 					
-					a_nas.setVisible(true);
-			        a_nas.setDisabled(false);
-			        a_page.setVisible(true);
-			        a_page.setDisabled(false);
-			        cmb_page.setVisible(true);
-			        cmb_page.setDisabled(false);
+					//a_nas.setVisible(true);
+			        //a_nas.setDisabled(false);
+			        //a_page.setVisible(true);
+			        //a_page.setDisabled(false);
+			        //cmb_page.setVisible(true);
+			        //cmb_page.setDisabled(false);
 					
                 }else{
                     tab_capt.setDisabled(true);
 					tab_capt.tab.hide(); 
 					
-					a_nas.setVisible(false);
-			        a_nas.setDisabled(true);
-			        a_page.setVisible(false);
-			        a_page.setDisabled(true);
-			        cmb_page.setVisible(false);
-			        cmb_page.setDisabled(true);
+					//a_nas.setVisible(false);
+			        //a_nas.setDisabled(true);
+			        //a_page.setVisible(false);
+			        //a_page.setDisabled(true);
+			        //cmb_page.setVisible(false);
+			        //cmb_page.setDisabled(true);
 					
                 }
                 me.loadExit(w)
